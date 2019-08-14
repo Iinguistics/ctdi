@@ -40,21 +40,23 @@
     </a>
   </div>
 </div>
-  <div>
-     <h2 class="topMid">Expertise</h2>
-      <p id="topMidP container">World-class communications test design at your fingertips</p>
+  <div class="topMid container">
+     <h2>Expertise</h2>
+      <p>World-class communications test design at your fingertips</p>
   </div>
    <div class="global container">
-     <a class="globalChild">
-    <img src="https://i.ibb.co/CH0Q5MB/nasa-Q1p7bh3-SHj8-unsplash.jpg" alt="planet earth" style="width:250px; height:195px;">
-    <div class="thumbnail-text-overlay"></div>
+     <a class="globalChild" href="#">
+    <div class="solutionsPic left">
+      <h3>Global Solutions</h3>
+    </div>
      </a>
-      <a class="globalChild">
-    <img src="../assets/CTDI-Locations.jpg" alt="planet earth" style="width:250px; height:195px;">
-    <div class="thumbnail-text-overlay"></div>
+      <a class="globalChild" href="#">
+    <div class="qualityPic mid">
+      <h3>Quality Commitment</h3>
+    </div>
      </a>
      <a class="globalChild" href="#">
-    <div class="module mid">
+    <div class="locationsPic right">
       <h3>Global Locations</h3>
     </div>
      </a>
@@ -105,13 +107,14 @@ export default {
   line-height: 230%;
   color: #000000;
 }
-#topMidP{
+.topMidP p{
   color: #363636;
 }
 
 .global {
   display: flex;
-  height: 300px;
+  flex-direction: row;
+  height: 450px;
   justify-content: space-evenly;
   position: relative;
 }
@@ -120,22 +123,73 @@ export default {
   margin: auto;
 }
 
-.module {
+.locationsPic {
   background: 
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url(../assets/CTDI-Locations.jpg);
+    url(../assets/ctdi-locations.jpg);
     background-size: cover;
-    width: 300px;
-    height: 200px;
+    width: 415px;
+    height: 300px;
+    margin: 10px 0 0 10px;
+    position: relative;
+}
+
+.right h3 {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.solutionsPic {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../assets/ctdi-solutions.jpg);
+    background-size: cover;
+    width: 415px;
+    height: 300px;
+    margin: 10px 0 0 10px;
+    position: relative;
+}
+
+.left h3 {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.qualityPic {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../assets/ctdi-design.jpg);
+    background-size: cover;
+    width: 415px;
+    height: 300px;
     margin: 10px 0 0 10px;
     position: relative;
 }
 
 .mid h3 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: white;
   text-transform: uppercase;
@@ -152,10 +206,59 @@ export default {
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
+   height: 450px;
+   }
+   .locationsPic{
+     width: 200px;
+     height: 130px;
+   }
+   .right h3{
+     font-size: 1.5rem;
+   }
+   .solutionsPic{
+     width: 200px;
+     height: 130px;
+   }
+   .left h3{
+     font-size: 1.5rem;
+   }
+   .qualityPic{
+     width: 200px;
+     height: 130px;
+   }
+   .mid h3{
+     font-size: 1.5rem;
+   }
+ }
 
-}
-
-
+ @media (max-width: 1300px) { 
+  .global{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: 800px;
+   }
+   .locationsPic{
+     width: 350px;
+     height: 250px;
+   }
+   .right h3{
+     font-size: 1.7rem;
+   }
+   .solutionsPic{
+     width: 350px;
+     height: 250px;
+   }
+   .left h3{
+     font-size: 1.7rem;
+   }
+   .qualityPic{
+     width: 350px;
+     height: 250px;
+   }
+   .mid h3{
+     font-size: 1.7rem;
+   }
  }
 
 </style>
