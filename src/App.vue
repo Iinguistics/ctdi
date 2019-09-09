@@ -1,16 +1,21 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
-    <router-view/>
+    <router-view />
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 // import Home from './components/Home.vue' dont need with router-view
 // import BootstrapVue from 'bootstrap-vue'
+import Home from './components/Home'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
+import Locations from './components/Locations'
+import CorpCulture from './components/CorpCulture'
+import Leadership from './components/Leadership'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
 import bootstrap from 'bootstrap'
 
 
@@ -20,6 +25,7 @@ export default {
   name: 'app',
   components: {
       'NavBar': NavBar,
+      'Footer': Footer,
   }
 }
 </script>

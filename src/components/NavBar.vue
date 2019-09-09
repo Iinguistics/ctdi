@@ -10,20 +10,23 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="https://ctdicareers.silkroad.com/" target="_blank">careers<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://ctdicareers.silkroad.com/" target="_blank"><span data-hover="Careers">Careers</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://login.etos1.ctdi.com/default.aspx" target="_blank">etos</a>
+        <a class="nav-link" href="https://login.etos1.ctdi.com/default.aspx" target="_blank"><span data-hover="Etos">Etos</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Divisions
+          <span data-hover="Divisions">Divisions</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#" v-on:click='what'>Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#" v-on:click='what'>stb/cpe</a>
+          <a class="dropdown-item" href="#">Mobile</a>
+          <a class="dropdown-item" href="#">Network Deployment</a>
+          <a class="dropdown-item" href="#">Products</a>
+          <a class="dropdown-item" href="#">Supply</a>
+          <div class="dropdown-divider"></div> <!-- Maybe remove this divider/padding/dont need it -->
+          <a class="dropdown-item" href="#">Network Services</a>
         </div>
       </li>
     </ul>
@@ -66,8 +69,51 @@
   font-size: 15px;
 }
 .nav-link{
-  color: white !important;
+  color: #FFFFFF !important;
 }
+
+.nav-item a {
+	overflow: hidden;
+	padding: 0 4px;
+}
+
+.nav-item a span {
+	 position: relative;
+   display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.nav-item a span::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 700;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.nav-item a:hover span,
+.nav-item a:focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+.dropdown-item{
+  padding: 5px !important;
+}
+
+.dropdown-menu a:hover{
+  color: #55ACEE;
+}
+
+
+
+
+
 
 #logoText{
   color: #D1D7E0;
@@ -82,25 +128,22 @@
 }
  }
 
-/*  more custom / might use
-.navBar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
-    margin: auto;
-    position: relative; /*fixed ? nahhhh */ /*
-    overflow:hidden;
-    z-index: 1;
-    padding:10px;
-    list-style-type: none;
-    background-color: #4056A1;
+@media (max-width: 1376px) { 
+   .dropdown-menu{
+    padding: 50px !important;
+  }
+  .dropdown-item{
+    font-size: 14px;
+    
+  }
+  .navbar{
+    padding-right: 130px;
+  }
+ }
 
- li
-   color:white;
- 
-*/
+
+
+
 
 
 </style>
