@@ -1,84 +1,92 @@
 <template>
 <div class="mainWrap">
-   <div class="slideshow-container">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
+   <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
       <img src="../assets/ctdi-at-work-2.png" alt="ctdi-at-work-2" border="0" class="d-block w-100">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>State of the art facility</h5>
-          <p>Networking, services</p>
-        </div>
-      </div>
-      <div class="carousel-item trucks">
-        <img src="../assets/ctdi-trucks.png" alt="ctdi-trucks" border="0" class="d-block w-100">
-        <div class="carousel-caption d-none d-md-block">
-          <h5></h5>
-          <p></p>
-        </div>
-      </div>
-      <div class="carousel-item">
-      <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/PDF/CTDIPressRelease_2018AT&TSupplier-Award.pdf" target="_blank"><img src="../assets/ctdi-att-award.png" class="d-block w-100" alt="ctdi-att-award" border="0"></a>
-        <div class="carousel-caption d-none d-md-block">
-          <h5></h5>
-          <p></p>
-        </div>
-      </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+       <img src="../assets/ctdi-trucks.png" alt="ctdi-trucks" border="0" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/PDF/CTDIPressRelease_2018AT&TSupplier-Award.pdf" target="_blank"><img src="../assets/ctdi-att-award.png" class="d-block w-100" alt="ctdi-att-award" border="0"></a>
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-  <div class="topMid container">
-     <h2>Expertise</h2>
+  <div class="topMid">
+     <h2>Expertise</h2><br>
       <p>World-class communications test design at your fingertips</p>
   </div>
-   <div class="global container">
-     <a class="globalChild" href="#">
-    <div class="solutionsPic left">
-      <h3>Global Solutions</h3>
-    </div>
-     </a>
-      <a class="globalChild" href="#">
-    <div class="qualityPic mid">
-      <h3>Quality Commitment</h3>
-    </div>
-     </a>
-     <a class="globalChild" href="http://localhost:8080/#/locations">
-    <div class="locationsPic right">
-      <h3>Global Locations</h3>
-    </div>
-     </a>
-  </div>
-    <div class="globalProfile container">
-      <h3>Global Profile</h3>
-      <p id="profileQuote">"CTDI will achieve second-to-none quality status in serving the Communications Industry by making a commitment <br> to continual improvement throughout the company."</p>
+    <section id="highlights" class="wrapper style3">			
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight" data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500">
+									<a href="#" class="image featured"><img src="../assets/ctdi-solutions.jpg" alt="Global Solutions" /></a>
+									<h3><a href="#">Global Solutions</a></h3>
+									<p id="profileQuote">CTDI provides our global customers an end-to-end service solution and supports their diverse service and product needs from our six division service solution</p>							
+								</section>
+							</div>
+              	<div class="col-4 col-12-medium">
+								<section class="highlight" data-aos="fade-up"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500">
+									<a href="#" class="image featured" ><img src="../assets/ctdi-locations.jpg" alt="Global Locations" /></a>
+									<h3><a href="#">Global Locations</a></h3>
+									<p id="profileQuote">CTDI provides our customers access to an established network of over 90 global operations. Today, CTDI operates facilities in Argentina, Australia, Belgium, Brazil, China, Czech Republic, France, Germany, Hungary, India, Italy, Netherlands, North America, Poland, Portugal, Romania, Russia, Singapore, Spain and UK.</p>							
+								</section>
+							</div>
+              	<div class="col-4 col-12-medium">
+								<section class="highlight" data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500">
+									<a href="#" class="image featured"><img src="../assets/ctdi-design.jpg" alt="Quality" /></a>
+									<h3><a href="#">Quality Commitment</a></h3>
+									<p id="profileQuote">"CTDI will achieve second-to-none quality status in serving the Communications Industry by making a commitment to continual improvement throughout the company."</p>							
+								</section>
+							</div>
+						</div>
+					</div>
+    </section>
+     <!-- Gobal Profile -->
+   
+      <h3 id="globalHeader">Global Profile</h3>
+      <div class="container globalProfile">
+								<section  data-aos="flip-left"
+                  data-aos-duration="1500">
+									<img src="../assets/ctdi-2.jpg" alt="Quality" width="405px;" height="275px;" />
+								</section>
+                	<section  data-aos="flip-right"
+                    data-aos-duration="1500">
+									<img src="../assets/ctdi-passion.jpg" alt="Lead with Passion" width="405px;" height="275px;" />
+								</section>
+            </div>
+            <div class="container">
       <p>CTDI's customers include the major wireline and wireless telecom carriers, cable service providers, and major OEMs from around the world. CTDI maintains it's corporate headquarters in West Chester, PA, and supports an expanding customer base with more than 14,000 employees in over 90 facilities worldwide.</p>
-      <img id="profilePic" src="../assets/ctdi-profile.jpg" alt="globe" height="450px" width="800px">
+      
       <p>Founded in 1975, CTDI is a full-service, global engineering, repair and logistics company providing best-cost solutions to the communications industry. CTDI's one-stop service commitment to customers has fueled the growth from a core business <br> of network and CPE equipment repair.</p>
+            </div>
     </div>
-    <div>
 
-    </div>
-</div>
+    
+				
+    
+
 </template>
 
 
 <script>
 import axios from 'axios';
-
-
 
 
 export default { 
@@ -88,14 +96,86 @@ export default {
         
       }
     },
+   
     methods: {
       
+},
+
 }
-}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+/* Image */
+
+	.image {
+		display: inline-block;
+	}
+
+		.image img {
+			display: block;
+			width: 100%;
+		}
+
+		.image.fit {
+			display: block;
+			width: 100%;
+		}
+
+		.image.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		.image.centered {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image.centered img {
+				margin: 0 auto;
+				width: auto;
+			}
+
+		.image.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+/* Highlights */
+
+	#highlights .highlight {
+		text-align: center;
+	}
+
+		#highlights .highlight h3 {
+			color: #e97770;
+			margin: 0 0 0.75em 0;
+			font-size: 1.15em;
+			letter-spacing: 0.05em;
+		}
+
+
+
+
 body p{
   font-size: 17px;
 }
@@ -106,7 +186,7 @@ body p{
  }
 
 .slideshow-container {
-  max-width: 75%;
+  max-width: 90%;
   position: relative;
   margin: auto;
 }
@@ -116,16 +196,17 @@ body p{
 }
 
 .topMid{
-  padding-top: 90px;
+  padding-top: 130px;
   text-transform: uppercase;
   line-height: 230%;
   color: #000000;
+  padding-bottom: 10px;
 }
 .topMidP p{
   color: #222222;
 }
 
-.global {
+.globalProfile {
   display: flex;
   flex-direction: row;
   height: 450px;
@@ -133,95 +214,17 @@ body p{
   position: relative;
 }
 
-.globalChild{  
-  margin: auto;
-}
 
-.locationsPic {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(../assets/ctdi-locations.jpg);
-    background-size: cover;
-    width: 450px;
-    height: 315px;
-    margin: 10px 0 0 10px;
-    position: relative;
-}
 
-.right h3 {
-  font-weight: 900;
-  color: white;
-  text-transform: uppercase;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
-}
-
-.solutionsPic {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(../assets/ctdi-solutions.jpg);
-    background-size: cover;
-    width: 450px;
-    height: 315px;
-    margin: 10px 0 0 10px;
-    position: relative;
-}
-
-.left h3 {
-  font-weight: 900;
-  color: white;
-  text-transform: uppercase;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
-}
-
-.qualityPic {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(../assets/ctdi-design.jpg);
-    background-size: cover;
-    width: 450px;
-    height: 315px;
-    margin: 10px 0 0 10px;
-    position: relative;
-}
-
-.mid h3 {
-  font-weight: 900;
-  color: white;
-  text-transform: uppercase;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
-}
-
-.globalProfile h3{
+#globalHeader {
   color: #000000;
   text-transform: uppercase;
+  padding-top: 50px;
 }
 
 #profileQuote{
-  color: #FF4800;
+  color: #1D1D1F;
+  font-size: 15px;
  
 }
 
@@ -233,9 +236,19 @@ body p{
   padding: 30px;
 }
 
-#profilePic{
-
+.globe-img{
+    width: 1068px;
+    height: 645px;
+    background-size: 1068px 645px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/ctdi-globe-img.jpg);
 }
+
+
+
+
+
+
 
 
 @media (max-width: 576px) { 
@@ -243,7 +256,7 @@ body p{
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
-   height: 450px;
+   height: 850px;
    }
    .locationsPic{
      width: 200px;
@@ -270,42 +283,41 @@ body p{
    .mid h3{
      font-size: 1.5rem;
    }
+
  }
 
 
 
- @media (max-width: 1300px) { 
-  .global{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   height: 800px;
-   }
+ @media (max-width: 1400px) { 
+
+
    .locationsPic{
-     width: 350px;
-     height: 250px;
+     width: 400px;
+     height: 275px;
    }
    .right h3{
      font-size: 1.7rem;
    }
    .solutionsPic{
-     width: 350px;
-     height: 250px;
+     width: 400px;
+     height: 275px;
    }
    #profilePic{
-     width: 350px;
-     height: 250px;
+     width: 550px;
+     height: 350px;
    }
    .left h3{
      font-size: 1.7rem;
    }
    .qualityPic{
-     width: 350px;
-     height: 250px;
+     width: 400px;
+     height: 275px;
    }
    .mid h3{
      font-size: 1.7rem;
    }
  }
+
+
 
 </style>

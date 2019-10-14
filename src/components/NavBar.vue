@@ -1,8 +1,7 @@
 <template>
   <div>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="https://i.ibb.co/sqb3Xz6/ctdi-logo.png" alt="ctdi-logo" border="0"></a><span id="logoText"><b>Global</b> Engineering, Repair & Logistics</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navTop">
+  <a class="navbar-brand" href="/"><img src="../assets/ctdi-logo.png" alt="ctdi-logo" border="0"></a><span id="logoText"> Global Engineering, Repair & Logistics</span>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -20,7 +19,7 @@
           <span data-hover="Divisions">Divisions</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#" v-on:click='what'>stb/cpe</a>
+          <a class="dropdown-item" href="#" >stb/cpe</a>
           <a class="dropdown-item" href="#">Mobile</a>
           <a class="dropdown-item" href="#">Network Deployment</a>
           <a class="dropdown-item" href="#">Products</a>
@@ -51,11 +50,8 @@
       return {
 
       }
-    },
-    methods: {
-      what(){
-        alert('whahhat');
-      }
+    
+    
     },
 
   }
@@ -64,42 +60,23 @@
 <style scoped>
 
 .navbar{
-  background-color: #63666A !important;
+  background: rgba(45, 45, 45, 0.98) !important;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
 }
 .nav-link{
   color: #FFFFFF !important;
 }
 
-.nav-item a {
-	overflow: hidden;
-	padding: 0 4px;
+
+.nav-item a:hover{
+  color: #66BBFF !important;
+ 
 }
 
-.nav-item a span {
-	 position: relative;
-   display: inline-block;
-	-webkit-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-	transition: transform 0.3s;
-}
 
-.nav-item a span::before {
-	position: absolute;
-	top: 100%;
-	content: attr(data-hover);
-	font-weight: 700;
-	-webkit-transform: translate3d(0,0,0);
-	-moz-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-
-.nav-item a:hover span,
-.nav-item a:focus span {
-	-webkit-transform: translateY(-100%);
-	-moz-transform: translateY(-100%);
-	transform: translateY(-100%);
+#navbarDropdown span:hover{
+  color: #66BBFF !important;
 }
 
 .dropdown-item{
@@ -107,7 +84,7 @@
 }
 
 .dropdown-menu a:hover{
-  color: #55ACEE;
+  color:#66BBFF !important;
 }
 
 
@@ -117,7 +94,7 @@
 
 #logoText{
   color: #D1D7E0;
-  padding-right: 51%;
+  padding-right: 45%;
   font-weight: 500;
   
 }

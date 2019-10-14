@@ -1,28 +1,30 @@
 <template>
   <div> 
-    <h5 id="leadershipHead">CTDI Leadership</h5>
-    <p id="border"></p>
+    <div class="leadershipHead">
+    <a href="/#/leadership" ><h5>CTDI Leadership</h5></a> 
+       <p id="border"></p>
+    </div>
        <div>
         <h1 id="execHead">Executive Profiles</h1>
        </div>
        <div class="profileListWrapper">
         <ul class="profileList">
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-jerry-parsons.jpg" height="230" width="190"><h5>Jerry Parsons</h5><h6>CEO</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-leo-parsons.jpg" height="230" width="190"><h5>Leo Parsons</h5><h6>President & COO</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-david-burt.jpg" height="230" width="190"><h5>David W.Burt</h5><h6>Vice President <br>CTDI International</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-jonathan-friedman.jpg" height="230" width="190"><h5>Jonathan Friedman</h5><h6>CFO & Vice President<br> Corporate Affairs</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-ron-hartz.jpg" height="230" width="190"><h5>Ron Hartz</h5><h6>Vice President <br> Corporate Operations</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-dieter-hollenbach.jpg" height="230" width="190"><h5>Dieter Hollenbach</h5><h6>CEO <br>CTDI Europe</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-christopher-howe.jpg" height="230" width="190"><h5>Christopher Howe</h5><h6>CFO & Vice President <br> Accounting</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-duane-knecht.jpg" height="230" width="190"><h5>Duane D. Knecht</h5><h6>Vice President <br> Marketing</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-eric-miller.jpg" height="230" width="190"><h5>Eric Miller</h5><h6>Vice President <br> Products Supply Division</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-james-o-hara.jpg" height="230" width="190"><h5>James O'Hara</h5><h6>Vice President <br> Marketing</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-brian-parsons.jpg" height="230" width="190"><h5>Brian Parsons</h5><h6>Vice President <br> MCE, Products Supply Division</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-kevin-parsons.jpg" height="230" width="190"><h5>Kevin Parsons</h5><h6>Vice President <br> Network Program Services</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-michael-parsons.jpg" height="230" width="190"><h5>Michael Parsons</h5><h6>Vice President<br>Set-Top Box Division</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-james-o-hara.jpg" height="230" width="190"><h5>Monika Ruth</h5><h6>CFO <br>CTDI Europe</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-qing-wang.jpg" height="230" width="190"><h5>Qing Wang</h5><h6>Vice President<br>Corporate Quality</h6></a></li>
-            <li class="profileListItem"><a href="#"><img src="../assets/ctdi-barry-young.jpg" height="230" width="190"><h5>Barry Young</h5><h6>Vice President<br>Network Services Division</h6></a></li>
+            <router-link to=/leadership/jerry-parsons><li class="profileListItem"><img src="../assets/ctdi-jerry-parsons.jpg" height="230" width="190"><h5>Jerry Parsons</h5><h6>CEO</h6></li></router-link>
+            <router-link to=/leadership/leo-parsons><li class="profileListItem"><img src="../assets/ctdi-leo-parsons.jpg" height="230" width="190"><h5>Leo Parsons</h5><h6>President & COO<br></h6></li></router-link>
+            <router-link to=/leadership/david-burt><li class="profileListItem"><img src="../assets/ctdi-david-burt.jpg" height="230" width="190"><h5>David W. Burt</h5><h6>Vice President<br>CTDI International</h6></li></router-link>
+            <router-link to=/leadership/jonathan-friedman><li class="profileListItem"><img src="../assets/ctdi-jonathan-friedman.jpg" height="230" width="190"><h5>Jonathan Friedman</h5><h6>CFO & Vice President<br>Corporate Affairs</h6></li></router-link>
+            <router-link to=/leadership/ron-hartz><li class="profileListItem"><img src="../assets/ctdi-ron-hartz.jpg" height="230" width="190"><h5>Ron Hartz</h5><h6>Vice President <br>Corporate Operations</h6></li></router-link>
+            <router-link to=/leadership/dieter-hollenbach><li class="profileListItem"><img src="../assets/ctdi-dieter-hollenbach.jpg" height="230" width="190"><h5>Dieter Hollenbach</h5><h6>CEO <br> CTDI Europe</h6></li></router-link>
+            <router-link to=/leadership/christopher-howe><li class="profileListItem"><img src="../assets/ctdi-christopher-howe.jpg" height="230" width="190"><h5>Christopher Howe</h5><h6>CFO & Vice President <br> Accounting</h6></li></router-link>
+            <router-link to=/leadership/duane-knecht><li class="profileListItem"><img src="../assets/ctdi-duane-knecht.jpg" height="230" width="190"><h5>Duane D. Knecht</h5><h6>CFO & Vice President <br> Accounting</h6></li></router-link>
+            <router-link to=/leadership/eric-miller><li class="profileListItem"><img src="../assets/ctdi-eric-miller.jpg" height="230" width="190"><h5>Eric Miller</h5><h6>Vice President <br> Supply Division</h6></li></router-link>
+            <router-link to=/leadership/james-o-hara><li class="profileListItem"><img src="../assets/ctdi-james-o-hara.jpg" height="230" width="190"><h5>James O'Hara</h5><h6>Vice President <br> Marketing</h6></li></router-link>
+            <router-link to=/leadership/brian-parsons><li class="profileListItem"><img src="../assets/ctdi-brian-parsons.jpg" height="230" width="190"><h5>Brian Parsons</h5><h6>Vice President <br>MCE, Products Supply Division</h6></li></router-link>
+            <router-link to=/leadership/kevin-parsons><li class="profileListItem"><img src="../assets/ctdi-kevin-parsons.jpg" height="230" width="190"><h5>Kevin Parsons</h5><h6>Vice President <br>Network Program Services</h6></li></router-link>
+            <router-link to=/leadership/michael-parsons><li class="profileListItem"><img src="../assets/ctdi-michael-parsons.jpg" height="230" width="190"><h5>Michael Parsons</h5><h6>Vice President <br>Set-Top Box Division</h6></li></router-link>
+            <router-link to=/leadership/monika-ruth><li class="profileListItem"><img src="../assets/ctdi-ruth.jpg" height="230" width="190"><h5>Monika Ruth</h5><h6>CFO <br>CTDI Europe</h6></li></router-link>
+            <router-link to=/leadership/qing-wang><li class="profileListItem"><img src="../assets/ctdi-qing-wang.jpg" height="230" width="190"><h5>Qing Wang</h5><h6>Vice President <br>Corporate Quality</h6></li></router-link>
+            <router-link to=/leadership/barry-young><li class="profileListItem"><img src="../assets/ctdi-barry-young.jpg" height="230" width="190"><h5>Barry Young</h5><h6>Vice President <br>Network Services Division</h6></li></router-link>
 
         </ul>
        </div>
@@ -36,9 +38,13 @@
     name: 'Leadership',
     data() {
       return {
-
+          
       }
     },
+
+    mounted () {
+  window.scrollTo(0, 0)
+},
     methods: {
      
     },
@@ -47,15 +53,20 @@
 </script>
 
 <style scoped>
-  #leadershipHead{
+  .leadershipHead h5{
       padding-top: 25px;
       margin-right: 42.5%;
       font-weight: 600;
+      color: #333333;
   }
 
+    .leadershipHead a:hover{
+    text-decoration: none;
+}
+ 
    #border {
         border: 1px solid #D7CFCD;
-        width: 50%;
+        width: 53%;
         margin: auto;
         margin-bottom: 5%;
     }
@@ -63,7 +74,7 @@
     #execHead{
       font-size: 30px;
       line-height: 35px;
-      margin-right: 37%;
+      margin-right: 38%;
       padding-bottom: 20px;
   }
 
@@ -90,7 +101,7 @@
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-evenly;
-    width: 80%;
+    width: 70%;
     margin: auto;
    
 }
@@ -100,7 +111,29 @@
 
 }
 
+@media (min-width: 1380px) { 
 
+  #border {
+        border: 1px solid #D7CFCD;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+}
 
+@media (max-width: 576px) { 
+   #border {
+        border: 1px solid #D7CFCD;
+        width: 71%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+       #execHead{
+      font-size: 30px;
+      line-height: 35px;
+      margin-right: -10%;
+      padding-bottom: 20px;
+  }
+}
 
 </style>

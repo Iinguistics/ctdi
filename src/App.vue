@@ -12,14 +12,10 @@
 import Home from './components/Home'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-import Locations from './components/Locations'
-import CorpCulture from './components/CorpCulture'
-import Leadership from './components/Leadership'
-import 'bootstrap/dist/css/bootstrap.css'
 import bootstrap from 'bootstrap'
 
 
-
+   
 
 export default {
   name: 'app',
@@ -28,6 +24,7 @@ export default {
       'Footer': Footer,
   }
 }
+
 </script>
 
 <style>
@@ -38,6 +35,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
    text-align: center;
+   font-weight: 400;
+		line-height: 1.75em;
+		letter-spacing: 0.025em;
 }
+
+
 
 </style>
