@@ -1,6 +1,7 @@
 import vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
+import Solutions from '@/components/Solutions'
 import Locations from '@/components/Locations'
 import CorpCulture from '@/components/CorpCulture'
 import Leadership from '@/components/Leadership'
@@ -20,6 +21,12 @@ import MichaelParsonsBio from '@/components/MichaelParsonsBio'
 import MonikaRuthBio from '@/components/MonikaRuthBio'
 import QingWangBio from '@/components/QingWangBio'
 import BarryYoungBio from '@/components/BarryYoungBio'
+import StbCpe from '@/components/StbCpe'
+import CtdiCares from '@/components/CtdiCares'
+import Procurement from '@/components/Procurement'
+import Quality from '@/components/Quality'
+import Sustainability from '@/components/Sustainability'
+
 // import Profile from '@/components/Profile'
 // import Login from '@/components/Login'
 
@@ -35,6 +42,11 @@ export default new Router({
             component: Home,
         },
         {
+            path:'/solutions',
+            name: 'Solutions',
+            component: Solutions,
+        },
+        {
             path:'/locations',
             name: 'Locations',
             component: Locations,
@@ -43,6 +55,26 @@ export default new Router({
             path:'/culture',
             name: 'CorpCulture',
             component: CorpCulture,
+        },
+        {
+            path:'/cares',
+            name: 'CtdiCares',
+            component: CtdiCares,
+        },
+        {
+            path:'/procurement',
+            name: 'Procurement',
+            component: Procurement,
+        },
+        {
+            path:'/quality',
+            name: 'Quality',
+            component: Quality,
+        },
+        {
+            path:'/sustainability',
+            name: 'Sustainability',
+            component: Sustainability,
         },
         {
             path:'/leadership',
@@ -129,6 +161,12 @@ export default new Router({
             name: 'BarryYoungBio',
             component: BarryYoungBio,
         },
+        {
+            path:'/services/stb-cpe',
+            name: 'StbCpe',
+            component: StbCpe,
+        },
+       
     ]
 });
 

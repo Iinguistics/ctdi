@@ -1,12 +1,12 @@
 <template>
   <div> 
-    <div class="leadershipHead">
-    <a href="/#/leadership" ><h5>CTDI Leadership</h5></a> 
-       <p id="border"></p>
+    <div class="leadershipHead container">
+    <a href="/#/leadership"><h5>CTDI Leadership</h5></a> 
+       <h1 id="execHead">Executive Profiles</h1>
     </div>
-       <div>
-        <h1 id="execHead">Executive Profiles</h1>
-       </div>
+      
+        
+       
        <div class="profileListWrapper">
         <ul class="profileList">
             <router-link to=/leadership/jerry-parsons><li class="profileListItem"><img src="../assets/ctdi-jerry-parsons.jpg" height="230" width="190"><h5>Jerry Parsons</h5><h6>CEO</h6></li></router-link>
@@ -22,14 +22,14 @@
             <router-link to=/leadership/brian-parsons><li class="profileListItem"><img src="../assets/ctdi-brian-parsons.jpg" height="230" width="190"><h5>Brian Parsons</h5><h6>Vice President <br>MCE, Products Supply Division</h6></li></router-link>
             <router-link to=/leadership/kevin-parsons><li class="profileListItem"><img src="../assets/ctdi-kevin-parsons.jpg" height="230" width="190"><h5>Kevin Parsons</h5><h6>Vice President <br>Network Program Services</h6></li></router-link>
             <router-link to=/leadership/michael-parsons><li class="profileListItem"><img src="../assets/ctdi-michael-parsons.jpg" height="230" width="190"><h5>Michael Parsons</h5><h6>Vice President <br>Set-Top Box Division</h6></li></router-link>
-            <router-link to=/leadership/monika-ruth><li class="profileListItem"><img src="../assets/ctdi-ruth.jpg" height="230" width="190"><h5>Monika Ruth</h5><h6>CFO <br>CTDI Europe</h6></li></router-link>
+            <router-link to=/leadership/monika-ruth><li class="profileListItem"><img src="../assets/ctdi-monika-ruth.jpg" height="230" width="190"><h5>Monika Ruth</h5><h6>CFO <br>CTDI Europe</h6></li></router-link>
             <router-link to=/leadership/qing-wang><li class="profileListItem"><img src="../assets/ctdi-qing-wang.jpg" height="230" width="190"><h5>Qing Wang</h5><h6>Vice President <br>Corporate Quality</h6></li></router-link>
             <router-link to=/leadership/barry-young><li class="profileListItem"><img src="../assets/ctdi-barry-young.jpg" height="230" width="190"><h5>Barry Young</h5><h6>Vice President <br>Network Services Division</h6></li></router-link>
 
-        </ul>
+         </ul>
        </div>
-
-  </div>
+    </div>
+ 
 
 </template>
 
@@ -53,34 +53,30 @@
 </script>
 
 <style scoped>
+
   .leadershipHead h5{
-      padding-top: 25px;
-      margin-right: 42.5%;
+      margin-top: 100px;
+      text-align: center;
       font-weight: 600;
       color: #333333;
+      text-decoration: underline #D7CFCD;
+       margin-bottom: 5%;
   }
 
     .leadershipHead a:hover{
     text-decoration: none;
 }
  
-   #border {
-        border: 1px solid #D7CFCD;
-        width: 53%;
-        margin: auto;
-        margin-bottom: 5%;
-    }
 
-    #execHead{
+#execHead{
       font-size: 30px;
       line-height: 35px;
-      margin-right: 38%;
+      margin:auto;
       padding-bottom: 20px;
+
   }
 
-    .profileListWrapper{
-     
-    }
+    
 
     .profileList a h6{
     color: #333;
@@ -111,15 +107,9 @@
 
 }
 
-@media (min-width: 1380px) { 
 
-  #border {
-        border: 1px solid #D7CFCD;
-        width: 50%;
-        margin: auto;
-        margin-bottom: 5%;
-    }
-}
+
+
 
 @media (max-width: 576px) { 
    #border {

@@ -2,14 +2,13 @@
   <div> 
     <div class="leadershipHead">
     <a href="/#/leadership" ><h5>CTDI Leadership</h5></a> 
-       <p id="border"></p>
     </div>
          <div>
           <h2>Monika Ruth</h2>
           <h3>CFO, CTDI Europe</h3>
          </div>
           <div class="bioWrapper">
-      <img id="bioPic" src="../assets/ctdi-ruth.jpg" style="height: 200px;">
+      <img id="bioPic" src="../assets/ctdi-monika-ruth.jpg" style="height: 200px;">
        <p id="bioText1">Monika Rüth graduated from University Hagen with a master degree in economics in 1996. After receiving her degree Monika was the Head of Finance and Controlling at Vivento (a company of Deutsche Telekom AG) for four years, and Head of Group Controlling for T-Online and Marketing at Deutsche Telekom AG’s Headquarters for two years. Monika has been CTDI Europe’s Chief Financial Officer since August 2008. She manages all facets of our finances, including Balance Sheet, P&L, bank relationships, mergers and acquisitions, controlling, purchasing, quality management and annual audits. <br>
        <br>
          Additionally, Monika has worked with the CTDI Europe and CTDI US Executive Management teams to implement CTDI’s global strategy with our major European customers. In January 2015, Monika was named a Director of CTDI. Monika has been a member of the Supervisory Board of Deutsche Funkturm GmbH, a subsidiary of Deutsche Telekom AG, since October 2015.
@@ -41,11 +40,13 @@
 </script>
 
 <style scoped>
-    .leadershipHead h5{
-      padding-top: 25px;
-      margin-right: 57%;
+     .leadershipHead h5{
+      text-align: center;
+       margin-top: 100px;
       font-weight: 600;
       color: #333333;
+      text-decoration: underline #D7CFCD;
+       margin-bottom: 5%;
   }
 
     .leadershipHead a:hover{
@@ -76,13 +77,13 @@
  
 
 h2{
-  margin-right: 49%;
+  margin: auto;
   font-size: 40px;
   color: #786D65;
+  padding-bottom: 10px;
 }
 
 h3{
-  margin-right: 51%;
   font-size: 24px;
   color: #BA9009;
   font-weight: 200;
@@ -90,8 +91,11 @@ h3{
 
 
  #bioPic{
-    padding-right: 60px;
-    padding-left: 30px;
+    padding-right: 70px;  
+ }
+
+ #bioText1{
+   padding-bottom: 30px;
  }
 
 
@@ -104,65 +108,45 @@ h3{
   .bioWrapper{
    flex-direction: column;
    justify-content: space-between;
-   width: 80%;
+   width: 85%;
    margin: auto;
+   padding-top: 15px;
    }
 
   h2{
   text-align: center;
   font-size: 40px;
   color: #786D65;
-  margin-right: 20%;
 }
 
 h3{
-  margin-right: 15%;
   font-size: 24px;
   color: #BA9009;
   font-weight: 200;
 }
   
-
 #bioPic{
-    width: 280px;
-    padding-left: 70px;
+    width: 180px;
+    margin:auto;
+    padding-right:0px;
  }
+
  
  .leadershipHead h5{
-      margin-right: 37%;
+     text-align: center;
   }
- 
-
 }
 
 
 
 @media (min-width: 1380px) { 
 
-  h2{
-  text-align: center;
-  font-size: 40px;
-  color: #786D65;
-  margin-right: 57.5%;
-}
 
-h3{
-  margin-right: 59%;
-  font-size: 24px;
-  color: #BA9009;
-  font-weight: 200;
-}
-  
 
 #bioPic{
-    width: 280px;
+    width: 300px;
     padding-left: 70px;
  }
-
-  .leadershipHead h5{
-      margin-right: 60%;
-     
-  }
 }
 
 </style>

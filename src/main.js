@@ -4,15 +4,24 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import 'aos/dist/aos.js'
+//import * as Three from 'three' 
+
+
+//import moment from 'moment'
+//Vue.prototype.moment = moment
+
 
 
 Vue.config.productionTip = false
 
 new Vue({
   created(){
-    AOS.init();
+      AOS.init({disable: 'mobile'});
+     
   },
+  
+ 
   render: h => h(App),
   router,
 }).$mount('#app')
+
