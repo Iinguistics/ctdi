@@ -26,6 +26,7 @@ import CtdiCares from '@/components/CtdiCares'
 import Procurement from '@/components/Procurement'
 import Quality from '@/components/Quality'
 import Sustainability from '@/components/Sustainability'
+import Environment from '@/components/Environment'
 
 // import Profile from '@/components/Profile'
 // import Login from '@/components/Login'
@@ -75,6 +76,11 @@ export default new Router({
             path:'/sustainability',
             name: 'Sustainability',
             component: Sustainability,
+        },
+        {
+            path:'/sustainability/environment',
+            name: 'Environment',
+            component: Environment,
         },
         {
             path:'/leadership',

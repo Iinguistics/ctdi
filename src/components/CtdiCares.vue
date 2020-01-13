@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <div class="caresHead">
+    <div class="head">
       <h3>CTDI Cares</h3>
       <div class="shine"><figure><img class="img-fluid top-img" src="../assets/ctdi-2.jpg"></figure></div>
     </div>
-    <div class="missionStatement container">
+    <div class="statement container">
       <h5>CTDI Cares <br> Mission Statement</h5>
       <p>Our mission is to provide funding and support to CTDI employees or their immediate family members who are
         afflicted or stricken with cancer or other serious illnesses. Our goal is to lessen the financial burdens and to
@@ -108,7 +108,7 @@
 	}
 }
 
-  .caresHead h3 {
+  .head h3 {
     margin-top: 100px;
     text-align: center;
     font-weight: 600;
@@ -122,17 +122,17 @@
   }
  
 
-  .caresHead {
+  .head {
     padding-bottom: 75px;
   }
 
-  .missionStatement {
+  .statement {
     max-width: 70%;
     text-align: center;
     padding-bottom: 35px;
   }
 
-  .missionStatement h5 {
+  .statement h5 {
     font-size: 42px;
     line-height: 49px;
     color: #111111;
@@ -141,7 +141,7 @@
     padding-bottom: 15px;
   }
 
-  .missionStatement p {
+  .statement p {
     font-size: 21px;
     line-height: 29px;
     color: #333333;
@@ -222,12 +222,12 @@ p{
 }
 
   @media (max-width: 576px) {
-    .missionStatement h5 {
+    .statement h5 {
       font-size: 34px;
       line-height: 44px;
     }
 
-    .missionStatement p {
+    .statement p {
       font-size: 17px;
       line-height: 27px;
     }
@@ -248,7 +248,7 @@ p{
   height: 800px;
   } 
   
-    .caresHead h3 {
+    .head h3 {
     font-size: 38px;
   }
 
