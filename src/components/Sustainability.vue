@@ -51,42 +51,45 @@
         <h3>Environment</h3>
         <p>CTDI has made a commitment that we will continue to train and educate ourselves in waste minimization, hazardous material handling and regulatory compliance in an effort to support the longevity of the environment.</p>
       </div>
+       <h6>Environment</h6>
     </router-link>
   </div>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <router-link to=/sustainability/community>
       <div class="content-overlay"></div>
         <img class="content-image" src="../assets/CTDI-Sustainability/community.jpg" alt="community of people">     
         <div class="content-details fadeIn-top">
         <h3>Community</h3>
         <p>For over 40 years, CTDI has promoted a corporate culture of community leadership.</p>
       </div>
-    </a>
+      <h6>Community</h6>
+    </router-link>
   </div>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <router-link to=/sustainability/ethics>
       <div class="content-overlay"></div>
       <img class="content-image" src="../assets/CTDI-Sustainability/ethics-1.jpg" alt="cabinet full of books"> 
       <div class="content-details fadeIn-right">
         <h3>Ethics</h3>
         <p>CTDI and its subsidiaries conduct business consistent with our long established corporate values.</p>
       </div>
-    </a>
+       <h6>Ethics</h6>
+    </router-link>
   </div>
 </div>
 <div class="divider"></div>
-<div class="committee container">
-      <h5>Sustainability Honors & Awards</h5>
-    </div>
-    <a href="#" class="shine"><figure><img class="img-fluid top-img" src="../assets/CTDI-Sustainability/awards.jpg" alt="confetti"></figure>
+ <div class="shine-content">
+    <a href="#" class="shine"><figure>
+        <h5>Sustainability Honors & Awards</h5>
+      <img class="img-fluid top-img" src="../assets/CTDI-Sustainability/awards.jpg" alt="confetti"></figure>
     <h6>CTDI has been making great progress in its sustainability program, and is encouraged by continuing successes.</h6></a>
+ </div>
 </div>
 </template>
 
 
 
 <script>
-
 
 
 
@@ -102,7 +105,7 @@
   },
 
    methods: {  
-       
+     
    },
   mounted(){
        window.scrollTo(0, 0)
@@ -146,7 +149,6 @@
     right: 7%;
     padding: 50px 80px;
     color: #FAF0DC;
-
 }
 
 #text h3{
@@ -201,6 +203,10 @@
       font-size: 20px;
   }
 
+  a{
+    color: #111111;
+  }
+
 .committee-flex{
   display: flex;
   flex-direction: row;
@@ -231,7 +237,7 @@
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 100%;
+  height: 88%;
   width: 100%;
   left: 0;
   top: 0;
@@ -347,12 +353,16 @@
 
 .top-img{
     border-radius: 4px;
-    height: 469px;
-    width: 704px;
+    height: 668px;
+    width: 75%;
   }
 
   .shine{
     text-decoration: none;
+  }
+ 
+  .shine-content{
+    padding-top: 50px;
   }
 
   .shine h6{
@@ -362,6 +372,15 @@
      margin: auto;
      color: #757575;
      padding-bottom: 150px;
+  }
+
+  .shine h5{
+    position: absolute;
+    top: 230px;
+    left: 9%;
+    padding:  80px;
+    color: #FFFFFF;
+    font-size: 26px;
   }
 
 
@@ -389,6 +408,22 @@
     padding-top: 200px;
 }
 
+.top-img{
+    border-radius: 4px;
+    height: 810px;
+    width: 75%;
+  }
+
+  .shine h5{
+    position: absolute;
+    top: 220px;
+    left: 11%;
+    padding:  80px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
 }
 
   @media (max-width: 576px) {
@@ -411,6 +446,8 @@
 
    .committee h5{
        font-size: 26px;
+       max-width: 75%;
+       margin: auto;
    }
 
    .top-wrap{
@@ -433,6 +470,16 @@
     font-size: 20px;
     padding: 50px 50px;
 }
+
+.top-img{
+    border-radius: 4px;
+    height: 300px;
+    width: 75%;
+  }
+
+  h6{
+      font-size: 18px;
+  }
   }
 
   @media (max-width: 820px) {
@@ -453,11 +500,6 @@
   padding-bottom: 50px;
 }
 
-.top-img{
-    border-radius: 4px;
-    height: 305px;
-    width: 505px;
-  }
 }
 
 </style>

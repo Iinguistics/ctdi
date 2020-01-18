@@ -20,13 +20,15 @@ CTDI President and COO</p>
   </div>
   </template>
 
-  <script>import hoverEffect from 'hover-effect';
+  <script>
+  
+  import hoverEffect from 'hover-effect';
 
-export default {
+  export default {
 
-  name: 'Quality',
-  data() {
-    return {
+    name: 'Quality',
+    data() {
+      return {
         texture1: require('../assets/CTDI-Quality/award-2.jpg'),
         texture2: require('../assets/CTDI-Quality/award.jpg'),
         texture3: require('../assets/ctdi-att-award.png'),
@@ -64,9 +66,7 @@ export default {
       );
     }
 
-  }
-
-  ,
+  },
 
   mounted() {
     this.hover();
