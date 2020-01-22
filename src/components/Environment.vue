@@ -3,7 +3,7 @@
     <div id="header-wrap"></div>
     <div id="text"> <h3>Environment</h3> <p>CTDI has made a commitment to our employees, our community and our customers that we will continue to train and educate ourselves in waste minimization, hazardous material handling and regulatory compliance in an effort to support the longevity of the environment. CTDI is committed to protecting and preserving our natural resources in a productive and efficient manner through corporate initiatives such as recycling and resource management. CTDI has not incurred any regulatory fines or penalties as a result of improper environmental practices.</p> </div>
     <div id="white-space"></div>
-        <div class="graph-title"><h4>Energy Use and Our Carbon Footprint</h4></div>
+        <div class="title"><h4>Energy Use and Our Carbon Footprint</h4></div>
     <div id="barchart_material"></div>
     <div class="graph-text container"><p>Since a majority of CTDI's carbon emissions comes from our use of electricity; reducing electric usage is one of our primary goals. In 2016, we implemented several building related improvements that reduced our energy footprint across multiple facilities. One improvement was through the transition to cloud-based data storage, which allowed CTDI to decommission 3 data servers from its headquarters, saving over 17,000 kWh in energy costs for the servers themselves, as well as reducing the building's cooling needs.</p>
       <br>
@@ -30,15 +30,52 @@
         <div class="content">
     <router-link to=/sustainability/ethics>
       <div class="content-overlay"></div>
-      <img class="content-image" src="../assets/CTDI-Sustainability/ethics-1.jpg" alt="cabinet full of books"> 
+      <img class="content-image" src="../assets/CTDI-Environment/waterfall-stairs.jpg" alt="waterfall with stairs"> 
       <div class="content-details fadeIn-top">
         <h5>Project Page</h5>
         <p>Click here for more information</p>
       </div>
+      <h6>Zero Waste</h6>
     </router-link>
   </div>
     </div>
-    <div id="white-space"></div>
+    <div id="white-space-2"></div>
+    <div class="title"><h4>Our Products and Services</h4></div>
+     <div class="text-p container"><p>The very nature of CTDI’s business has sustainability at the core. We test and repair millions of pieces of customer equipment each year, allowing our customers to reuse and repurpose equipment rather than discarding and buying new. CTDI's model of repairing equipment as opposed to discarding and replacing it is inherently better for the earth and our customers' budgets. From an energy perspective, a refurbished component is estimated to require 32% of the energy of a newly manufactured set top box. CTDI saves an estimated 244,800 megawatt hours of energy each year based on its refurbishment of 250,000 set top boxes each month. In addition to repairing and refurbishing equipment, we re-use packaging and electronic parts wherever possible.</p></div>
+     <div id="header-wrap-3"></div>
+    <div id="text-3"> <h3>Product Packaging</h3> 
+    <p>CTDI's Operations teams work closely with our packaging suppliers to design cartons which safely transport our customers' products in the most environmentally friendly manner. The following are some of the initiatives we have in place.</p>
+      <div class="pack-flex">
+        <li class="pack-item fa fa-caret-right">Efficient Packaging Solution: Dimensional data capture of all products and outbound shipping cartons allows for the systematic determination of the optimal shipping carton, resulting in reduced waste and maximization of trailer space.</li>
+        <li class="pack-item fa fa-caret-right">Reusable Packaging: CTDI packaging is reused until the physical characteristics fall below our Quality Assurance acceptable limits. This approach promotes improving total cost of ownership and reduces the environmental impact of the container. In some instances, the cartons are shipped back to the manufacturer for disassembly and reuse in new package construction. Those cartons that cannot be reused in construction are recycled.</li>
+        <li class="pack-item fa fa-caret-right">Reusable Foam Inserts: Wherever possible, CTDI reuses the foam inserts used to protect units during the shipping process if they meet our quality standards.</li>
+        <li class="pack-item fa fa-caret-right">Relabeling Packaging: In some operations, boxes that are shipped to CTDI with a return are relabeled for reuse if they are in a condition that meets our quality standards. These labels return the carton to "like-new" condition.</li>
+        <li class="pack-item fa fa-caret-right">Post-Consumer Material: CTDI's packaging suppliers are required to utilize post-consumer recycled material.</li>
+        <li class="pack-item fa fa-caret-right">Certified Material: CTDI clearly communicates our commitment regarding the use of renewable resources to our key suppliers. In our packaging requirements, we request the use of material certified by the Sustainable Forestry Initiative (SFI). The SFI forest certification and chain-of-custody certification promotes responsible forestry practices which tracks fiber content from forest through to production of packaging. Measures of SFI certified material and recycled content can be verified for companies to claim in their CSR reports as well as customer compliance reports.</li>
+        <li class="pack-item fa fa-caret-right">Package Design: CTDI has diligently worked with its packaging suppliers to reduce waste by re-designing any non-recyclable packaging materials, such as foam, to a recyclable design without compromising quality or cosmetics. CTDI's Operations teams works closely with our packaging suppliers to design cartons which safely transports our customers' products in the most environmentally friendly manner.</li>
+      </div>
+    </div>
+    <div class="title"><h4>Management Systems Certifications</h4>
+    <p>Ten of CTDI's facilities are ISO 14001 certified, in addition one more CTDI facility will pursue ISO 14001 certification in 2017. CTDI has also achieved OHSAS 18001 certification of its Occupational Health and Safety Management System in Buford, GA in 2015, and in Bessemer, AL in 2016.</p>
+      <!-- overlay link -->
+        <div class="content">
+    <router-link to=/sustainability/ethics>
+      <div class="content-overlay"></div>
+      <img class="content-image" src="../assets/CTDI-Environment/safety.jpg" alt="waterfall with stairs"> 
+      <div class="content-details fadeIn-top">
+        <h5>OHSAS 18001 Certification</h5>
+        <p>Click here for more information</p>
+      </div>
+      <h6>Management Systems</h6>
+    </router-link>
+  </div>
+    </div>
+      <div class="title"><h4>Environmental Impact Data</h4>
+      </div>
+      <div id="table_div"></div>
+      <div id="table_div_2"></div>
+      <div id="white-space-2"></div>
+      <div id="white-space-2"></div>
 </div>
 </template>
 
@@ -69,6 +106,7 @@
           chart: {
             title: 'Greenhouse Gas Emissions',
             subtitle: 'In 2016, CTDI utilized 85,833 MWh of energy and emitted 45,588 metric tons of CO²e.',
+           // width: 900
           },
           bars: 'vertical' 
         };
@@ -95,8 +133,7 @@
           },
           bars: 'horizontal', 
           hAxis: {format: 'decimal'},
-          height: 600,
-          width: 900,
+          
           colors: ['#1b9e77', '#d95f02', '#7570b3']
         };
 
@@ -114,12 +151,48 @@
                  } 
         }
       },
+         drawChart3: function() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', '');
+        data.addColumn('number', '2016 GHG Emissions (MT CO²e)');
+        data.addRows([
+          ['Scope 1',  {v: 8157, f: '8,157'}],
+          ['Scope 2',  {v: 36508, f: '36,508'}],
+          ['Scope 3 (Business Travel',  {v: 798, f: '798'}],
+          ['Scope 3 (Tracked Waste)',  {v: 125, f: '125'}],
+          ['Total',  {v: 45588, f: '45,588'}],
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+      },
+
+        drawChart4: function() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', '');
+        data.addColumn('number', 'Energy Type (MWh)');
+        data.addRows([
+          ['Distillate Fuel Oil #2',  {v: 20595, f: '20,595'}],
+          ['Natural Gas',  {v: 13294, f: '13,294'}],
+          ['Fuel Total',  {v: 33889, f: '33,889'}],
+          ['Electricity Total',  {v: 51944, f: '51,944'}],
+          ['Total Energy',  {v: 85833, f: '85,833'}],
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div_2'));
+
+        table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+      }
+
     },
    
   mounted(){
        window.scrollTo(0, 0)
        this.drawChart();
        // this.drawChart2();
+       this.drawChart3();
+       this.drawChart4();
   }
 }
  
@@ -146,13 +219,13 @@ p{
 #text{
     position: absolute;
     height: 600px;
-    width: 1050px;
+    width: 70%;
     background-color:#F2F2F2;
     top: 490px;
     padding: 50px 80px;
     color: #333333;
     border-radius: 4px;
-    right: 13%;
+    right: 15%;
 }
 
 #text h3{
@@ -188,10 +261,15 @@ p{
   padding-top: 525px;
 }
 
-.graph-title h4{
+#white-space-2{
+  padding-top: 125px;
+}
+
+.title h4{
     color: #111111;
   font-size: 48px;
-  padding-bottom: 85px;
+  padding-bottom: 100px;
+  padding-top: 25px;
 }
 
 .graph-end{
@@ -208,16 +286,14 @@ p{
 
 #text-2{
    position: relative;
-    height: 1300px;
-    width: 1050px;
+    height: 1400px;
+    width: 70%;
    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     top: -170px;
     margin-bottom: -170px;
    background-color:#F2F2F2;
-    
-
 }
 
 #text-2 h3{
@@ -234,6 +310,39 @@ p{
   margin: auto;
 }
 
+#header-wrap-3{
+  height: 800px;
+  width: 100% ;
+  background-image: url("../assets/CTDI-Environment/water.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#text-3{
+   position: relative;
+    height: 1000px;
+    width: 70%;
+   box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    top: -170px;
+    margin-bottom: -170px;
+   background-color:#F2F2F2;
+}
+
+#text-3 h3{
+  color: #111111;
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+
+#text-3 p{
+  color: #333333;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 80%;
+  margin: auto;
+}
 /* overlay */
 .content {
    position: relative;
@@ -247,7 +356,7 @@ p{
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 100%;
+  height: 63%;
   width: 100%;
   left: 0;
   top: 0;
@@ -267,6 +376,7 @@ p{
 .content-image{
   width: 405px;
   height: 225px;
+  border-radius: 5px;
 }
 
 .content-details {
@@ -287,7 +397,7 @@ p{
 }
 
 .content:hover .content-details{
-  top: 50%;
+  top: 35%;
   left: 50%;
   opacity: 1;
 }
@@ -310,18 +420,174 @@ p{
   top: 20%;
 }
 
+.content h6{
+  padding-bottom: 100px;
+}
 
+  h6{
+      font-size: 20px;
+  }
+
+  a{
+    color: #111111;
+  }
+
+  .text-p{
+  color: #333333;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 80%;
+  margin: auto;
+  }
+
+  .pack-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 700px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+  }
+
+  .pack-item{
+    max-width: 400px;
+  }
+
+  .title p{
+  font-size: 24px;
+  line-height: 34px;
+  max-width: 85%;
+  margin: auto;
+  padding-bottom: 35px;
+  }
+
+  #table_div{
+   margin: auto;
+   width: 1200px;
+   height: 400px;
+  }
+
+   #table_div_2{
+   margin: auto;
+   width: 1200px;
+   height: 400px;
+  }
 
 @media (min-width: 1380px) { 
   
   #text{
     top: 800px;
-    right: 430px;
+    right: 15%;
  }
 
  #text h3{
   color: #111111;
   font-size: 62px;
 }
+
+#text-2{
+    height: 1200px;
+}
+
+.pack-item{
+    max-width: 500px;
+  }
+}
+
+
+@media (max-width: 576px) {
+    
+    #text{
+    height: 635px;
+    width: 80%;
+    top: 490px;
+    right: 12%;
+    padding: 30px 40px;
+}
+
+#text h3{
+  color: #111111;
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+
+#text p{
+  font-size: 17px;
+  max-width: 99%;
+  line-height: 30px;
+}
+
+.title h4{
+  font-size: 34px;
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+ 
+  #text-2{
+    height: 1850px;
+    width: 80%;
+   box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    top: -170px;
+    margin-bottom: -170px;
+   background-color:#F2F2F2;
+}
+
+#text-2 h3{
+  color: #111111;
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+
+#text-2 p{
+  color: #333333;
+  font-size: 17px;
+  line-height: 30px;
+  max-width: 80%;
+  margin: auto;
+}
+
+#text-3{
+    height: 1300px;
+    width: 80%;
+}
+
+#text-3 h3{
+  color: #111111;
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+
+#text-3 p{
+  font-size: 17px;
+  line-height: 30px;
+  max-width: 95%;
+}
+
+.pack-flex{
+    display: flex;
+    flex-direction: column;
+    max-width: 97%;
+    height: 1000px;
+  }
+
+/* hide chart on mobile ? 
+#barchart_material
+  margin: auto;
+  width: 600px;
+  height: 600px;
+*/
+
+
+
+   #table_div{
+   margin: auto;
+   width: 550px;
+   height: 600px;
+  }
+
+
 }
 </style>

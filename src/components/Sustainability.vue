@@ -480,6 +480,15 @@
   h6{
       font-size: 18px;
   }
+
+   .shine h5{
+    position: absolute;
+    top: 50px;
+    left: 6%;
+    padding:  80px;
+    color: #FFFFFF;
+    font-size: 22px;
+  }
   }
 
   @media (max-width: 820px) {
@@ -499,6 +508,7 @@
   justify-content: space-evenly;
   padding-bottom: 50px;
 }
+
 
 }
 
