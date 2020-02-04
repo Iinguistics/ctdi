@@ -30,7 +30,7 @@
     <br>
      <!-- overlay link -->
         <div class="content">
-    <router-link to=/sustainability/ethics>
+    <router-link to=/sustainability/environment/zero>
       <div class="content-overlay"></div>
       <img class="content-image" src="../assets/CTDI-Environment/waterfall-stairs.jpg" alt="waterfall with stairs"> 
       <div class="content-details fadeIn-top">
@@ -61,7 +61,7 @@
     <p>Ten of CTDI's facilities are ISO 14001 certified, in addition one more CTDI facility will pursue ISO 14001 certification in 2017. CTDI has also achieved OHSAS 18001 certification of its Occupational Health and Safety Management System in Buford, GA in 2015, and in Bessemer, AL in 2016.</p>
       <!-- overlay link -->
         <div class="content">
-    <router-link to=/sustainability/ethics>
+    <router-link to=/sustainability/environment/zero>
       <div class="content-overlay"></div>
       <img class="content-image" src="../assets/CTDI-Environment/safety.jpg" alt="waterfall with stairs"> 
       <div class="content-details fadeIn-top">
@@ -185,6 +185,7 @@
         var table = new google.visualization.Table(document.getElementById('table_div_2'));
 
         table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+
       },
      
 
@@ -329,7 +330,7 @@ p{
 #header-wrap-3{
   height: 800px;
   width: 100% ;
-  background-image: url("../assets/CTDI-Environment/water.jpg");
+  background-image: url("../assets/CTDI-Environment/box.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -441,7 +442,7 @@ p{
 }
 
   h6{
-      font-size: 20px;
+      font-size: 19px;
   }
 
   a{
@@ -512,10 +513,10 @@ p{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 667px) {
     
     #text{
-    height: 720px;
+    height: 820px;
     width: 80%;
     top: 490px;
     right: 10%;
@@ -535,13 +536,13 @@ p{
 }
 
 .title h4{
-  font-size: 34px;
+  font-size: 32px;
   padding-bottom: 100px;
-  padding-top: 75px;
+  padding-top: 125px;
 }
  
   #text-2{
-    height: 1850px;
+    height: 2150px;
     width: 80%;
    box-sizing: border-box;
     margin-left: auto;
@@ -625,7 +626,7 @@ p{
   width: 390px;
 }
 
-#table_div_2 img{
+#table_div_2 {
   height: 475px;
   width: 390px;
 }
@@ -633,6 +634,8 @@ p{
 #btn-group{
   display: none;
 }
+
+
 
 }
 </style>

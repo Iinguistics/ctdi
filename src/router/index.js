@@ -27,6 +27,7 @@ import Procurement from '@/components/Procurement'
 import Quality from '@/components/Quality'
 import Sustainability from '@/components/Sustainability'
 import Environment from '@/components/Environment'
+import Zero from '@/components/Zero'
 
 // import Profile from '@/components/Profile'
 // import Login from '@/components/Login'
@@ -81,6 +82,11 @@ export default new Router({
             path:'/sustainability/environment',
             name: 'Environment',
             component: Environment,
+        },
+        {
+            path:'/sustainability/environment/zero',
+            name: 'Zero',
+            component: Zero,
         },
         {
             path:'/leadership',

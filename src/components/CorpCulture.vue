@@ -141,8 +141,13 @@ P{
   padding-top: 125px;
 }
 
-  @media (max-width: 576px) {
-   
+  @media (max-width: 668px) {
+     #cube{
+  height: 800px;
+  width: 600px;
+  margin: auto;
+}
+
 }
 
 

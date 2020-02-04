@@ -172,13 +172,12 @@ P{
 }
 
 
-  @media (max-width: 576px) {
+  @media (max-width: 667px) {
     .flex-passion{
   display: flex;
   flex-direction: column;
   height: 825px;
   padding-top: 5px;
-  max-width: 70%;
   align-content: center;
   }
 
@@ -197,6 +196,22 @@ P{
  #team-working-1{
     height: 300px;
     width:  600px;
+ }
+
+   .committee-flex{
+    display: flex;
+  flex-direction: column;
+  height: 600px;
+  padding-top: 5px;
+  
+  margin: auto;
+  }
+
+  .committee-item{
+  list-style: none;
+  max-width: 115px; 
+  height: 125px; 
+  margin: auto; 
  }
 }
 

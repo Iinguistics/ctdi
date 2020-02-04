@@ -161,7 +161,7 @@
 }
 
   .statement {
-    max-width: 70%;
+    max-width: 75%;
     text-align: center;
     padding-bottom: 35px;
   }
@@ -214,12 +214,13 @@
   max-width: 70%;
   justify-content: space-evenly;
   height: 400px;
+  padding-bottom: 10px;
 }
 
 
 .committee-item{
   list-style: none;
-  width: 150px; 
+  width: 190px; 
   height: 110px; 
   margin: auto; 
 }
@@ -353,8 +354,8 @@
 
 .top-img{
     border-radius: 4px;
-    height: 668px;
-    width: 75%;
+    height: 523px;
+    max-width: 70%;
   }
 
   .shine{
@@ -376,8 +377,8 @@
 
   .shine h5{
     position: absolute;
-    top: 230px;
-    left: 9%;
+    top: 140px;
+    left: 16%;
     padding:  80px;
     color: #FFFFFF;
     font-size: 26px;
@@ -416,8 +417,8 @@
 
   .shine h5{
     position: absolute;
-    top: 220px;
-    left: 11%;
+    top: 235px;
+    left: 12%;
     padding:  80px;
     color: #FFFFFF;
     font-size: 32px;
@@ -426,7 +427,7 @@
 
 }
 
-  @media (max-width: 576px) {
+  @media (max-width: 667px) {
     .statement h5 {
       font-size: 34px;
       line-height: 44px;
@@ -439,9 +440,8 @@
 
       .committee-flex{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 800px;
+  flex-direction: column;
+  height: 825px !important;
    } 
 
    .committee h5{
@@ -456,25 +456,33 @@
 
     #consume{
     height: 450px;
-    width: 500px;
+    width: 475px;
     position: relative;
    margin: auto;
 }
   #text{
     position: relative;
     height: 450px;
-    width: 500px;
+    width: 475px;
     background-color:#0b4141;
     margin: auto;
     color: #ffffff;
-    font-size: 20px;
-    padding: 50px 50px;
+  
+}
+
+#text h3{
+   font-size: 35px;
+}
+
+#text p{
+   font-size: 17px;
 }
 
 .top-img{
     border-radius: 4px;
     height: 300px;
     width: 75%;
+    height: 235px;
   }
 
   h6{
@@ -483,12 +491,12 @@
 
    .shine h5{
     position: absolute;
-    top: 50px;
+    top: 10px;
     left: 6%;
     padding:  80px;
     color: #FFFFFF;
     font-size: 22px;
-  }
+   }
   }
 
   @media (max-width: 820px) {
