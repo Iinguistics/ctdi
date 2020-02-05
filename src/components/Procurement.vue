@@ -187,7 +187,7 @@ P{
  }
 
  h6{
-   font-size: 20px;
+   font-size: 24px;
  }
  #team-working{
     height: 300px;
