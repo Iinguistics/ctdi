@@ -148,7 +148,7 @@
           ['Aug 2017',  {v: 2.29},{v: 55.16,},{v: 45.86,},{ f: '97.78%'}],
           ['Sep 2017',  {v: 1.12},{v: 45.45,},{v: 51.77,},{ f: '98.86%'}],
           ['Oct-2017',  {v: 0.18},{v: 43.86,},{v: 57.81,},{ f: '98.86%'}],
-          ['12 Month Average',  {v: 24.21},{v: 503.03,},{v: 1210.5295,},{ f: '98.61%'}], // not 2.01 average? 24.12 / 12 for landfill
+          ['12 Month Average',  {v: 24.21},{v: 503.03,},{v: 1210.5295,},{ f: '98.61%'}], 
         ]);
 
         var table = new google.visualization.Table(document.getElementById('table_div'));

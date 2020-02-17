@@ -28,6 +28,8 @@ import Quality from '@/components/Quality'
 import Sustainability from '@/components/Sustainability'
 import Environment from '@/components/Environment'
 import Zero from '@/components/Zero'
+import Diversity from '@/components/Diversity'
+import Community from '@/components/Community'
 
 // import Profile from '@/components/Profile'
 // import Login from '@/components/Login'
@@ -87,6 +89,16 @@ export default new Router({
             path:'/sustainability/environment/zero',
             name: 'Zero',
             component: Zero,
+        },
+        {
+            path:'/diversity',
+            name: 'Diversity',
+            component: Diversity,
+        },
+        {
+            path:'/sustainability/community',
+            name: 'Community',
+            component: Community,
         },
         {
             path:'/leadership',
