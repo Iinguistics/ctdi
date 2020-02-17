@@ -241,14 +241,18 @@
     margin-top: 60px;
 }
 
-
+@media (max-width: 997px) {
+         .top-img{
+  height: 500px;
+}
+}
 
 
 
 
   @media (max-width: 667px) {
       .top-img{
-  height: 500px;
+  height: 450px;
 }
 
   .committee-flex{
@@ -265,6 +269,14 @@
   height: 125px; 
   margin: auto; 
  }
+
+    .flex-passion img{
+    width: 300px;
+  }
+
+  .flex-passion {
+    height: 500px;
+  }
 
 
 
