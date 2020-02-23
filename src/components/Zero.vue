@@ -67,6 +67,7 @@
      <div class="white-space"></div>
      <div class="container emissions-3"><h5>GHG Emissions</h5><p>Using the EPA WARM model again, CTDI calculated the GHG emissions associated with their waste practices in Baton Rouge. In the past year, the 29.43 tons of waste sent to the landfill is equivalent to 10 tons of CO2e (carbon dioxide equivalence). The cardboard recycling saved 405 tons of CO2e, while the electronic scrap/ recovery program saved 566. Overall, this amounts to 1,078 tons CO2e avoided through Baton Rouge’s recycling program.<br><br>CTDI will continue to implement this zero waste project at other facilities across the country. CTDI will also continue to strive for improvements to their waste management by addressing further zero waste business principles over time. This includes looking for opportunities to reduce and reuse all along the supply chain in order to minimize the amount of non-recyclable material involved in the company’s processes.</p></div>
     <div class="white-space"></div>
+    <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
 </div>
 </template>
 
@@ -282,11 +283,16 @@
 
         table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
         }, 
+
+         toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
             
-        
-    
 
         },
+         },
 
     
        
@@ -301,9 +307,10 @@
        this.drawChart4();
        this.drawChart5();
        this.drawChart6();
+       this.toTop();
   }
-}
- 
+
+  }
 
 // sustainability.google    # A50E0E
 </script>
@@ -485,6 +492,23 @@
 
 .white-space{
   height: 200px;
+}
+
+#to-top{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+}
+
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
 }
 
 

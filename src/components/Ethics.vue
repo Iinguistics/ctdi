@@ -1,7 +1,7 @@
 <template>
 <div class="container">
-  <div class="statement">
-      <h5 id="statement"></h5><h5 id="statement-mobile">Community</h5>
+  <div class="statement" >
+      <h5 id="statement"></h5>
       <p>For over 45 years, CTDI has promoted a corporate culture of community leadership. We strive to be a reliable friend and community partner who provides a positive impact in the communities in which we operate. CTDI is committed to the economic and social improvement of the areas in which we live and work. We are proud of our employees who reach out to others and take active roles in their communities. <br> <br> CTDI is particularly proud of our CTDI CARES program. CTDI CARES is non-profit that is available to support employees in need. CTDI CARES was founded after the loss of an employee with three young children. Employees came together and through a variety of efforts raised funds to pay for the children to go to college. After this experience, the company decided that a permanent fund should be established to help CTDI employees and their families when needs arise. </p>
 </div>
 <div class="shine"><figure><img class="img-fluid top-img" src="../assets/CTDI-Community/community.jpg" alt="people with all hands in, working together"></figure></div>
@@ -42,7 +42,7 @@
 
 
   export default {
-    name: 'Community',
+    name: 'Ethics',
     data() {
       return {
    
@@ -53,29 +53,20 @@
   },
 
    methods: {  
-      toTop: function () {
-         window.scrollTo({
-         top: 0,
-         behavior: 'smooth',
-});
-      },
-
-         blotterText: function() {
+      blotterText: function() {
          const container = document.getElementById("statement");
 
-    const text = new Blotter.Text("Community", {
+    const text = new Blotter.Text("Ethics", {
         family: "serif",
-        size: 100,
+        size: 115,
         fill: "#000"
     });
 
-      let material = new Blotter.SlidingDoorMaterial();
+    let material = new Blotter.LiquidDistortMaterial();
 
-      material.uniforms.uDivisions.value = 7;
-
-      material.uniforms.uSpeed.value = 0.20;
-
-      material.uniforms.uAnimateHorizontal.value = true;
+    material.uniforms.uSpeed.value = 0.3;
+    material.uniforms.uVolatility.value = 0.1;
+    material.uniforms.uSeed.value = 0.1;
 
     let blotter = new Blotter(material, {
         texts: text
@@ -85,11 +76,19 @@
 
     scope.appendTo(container);
 
-      }
+      },
+
+       toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      },
    },
   mounted(){
        window.scrollTo(0, 0)
        this.blotterText();
+       this.toTop();
   
   }
 }
@@ -101,6 +100,7 @@
 
 <style scoped>
 /* good color #42AB9E;   #A50E0E   background-color: #f28b82; */
+
 
   .statement {
     max-width: 80%;
@@ -161,7 +161,7 @@
 
 .top-img{
   height: 600px;
-  width: 650px;
+  width: 610px;
   border-radius: 4px;
   margin-bottom: 50px;
 }
@@ -290,7 +290,6 @@
   cursor: pointer;
 }
 
-
 @media (max-width: 997px) {
          .top-img{
   height: 500px;
@@ -298,11 +297,7 @@
 }
 
 
-@media (min-width: 667px){
-  #statement-mobile{
-       display: none;
- }
-}
+
 
   @media (max-width: 667px) {
       .top-img{
@@ -332,9 +327,7 @@
     height: 500px;
   }
 
- #statement{
-   display: none;
- }
+
 
 }
 

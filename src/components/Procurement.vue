@@ -42,6 +42,7 @@
        <p class="over-view">How to do Business</p>
        <p class="bottom">Contact the local CTDI facility in your area and ask for the person responsible for the purchasing at the branch. You may always contact the Corporate Procurement organization at the headquarters facility in West Chester, PA USA for additional information.</p>
      </div> 
+      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
   </div>
 </template>
 
@@ -59,8 +60,13 @@
 
 
     methods: {
-
+          toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
     }
+   }
   }
 </script>
 
@@ -169,6 +175,23 @@ P{
 .fa{
   font-size: 18px;
   color: #333333;
+}
+
+#to-top{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+}
+
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
 }
 
 

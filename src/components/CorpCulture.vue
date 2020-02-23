@@ -19,6 +19,7 @@
          <img class="img-fluid passion-item" src="../assets/CTDI-Culture/ctdi-4.jpg" data-aos="fade-left" data-aos-duration="1500">
       </div>
       <div id="white-space"></div>
+      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
   </div>
 </template>
 
@@ -68,7 +69,13 @@
         this.mesh.rotation.y += 0.02;
         // this.mesh.rotation.z += 0.01;
         this.renderer.render(this.scene, this.camera);
-    }
+    },
+     toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      }
   },
   mounted() {
       this.init();
@@ -139,6 +146,23 @@ P{
 
 #white-space{
   padding-top: 125px;
+}
+
+#to-top{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+}
+
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
 }
 
   @media (max-width: 668px) {

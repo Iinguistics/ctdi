@@ -67,45 +67,58 @@
       <li class="location-item fa fa-angle-right">1381 West Chester <br>1381 Enterprise Drive <br>West Chester, PA 19380 <br> 610-436-5203</li>
       <li class="location-item fa fa-angle-right">Fort Worth, TX <br>1753 Chaplin Drive <br>Fort Worth, TX 76052<br> 972-415-1355</li>
       <li class="location-item fa fa-angle-right">Pleasant Prairie, WI<br>8801 88th Avenue, Suite B <br>Pleasant Prairie, WI 53158 <br>262-597-7355</li>
-      <li class="location-item fa fa-angle-right">Albany, NY <br>2160 Amsterdam Road<br>Glenville, NY 12302<br> 518-930-0101</li>
-      <li class="location-item fa fa-angle-right">Grand Junction, CO <br>830 South 12th Street, <br>Grand Junction, CO 81501 <br> 970-275-7010</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      <li class="location-item fa fa-angle-right">LAST <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
-      </div>
-  <div id="white-space"></div>
+    
+      <div v-if="seen" class="show-loc"><button type="button" class="btn btn-secondary btn-lg btn-block" v-on:click="seen = !seen" >View Less Locations</button></div>
+       <div v-else  class="show-loc"><button type="button" class="btn btn-secondary btn-lg btn-block" v-on:click="seen = !seen">View More Locations</button></div>
+       <div v-if="seen">
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>what <br> <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>      
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>what <br> <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>  
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>   
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>       
+       </div>
+     </div>
 </div>
 
 </template>
@@ -119,6 +132,8 @@ export default {
   data() {
       return {
       mapName: this.name + "-map",
+      seen: false,
+   
       
     }
   },
@@ -137,13 +152,16 @@ export default {
    marker.setMap(map);
 
   },
-   created () {
-   window.scrollTo(0, 0)
-       },
+  
  
     methods: {
-      
-  } 
+    
+    },
+
+     created () {
+        window.scrollTo(0, 0);
+        this.loadView();
+       },
 }
 </script>
 
@@ -258,7 +276,7 @@ svg rect {
   flex-wrap: wrap;
   max-width: 80%;
   justify-content: space-evenly;
-  height: 2600px;
+  height: 2800px;
   padding-top: 50px;
 }
 
@@ -266,13 +284,19 @@ svg rect {
 .location-item{
   list-style: none;
   width: 245px; 
-  height: 200px; 
+  height: 150px; 
   margin: auto; 
 }
 
 #white-space{
   padding-top: 225px;
 }
+
+.show-loc{
+  width: 800px;
+}
+
+
 
 
 @media screen and (max-width: 1200px){
@@ -282,7 +306,7 @@ svg rect {
 }
 
 
-@media (max-width: 576px) { 
+@media (max-width: 667px) { 
   .disableVid{
     display: none;
   }
@@ -316,6 +340,32 @@ svg rect {
 #white-space{
   padding-top: 175px;
 }
+
+.location-flex{
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  height: 7000px;
+}
+
+.location-item{
+  list-style: none;
+  width: 200px; 
+  height: 100px; 
+  margin: auto; 
+}
+
+.north-img h3 {
+  font-size: 45px;
+  padding-top: 150px;
+}
+
+.show-loc{
+  width: 300px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
 }
 
 @media (max-width: 920px) {

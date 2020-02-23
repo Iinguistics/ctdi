@@ -49,7 +49,8 @@
       <li class="committee-item fa fa-angle-right">Kristin Bartholomew</li>
       <li class="committee-item fa fa-angle-right">Courtney Lofgren</li> 
       <li class="committee-item fa fa-angle-right">Stephanie Wittig</li>
-    </div>
+       </div>
+      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
   </div>
 </template>
 
@@ -67,7 +68,12 @@
 
 
     methods: {
-
+        toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      }
     }
   }
 </script>
@@ -219,6 +225,23 @@
 
 p{
  text-align: left;
+}
+
+#to-top{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+}
+
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
 }
 
   @media (max-width: 576px) {

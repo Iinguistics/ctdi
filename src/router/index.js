@@ -30,6 +30,8 @@ import Environment from '@/components/Environment'
 import Zero from '@/components/Zero'
 import Diversity from '@/components/Diversity'
 import Community from '@/components/Community'
+import Ethics from '@/components/Ethics'
+
 
 // import Profile from '@/components/Profile'
 // import Login from '@/components/Login'
@@ -99,6 +101,11 @@ export default new Router({
             path:'/sustainability/community',
             name: 'Community',
             component: Community,
+        },
+        {
+            path:'/sustainability/ethics',
+            name: 'Ethics',
+            component: Ethics,
         },
         {
             path:'/leadership',
