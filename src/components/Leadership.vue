@@ -104,10 +104,11 @@
 
 .profileListItem{
    padding: 10px;
-
 }
 
-
+.profileListItem img{
+   border-radius: 4px;
+}
 
 
 

@@ -243,7 +243,7 @@ a {
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 667px) {
   h1 {
     font-size: 36px;
   }

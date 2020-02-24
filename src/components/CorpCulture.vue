@@ -25,7 +25,7 @@
 
 <script>
 
- import * as Three from 'three'
+ const Three = require('three');
 
   export default {
     name: 'CorpCulture',
@@ -47,7 +47,7 @@
 
         this.scene = new Three.Scene();
 
-        this.scene.background = new THREE.Color( 0xffffff );
+        this.scene.background = new Three.Color( 0xffffff );
 
         const geometry = new Three.BoxGeometry(2, 2, 2);
         // const material = new Three.MeshBasicMaterial({ color: 0x00ff00 });
@@ -74,13 +74,14 @@
          window.scrollTo({
          top: 0,
          behavior: 'smooth',
-});
-      }
+        });
+      } 
   },
   mounted() {
+      window.scrollTo(0, 0) 
       this.init();
       this.animate();
-      window.scrollTo(0, 0)
+      this.toTop();
   }
 
    
@@ -109,12 +110,11 @@
     height: 380px;
     width: 550px;
     max-width: 100%;
+    border-radius: 4px;
   }
 
 
  
-
-
 .flex-passion{
   display: flex;
   flex-direction: row;

@@ -46,6 +46,7 @@
         </div>
 </div>
 
+<!-- put on home page -->
 <div class="cards-wrapper container">
     <a class="cards-item-wrapper" href="#" >
         <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Culture/ctdi-passion.jpg" class="img-fluid"></div>
@@ -64,9 +65,7 @@
         </div>
     </a>
   </div>
-  <h1>hwattta</h1>
-  <div id="a">this is a</div>
-    <div id="b">this is b</div>
+  
   
 </div>
 </template>

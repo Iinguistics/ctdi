@@ -64,7 +64,6 @@
          const container = document.getElementById("statement");
 
     const text = new Blotter.Text("Community", {
-        family: "serif",
         size: 100,
         fill: "#000"
     });

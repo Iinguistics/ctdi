@@ -195,8 +195,8 @@
     color: #111111;
     font-weight: 600;
     text-align: center;
-    padding-bottom: 40px;
-    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 
   h6{

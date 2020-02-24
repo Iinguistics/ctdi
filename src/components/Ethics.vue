@@ -2,32 +2,49 @@
 <div class="container">
   <div class="statement" >
       <h5 id="statement"></h5>
-      <p>For over 45 years, CTDI has promoted a corporate culture of community leadership. We strive to be a reliable friend and community partner who provides a positive impact in the communities in which we operate. CTDI is committed to the economic and social improvement of the areas in which we live and work. We are proud of our employees who reach out to others and take active roles in their communities. <br> <br> CTDI is particularly proud of our CTDI CARES program. CTDI CARES is non-profit that is available to support employees in need. CTDI CARES was founded after the loss of an employee with three young children. Employees came together and through a variety of efforts raised funds to pay for the children to go to college. After this experience, the company decided that a permanent fund should be established to help CTDI employees and their families when needs arise. </p>
+      <p>Communications Test Design, Inc. (CTDI) and its subsidiaries conduct business consistent with our long established corporate values. These values include providing exceptional service to our customers and operating with the highest standards of quality while valuing our employees and making a positive contribution to the communities in which we conduct business. Our commitment to fulfilling our social responsibilities is an extension of the way we do business and adds value to our corporation. </p>
 </div>
-<div class="shine"><figure><img class="img-fluid top-img" src="../assets/CTDI-Community/community.jpg" alt="people with all hands in, working together"></figure></div>
-  <div class="divider"></div>
- <div class="contianer mid-title"><h3>Community Partnerships</h3>
- <p>As part of our commitment to community partnerships, we work also with a variety of organizations in the locations where we have operations. Near our company headquarters in West Chester, we support the following organizations:</p><br>
-    <div class="committee-flex container">
-      <li class="committee-item fa fa-angle-right"><a href="https://www.unitedwaychestercounty.org/">The United Way of Chester County</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="https://www.ymcagbw.org/">YMCA of Greater Brandywine</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="https://www.chestercountyhospital.org/giving/support-an-event/shine">The Shine Cancer Foundation</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="http://archphila.org/">The Archdiocese of Philadelphia</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="http://www.foundationforcatholiceducation.org/">The Foundation for Catholic Education</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="http://www.arcofchestercounty.org/">ARC of Chester County</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="http://www.wcupa.edu/sparc/">SPARC</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="https://www.partnersinoutreach.org/">Partners in Outreach</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="https://ccedcpa.com/">Chester County Economic Development Council (CCEDC)</a></li>
-      <li class="committee-item fa fa-angle-right"><a href="http://www.leadershipchestercounty.org/">Leadership Chester County</a></li>
-        </div>
-   </div>
-   <div class="divider"></div>
- <div class="flex-passion container">
+  <div class="flex-passion container">
        <div class="passion-item">
-       <p>CTDI also sources employees from work rehabilitation programs such as <a href="https://handi-crafters.org/" target="_blank">Handi-Crafters</a> & <a href="https://www.bakerindustries.org/" target="_blank">Baker Industries</a> for staffing as needed.</p>
+       <h5>Our Employees</h5>
+       <p>CTDI is committed to maintaining the highest standards of business and personal integrity and ethics in accordance with the company's Ethics Policy. All employees are trained on the company ethics policy which covers areas such as conflict of interest, confidential information, dishonest conduct, and bribery.</p>
        </div>
-        <img class="img-fluid passion-item" src="../assets/CTDI-Community/person-working.jpg" alt="person working">
+        <img class="img-fluid passion-item" src="../assets/CTDI-Ethics/employee.jpg" alt="employee's reviewing documents">
      </div>
+      <div class="divider"></div>
+       <div class="flex-passion container" id="bg-1">
+        <img class="img-fluid passion-item" src="../assets/CTDI-Ethics/supplies.jpg" alt="employee's reviewing documents" id="employee-img">
+       <div class="passion-item">
+       <h5>Our Suppliers and Supplier Diversity</h5>
+       <p>CTDI commits time, energy, and resources to the development of minority, women, and service-disabled businesses within the US and Canada. We recognize the importance of the inclusion of diverse businesses within our Supply Chain as these businesses are growth engines for the communities in which they are based and drive increased employment.  Our Procurement Organization works to provide the maximum practical opportunity, consistent with the Company's procurement policy, to compete for our business. Please see our
+           <router-link to=/diversity>Supplier Diversity Page</router-link> for more information.
+       </p>
+       </div>
+     </div>
+      <div class="divider"></div>
+      <div class="flex-passion container" id="bg-1">
+       <div class="passion-item">
+       <h5>Supplier Code of Conduct</h5>
+       <p>CTDI requires that all suppliers agree to adhere to our 
+        <a href="#" target="_blank">Supplier Code of Conduct</a> <!-- need to find out what the link is -->
+        CTDI’s policy is to select suppliers who are leaders in their industries and are willing to demonstrate along with our company a strong commitment to sustainable development by adopting health & safety, labor, environmental, and ethical principles that ensure the well-being of their employees. Consistent with the application of CTDI’s sustainability principles, this Supplier Code of Conduct outlines the company’s expectations in regards to sustainability practices of its suppliers. By adopting this Supplier Code of Conduct, CTDI aims to promote sustainable development and minimize legal, financial and reputation risks.
+       </p>
+       </div>
+        <img class="img-fluid passion-item" src="../assets/CTDI-Ethics/documents.jpg" alt="employee's reviewing documents" id="employee-img-2">
+     </div>
+     <div class="divider"></div>
+      <div class="flex-passion container" id="bg-2">
+        <img class="img-fluid passion-item" src="../assets/CTDI-Ethics/human.jpg" alt="employee's reviewing documents" id="employee-img">
+       <div class="passion-item">
+       <h5>Our Human Rights & Workforce Management Policy</h5>
+       <p>CTDI is adopting a new Human Rights & Workforce Management Policy. It will be adopted and ready for implementation by the end of 2015. This new policy reflects our firm commitment to ensuring that basic human rights are respected throughout CTDI, and to creating a working environment conducive to mutual cooperation and dialogue. Through our policy commitments, we strive to assure fair and just workforce practices. </p>
+       </div>
+     </div>
+     <div class="statement" >
+      <h5 id="bottom-statement">Policy Goals for 2016</h5>
+      <p>CTDI will conduct training for all US senior managers and supervisors on the Human Rights & Workforce Management Policy rights, requirements, and responsibilities. We will roll out training on the policy in the US in the first half of 2016 and for the international facilities in the second half of 2016. All training will be completed by the end of 2016. </p>
+</div>
+     <div class="divider"></div>
      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
 </div>
 
@@ -57,16 +74,25 @@
          const container = document.getElementById("statement");
 
     const text = new Blotter.Text("Ethics", {
-        family: "serif",
+        
         size: 115,
         fill: "#000"
     });
 
-    let material = new Blotter.LiquidDistortMaterial();
 
-    material.uniforms.uSpeed.value = 0.3;
-    material.uniforms.uVolatility.value = 0.1;
-    material.uniforms.uSeed.value = 0.1;
+    const material = new Blotter.RollingDistortMaterial();
+    // setting for speed twisting motion
+    // it is a float variable between 0.0 ~ 1.0
+     material.uniforms.uSpeed.value = 0.25;
+
+    // setting the degree of rotation of the distortion wave to be formed.
+    // it is a degree variable from 0-360 degrees
+    material.uniforms.uRotation.value = 220;
+
+    // setting the wave noise, the higher the value the more noise appeared.
+    // is a float variable of 0 ~ 1, we can arrange 
+   // to find the noise animation according to our wishes
+    material.uniforms.uSineDistortAmplitude.value = 0.152
 
     let blotter = new Blotter(material, {
         texts: text
@@ -106,6 +132,7 @@
     max-width: 80%;
     margin: auto;
     padding-bottom: 35px;
+    margin-bottom: 75px;
   }
 
   .statement h5 {
@@ -125,39 +152,7 @@
     text-align: left; 
   }
 
-   /* Shine */
-.shine figure {
-	position: relative;
-}
-.shine figure::before {
-	position: absolute;
-	top: 0;
-	left: -70%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform: skewX(-25deg);
-	transform: skewX(-25deg);
-}
-.shine figure:hover::before {
-	-webkit-animation: shine .75s;
-	animation: shine .75s;
-}
-@-webkit-keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-
-@keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
+   
 
 .top-img{
   height: 600px;
@@ -209,22 +204,6 @@
    text-decoration: underline !important;
   }
 
-  .committee-flex{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 80%;
-  justify-content: space-evenly;
-  height: 600px;
-}
-
-
-.committee-item{
-  list-style: none;
-   width: 250px; 
-  height: 180px; 
-  margin: auto; 
-}
 
 
 .fa{
@@ -241,6 +220,7 @@
     height: 270px;
     width: 400px;
     max-width: 100%;
+    border-radius: 4px;
     transition: transform 2s ease-in-out;
   }
 
@@ -258,7 +238,7 @@
   flex-wrap: wrap;
   max-width: 90%;
   justify-content: space-evenly;
-  height: 400px;
+  height: 500px;
   margin-top: 75px;
   margin-bottom: 50px;
 }
@@ -273,6 +253,14 @@
     margin-top: 60px;
 }
 
+#employee-img{
+  margin-top: 100px;
+}
+
+#employee-img-2{
+  margin-top: 115px;
+}
+
 #to-top{
  text-align: right;
  color: #202124;
@@ -280,6 +268,7 @@
  line-height: 24px;
  font-weight: 500;
  margin-bottom: 40px;
+ margin-top: 50px;
 }
 
 #to-top a{
@@ -323,11 +312,40 @@
     width: 300px;
   }
 
-  .flex-passion {
-    height: 500px;
+  
+
+   .flex-passion{
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  padding-top: 5px;
+  align-content: center;
   }
 
+  .passion-item{
+   margin: auto;
+   max-width: 95%;
+ }
 
+ #bg-1{
+    display: flex;
+  flex-direction: column;
+  height: 1200px;
+  padding-top: 5px;
+  align-content: center;
+ }
+
+  #bg-2{
+    display: flex;
+  flex-direction: column;
+  height: 1000px;
+  padding-top: 5px;
+  align-content: center;
+ }
+
+ h6{
+   font-size: 24px;
+ }
 
 }
 
