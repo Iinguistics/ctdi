@@ -1,17 +1,14 @@
 <template>
 <div class="top-wrap">
     <div id="wrapper" @mouseover="mouseOver" @mouseleave="mouseLeave"> <!--<p id="wrapper"></p> --> </div>
-      <div class="hero-title" ><h1>offbeat</h1></div> 
+      <div class="hero-title" ><h1>STB-CPE</h1></div> 
   </div>
   </template>
 
   <script>
   
   import hoverEffect from 'hover-effect';
-
- 
-
- import anime from 'animejs';
+  import anime from 'animejs';
 
 
 
@@ -22,9 +19,9 @@
     name: 'StbCpe',
     data() {
       return {
-        texture1: require('../assets/CTDI-Quality/award-2.jpg'),
-        texture2: require('../assets/CTDI-Quality/award.jpg'),
-        texture3: require('../assets/ctdi-att-award.png'),
+        texture1: require('../assets/CTDI-Services/internal-hardware-2.jpg'),
+        texture2: require('../assets/CTDI-Services/modem.jpg'),
+        texture3: require('../assets/Hover/displacement.png'),
         
     }
   }
@@ -118,9 +115,9 @@
   }
 
 #wrapper {
-      margin-top: 25px;
+      margin-top: 50px;
       width: 800px;
-      height: 550px;
+      height: 600px;
       top: 50%;
       left: 50%;
       position: absolute;
@@ -141,7 +138,7 @@
       left: 30%;
       transform: translate(-50%, -50%);
       color: #ffffff;
-      font-family: "Cosi Azure";
+      font-family: 'Major Mono Display';
       font-size: 80px;
 }
 
@@ -149,6 +146,7 @@
       display: inline-block;
       opacity: 0;
 }
+
 
 
 h1 {
@@ -159,6 +157,7 @@ h1 {
   font-size: 40px;
   padding-top: 220px;
   padding-bottom: 10px;
+  font-family: "Cosi Azure" !important;
 }
 
 
