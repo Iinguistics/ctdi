@@ -44,29 +44,8 @@
       <li class="committee-item fa fa-angle-right">Service Disabled Veteran Owned Small Business Council <a href="https://sdvosb-council.org/" target="_blank">SDVOSB-COUNCIL</a></li>
       <li class="committee-item fa fa-angle-right">Department of Veterans Affairs <a href="https://vetbiz.gov/" target="_blank">VETBIZ</a></li>
         </div>
-</div>
-
-<!-- put on home page -->
-<div class="cards-wrapper container">
-    <a class="cards-item-wrapper" href="#" >
-        <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Culture/ctdi-passion.jpg" class="img-fluid"></div>
-            <div class="card-item-content-wrapper blue" id="blue-text">
-              <div class="card-item-title"><h6>Environment</h6></div>
-            <div class="card-item-body-text"><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-          </div>
-        </div>
-    </a>
-     <a class="cards-item-wrapper" href="#">
-        <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Culture/ctdi-passion.jpg" class="img-fluid"></div>
-            <div class="card-item-content-wrapper red" id="red-text">
-              <div class="card-item-title"><h6>Environment</h6></div>
-            <div class="card-item-body-text"><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-          </div>
-        </div>
-    </a>
   </div>
-  
-  
+  <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
 </div>
 </template>
 
@@ -88,11 +67,17 @@
   },
 
    methods: {  
-     
+
+     toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+     });
+     } 
    },
   mounted(){
-       window.scrollTo(0, 0)
-     
+       window.scrollTo(0, 0);
+       this.toTop();
   
   }
 }
@@ -239,99 +224,6 @@
 }
 
 
-  .cards-wrapper{
-  display: grid;
-  grid-template-columns: 525px 525px;
-  grid-template-rows: 350px 350px;
-  grid-column-gap: 5px;
-  margin: auto;
-  width: 100%;
-  }
-
-  .card-item-image img{
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    height: 317px;
-    width: 476px;
-  }
-
-.card-item-content-wrapper{
-    height: 350px;
-    width: 476px;
-    margin:auto;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-
-.blue{
-  background-color: #97CAEF;
-  transition: background-color 0.5s ease-in-out;
-}
-  
-.blue:hover{
-    background-color: #E8F0FE;
-  color: #174EA6;
-}
-
-#blue-img:hover ~ #blue-text {
-  background-color: #E8F0FE;
-  color: #174EA6;
-}
-
-
-.blue h6{
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  text-align: left;
-  margin-left: 20px;
-}
-
-
-.blue p{
-  font-size: 23px;
-  padding-top: 10px;
-  text-align: left;
-  margin-left: 20px;
-}
-
-.red{
-  background-color: #f28b82;
-  transition: background-color 0.5s ease-in-out;
-}
-  
-.red:hover{
-  background-color: #E8F0FE;
-  color: #A50E0E;
-}
-
-#red-img:hover ~ #red-text {
-  background-color: #E8F0FE;
-  color: #A50E0E;
-}
-
-.red h6{
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  text-align: left;
-  margin-left: 20px;
-}
-
-
-.red p{
-  font-size: 23px;
-  padding-top: 10px;
-  text-align: left;
-  margin-left: 20px;
-}
-
-.card-item-title{
-   padding-top: 20px;
-}
-
 
 a{
   color: #202124;
@@ -347,7 +239,23 @@ a:hover{
   }
 
  
+#to-top{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+ margin-top: 50px;
+}
 
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
+}
 
 
 
