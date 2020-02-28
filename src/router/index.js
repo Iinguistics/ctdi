@@ -21,7 +21,6 @@ import MichaelParsonsBio from '@/components/MichaelParsonsBio'
 import MonikaRuthBio from '@/components/MonikaRuthBio'
 import QingWangBio from '@/components/QingWangBio'
 import BarryYoungBio from '@/components/BarryYoungBio'
-import StbCpe from '@/components/StbCpe'
 import CtdiCares from '@/components/CtdiCares'
 import Procurement from '@/components/Procurement'
 import Quality from '@/components/Quality'
@@ -31,6 +30,9 @@ import Zero from '@/components/Zero'
 import Diversity from '@/components/Diversity'
 import Community from '@/components/Community'
 import Ethics from '@/components/Ethics'
+import StbCpe from '@/components/StbCpe'
+import Mobile from '@/components/Mobile'
+
 
 
 // import Profile from '@/components/Profile'
@@ -196,6 +198,11 @@ export default new Router({
             path:'/services/stb-cpe',
             name: 'StbCpe',
             component: StbCpe,
+        },
+        {
+            path:'/services/mobile',
+            name: 'Mobile',
+            component: Mobile,
         },
        
     ]

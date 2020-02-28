@@ -2,38 +2,41 @@
 <div>
   <div class="top-wrap">
     <div id="wrapper" @mouseover="mouseOver" @mouseleave="mouseLeave"></div>
-      <div class="hero-title" ><h1>STB-CPE</h1></div>
+      <div class="hero-title" ><h1>Mobile & Consumer Electronics</h1></div>
   </div>
-   <div class="head"><h3>stb / cpe services division</h3></div>
+   <div class="head"><h3>mobile & consumer electronics</h3></div>
    <div class="container content">
      <p>
-      In just ten years, CTDI has totally revolutionized the STB / CPE service business and has become the global leader in both the cable and telecom service industries.  CTDI has in-depth experience with many in-region, high-volume STB / CPE test, repair and logistics programs. <br> <br> This allows us to provide our customers a comprehensive end-to-end, integrated solution that not only leverages CTDI’s extensive CPE management expertise, but also provides high-quality, web-based control and management for all test, repair and logistics activity via ETOS. <br> <br> Our ability to establish regional hubs provides our customers with better control of their assets, eliminates transportation and customs fees, and greatly enhances service levels and product availability.  Numerous OEMs have certified CTDI’s CPE operations and test systems to perform in-and-out-of-warranty test and repair services.
+      CTDI’s comprehensive, technical supply chain solution, developed specifically for the Mobile & Consumer Device industries, is called MCE-360.
       </p>
      <p>
-       Today, CTDI’s STB operations network now includes 35 world-class facilities supported by over 9,500 CPE service professionals who are authorized to test and repair a variety of Carrier, MSO and OEM STBs, Modems, Gateways and Tablet Devices. <br> <br> CTDI offers a fully integrated service model whereby we provide in-region screen & clean, testing, refurbishment, warehousing and order fulfillment services, including Direct to Home. Today, CTDI’s innovative multi-unit test systems, the Gen-5 AND Gen-7 STB tester, CMTX 5.0 Modem and Gateway tester, help us test and process over 78 million units annually.
+       MCE-360 is a fully integrated model designed to provide a total and technically focused service model that includes four primary service categories:
      </p>
-     <img src="../assets/CTDI-Services/stb/ctdi-stb.jpg" alt= "ctdi facility" id="stbImg">
-     <p id="bottom-p">CTDI also has over 30 of our STB / CPE operations OEM certified to perform in-warranty repair for STBs, Gateways and Tablet Devices.  OEM certifications include: ARRIS, Technicolor, Samsung, and Amazon. </p>
+     <li class ="fa fa-angle-right">Global Logistics: In-Region Forward and Reverse Logistics, Inventory Management, Kitting, Direct Fulfillment, & Vendor Managed Inventory Models.</li>
+     <li class ="fa fa-angle-right">Test & Repair: Screen & Clean/Triage, OEM Certified Repair (L1-L3), Cosmetic Refurb, Parts Management, Data Erasure services and Walk-In Centers.</li>
+     <li class ="fa fa-angle-right">Engineering & IT: Multi-Unit Test Systems, Robotics & Automation, LCD Reman, New Product Introduction, CTDI App Development and IT: OLP+, CDS, ETOS.</li>
+     <li class ="fa fa-angle-right">After Market: Global Remarketing, E-commerce, Recycle/Scrap, R2 Certified Process and Parts Harvesting.</li>
+     <img src="../assets/CTDI-Services/mobile/ctdi-mce.jpg" alt= "mce machine" id="ctdiImg">
    </div>
    <div class="divider"></div>
    <!-- card wrapper -->
 <div class="cards-wrapper container">
-    <router-link to=/services/mobile class="cards-item-wrapper">
-        <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Services/stb/mobile-link.jpg" class="img-fluid"></div>
-            <div class="card-item-content-wrapper blue" id="blue-text">
-              <div class="card-item-title"><h6>Mobile</h6></div>
-            <div class="card-item-body-text"><p>To provide a more comprehensive and total service solution, CTDI recently developed and launched a technical supply chain solution specifically for the Mobile & Consumer Device Industries, called MCE-360.</p>
-          </div>
-        </div>
-    </router-link>
-     <a class="cards-item-wrapper" href="#">
+     <router-link to=/services/mobile class="cards-item-wrapper">
         <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/stb/network-link.jpg" class="img-fluid"></div>
             <div class="card-item-content-wrapper red" id="red-text">
               <div class="card-item-title"><h6>Network Deployment</h6></div>
             <div class="card-item-body-text"><p>CTDI offers solutions for the expansion of broadband infrastructure and data center technology. Our strengths also include the pre-integration of system technology, including material management,the assembly of special cables and the final delivery and installation.</p>
           </div>
         </div>
-    </a>
+    </router-link>
+    <router-link to=/services/product class="cards-item-wrapper"> <!-- change img to -->
+        <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Services/stb/mobile-link.jpg" class="img-fluid"></div>
+            <div class="card-item-content-wrapper blue" id="blue-text">
+              <div class="card-item-title"><h6>Product / Supply</h6></div>
+            <div class="card-item-body-text"><p>To provide a more comprehensive and total service solution, CTDI recently developed and launched a technical supply chain solution specifically for the Mobile & Consumer Device Industries, called MCE-360.</p>
+          </div>
+        </div>
+    </router-link>
   </div>
   <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
 </div>
@@ -51,11 +54,11 @@
 
   export default {
 
-    name: 'StbCpe',
+    name: 'Mobile',
     data() {
       return {
-        texture1: require('../assets/CTDI-Services/stb/internal-hardware-2.jpg'),
-        texture2: require('../assets/CTDI-Services/stb/modem.jpg'),
+        texture1: require('../assets/CTDI-Services/mobile/cellphone.jpg'),
+        texture2: require('../assets/CTDI-Services/mobile/electronics.jpg'),
         texture3: require('../assets/Hover/displacement.png'),
         hoverDistort: ''
     }
@@ -159,11 +162,12 @@
 .hero-title {
       position: absolute;
       top: 35%;
-      left: 22%;
+      left: 28%;
       transform: translate(-50%, -50%);
       color: #ffffff;
       font-family: 'Major Mono Display';
       font-size: 80px;
+      line-height: 75px;
 }
 
 .hero-title .letter {
@@ -173,16 +177,6 @@
 
 
 
-h1 {
-  color: #ffffff;
-  text-align: center;
-  margin: auto;
-  vertical-align: middle;
-  font-size: 40px;
-  padding-top: 220px;
-  padding-bottom: 10px;
-  font-family: "Cosi Azure" !important;
-}
 
     .head h3{
     font-size: 42px;
@@ -208,7 +202,7 @@ h1 {
   max-width: 65%;
 }
 
-#stbImg{
+#ctdiImg{
   height: 317px;
   width: 476px;
   border-radius: 4px;
@@ -219,7 +213,7 @@ h1 {
 }
 
 
-   #stbImg:hover{
+   #ctdiImg:hover{
     position: relative; 
     transform: scale(1.01);
     top: -1px;
@@ -233,7 +227,9 @@ h1 {
   max-width: 75%;
 }
 
-
+li{
+    padding: 25px;
+}
 
 
 a{
@@ -394,7 +390,7 @@ a:hover{
     font-size: 16px;
 }
 
-  #stbImg {
+  #ctdiImg {
   height: 250px;
   width: 380px;
   border-radius: 4px;
@@ -443,7 +439,7 @@ a:hover{
 
 @media (min-width: 1400px) {
    
-  #wrapper{
+   #wrapper{
      width: 1000px;
      height: 650px;
    }
@@ -453,7 +449,7 @@ a:hover{
   }
 
   .hero-title {
-      left: 30%; 
+      left: 35%; 
 }
 
 
