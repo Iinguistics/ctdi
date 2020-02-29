@@ -32,6 +32,7 @@ import Community from '@/components/Community'
 import Ethics from '@/components/Ethics'
 import StbCpe from '@/components/StbCpe'
 import Mobile from '@/components/Mobile'
+import Deployment from '@/components/Deployment'
 
 
 
@@ -203,6 +204,11 @@ export default new Router({
             path:'/services/mobile',
             name: 'Mobile',
             component: Mobile,
+        },
+        {
+            path:'/services/deployment',
+            name: 'Deployment',
+            component: Deployment,
         },
        
     ]

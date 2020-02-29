@@ -2,38 +2,50 @@
 <div>
   <div class="top-wrap">
     <div id="wrapper" @mouseover="mouseOver" @mouseleave="mouseLeave"></div>
-      <div class="hero-title" ><h1>Mobile & Consumer Electronics</h1></div>
+      <div class="hero-title" ><h1>Network Deployment</h1></div>
   </div>
-   <div class="head"><h3>mobile & consumer electronics</h3></div>
+   <div class="head"><h3>network deployment</h3></div>
    <div class="container content">
      <p>
-      CTDI’s comprehensive, technical supply chain solution, developed specifically for the Mobile & Consumer Device industries, is called MCE-360.
+      CTDI's Network Deployment Solution's team has been helping its customers plan, engineer, and determine the financial impacts of their infrastructure for over 45 years with innovative solutions, practical designs, and expert implementations.  We exceed your expectations in terms of time, cost, and capability with feasibility studies to evaluate technology alternatives and identify the right solution for you.
+      </p>
+      <p>
+          With over 100 global facilities, CTDI is strongly positioned to react swiftly to every customer need as it arises.   Our goal is to help our customers determine the most cost effective approach to business decisions.  CTDI provides a total project management solution assuring our customers the successful completion of their network build projects.  From design through staging to implementation and testing you can be confident your projects will be on time and within budget.
       </p>
      <p>
-       MCE-360 is a fully integrated model designed to provide a total and technically focused service model that includes four primary service categories:
+       CTDI provides our Carrier, OEM and Enterprise customers the following services:
      </p>
-     <li class ="fa fa-angle-right">Global Logistics: In-Region Forward and Reverse Logistics, Inventory Management, Kitting, Direct Fulfillment, & Vendor Managed Inventory Models.</li>
-     <li class ="fa fa-angle-right">Test & Repair: Screen & Clean/Triage, OEM Certified Repair (L1-L3), Cosmetic Refurb, Parts Management, Data Erasure services and Walk-In Centers.</li>
-     <li class ="fa fa-angle-right">Engineering & IT: Multi-Unit Test Systems, Robotics & Automation, LCD Reman, New Product Introduction, CTDI App Development and IT: OLP+, CDS, ETOS.</li>
-     <li class ="fa fa-angle-right">After Market: Global Remarketing, E-commerce, Recycle/Scrap, R2 Certified Process and Parts Harvesting.</li>
-     <img src="../assets/CTDI-Services/mobile/ctdi-mce.jpg" alt= "mce machine" id="ctdiImg">
+     <li class ="fa fa-angle-right">Site Development: Zoning & Permits, A&E, Site Acquisition</li>
+     <li class ="fa fa-angle-right">Materials Management: Planning, Procurement, Warehouse</li>
+     <li class ="fa fa-angle-right">Order Fulfillment: Kitting, Staging, Configuration, Equipment Integration/Rack & Stack</li>
+     <li class ="fa fa-angle-right">Deployment: Installation, Test, Integrate, Optimization, Decommissioning</li>
+     <li class ="fa fa-angle-right">Maintenance: Asset Record Verification Services, Smart Hands, Depot Repair, Spares Management</li>
+     <img src="../assets/CTDI-Services/deployment/technician.jpg" alt= "technician installing equipment" id="ctdiImg">
+     <p>
+        CTDI Engineers and Technicians complete multi-vendor and multi-technology certifications.  CTDI performs work in Central Office, Data Centers, Cell Sites, In Building Small Cell & DAS, and Outside Plant. 
+     </p>
+     <p id="bottom-p">
+         As a highly qualified TL9000-certified workforce that relies on proven processes to deliver consistent results, we listen carefully to our customers to ensure our practices exceed all expectations and standards. With carefully developed processes, we will provide vital information about your network's health, capacity, and growth needs.
+     </p>
    </div>
    <div class="divider"></div>
    <!-- card wrapper -->
 <div class="cards-wrapper container">
-     <router-link to=/services/deployment class="cards-item-wrapper">
-        <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/stb/network-link.jpg" class="img-fluid"></div>
-            <div class="card-item-content-wrapper red" id="red-text">
-              <div class="card-item-title"><h6>Network Deployment</h6></div>
-            <div class="card-item-body-text"><p>CTDI offers solutions for the expansion of broadband infrastructure and data center technology. Our strengths also include the pre-integration of system technology, including material management,the assembly of special cables and the final delivery and installation.</p>
-          </div>
-        </div>
-    </router-link>
+    
     <router-link to=/services/product class="cards-item-wrapper"> 
         <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Services/mobile/product-link.jpg" class="img-fluid"></div>
             <div class="card-item-content-wrapper blue" id="blue-text">
               <div class="card-item-title"><h6>Product / Supply</h6></div>
             <div class="card-item-body-text"><p>To provide a more comprehensive and total service solution, CTDI recently developed and launched a technical supply chain solution specifically for the Mobile & Consumer Device Industries, called MCE-360.</p>
+          </div>
+        </div>
+    </router-link>
+
+     <router-link to=/services/deployment class="cards-item-wrapper">  <!-- left off -->
+        <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/stb/network-link.jpg" class="img-fluid"></div>
+            <div class="card-item-content-wrapper red" id="red-text">
+              <div class="card-item-title"><h6>Network Services</h6></div>
+            <div class="card-item-body-text"><p>CTDI offers solutions for the expansion of broadband infrastructure and data center technology. Our strengths also include the pre-integration of system technology, including material management,the assembly of special cables and the final delivery and installation.</p>
           </div>
         </div>
     </router-link>
@@ -54,11 +66,11 @@
 
   export default {
 
-    name: 'Mobile',
+    name: 'Deployment',
     data() {
       return {
-        texture1: require('../assets/CTDI-Services/mobile/cellphone.jpg'),
-        texture2: require('../assets/CTDI-Services/mobile/electronics.jpg'),
+        texture1: require('../assets/CTDI-Services/deployment/yarn.jpg'),
+        texture2: require('../assets/CTDI-Services/deployment/lightbulb.jpg'),
         texture3: require('../assets/Hover/displacement.png'),
         hoverDistort: ''
     }
@@ -71,7 +83,7 @@
 
   methods: {
     hover: function() {
-      this.hoverDistort=new hoverEffect( {
+      this.hoverDistort=new hoverEffect({
           parent: document.getElementById('wrapper'),
           intensity: 0.3,
           image1: this.texture1,
@@ -216,6 +228,10 @@
     position: relative; 
     transform: scale(1.01);
     top: -1px;
+}
+
+#bottom-p{
+    margin-bottom: 15px;
 }
 
 
