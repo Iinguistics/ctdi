@@ -10,7 +10,7 @@
       CTDI's Network Deployment Solution's team has been helping its customers plan, engineer, and determine the financial impacts of their infrastructure for over 45 years with innovative solutions, practical designs, and expert implementations.  We exceed your expectations in terms of time, cost, and capability with feasibility studies to evaluate technology alternatives and identify the right solution for you.
       </p>
       <p>
-          With over 100 global facilities, CTDI is strongly positioned to react swiftly to every customer need as it arises.   Our goal is to help our customers determine the most cost effective approach to business decisions.  CTDI provides a total project management solution assuring our customers the successful completion of their network build projects.  From design through staging to implementation and testing you can be confident your projects will be on time and within budget.
+          With over 100 global facilities, CTDI is strongly positioned to react swiftly to every customer need as it arises. Our goal is to help our customers determine the most cost effective approach to business decisions.  CTDI provides a total project management solution assuring our customers the successful completion of their network build projects.  From design through staging to implementation and testing you can be confident your projects will be on time and within budget.
       </p>
      <p>
        CTDI provides our Carrier, OEM and Enterprise customers the following services:
@@ -185,8 +185,6 @@
       display: inline-block;
       opacity: 0;
 }
-
-
 
 
     .head h3{

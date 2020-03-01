@@ -11,12 +11,31 @@ CTDI President and COO</p>
   <li class="committee-item fa fa-angle-right">ISO 14001 Environmental Management (Various locations, per Certificate)</li>
   <li class="committee-item fa fa-angle-right">OHSAS 18001 Occupational Health and Safety Management (Various locations, per Certificate)</li>
   <li class="committee-item fa fa-angle-right">R2 Responsible Recycling (Various locations, per Certificate)</li>
-  </div><p id="cert" class="fa fa-angle-right">Certificate available upon request</p></div><div class="divider"></div>
-  <div class="container award-safe-flex"><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" id="wrapper1" target="_blank"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" id="wrapper2" target="_blank"><h5>Environmental Health & Safety</h5>
-  </a></div>
+  </div>
+  <p id="cert" class="fa fa-angle-right">Certificate available upon request</p>
+  </div>
+  <div class="divider"></div>
+  <div class="container content">
+    <p>
+      The satisfaction of our customers is the starting point and goal of our quality policy. We measure all our decisions and activities against this guiding principle. The quality of each individual's work and, overall, the quality of our services is one of the decisive factors for the success of our customers.
+    </p><br>
+    <p>
+      Our ISO certification stands for consistently high quality through defined processes. These standards offer customers a uniform standard by which they can measure all suppliers. We also meet the strict quality requirements of the automotive industry and successfully passed audits by leading automobile manufacturers.
+    </p><br>
+    <img src="../assets/CTDI-Quality/ctdi-quality-tech.jpg" alt="quality technician inspecting a part" id="techImg"> 
+    <p>
+      To measure our quality, we have implemented key performance indicators for our programs and hold operational status meetings with our customers with the aim of continuously improving our processes.
+    </p>
+  </div>
+  <div class="divider"></div>
+  <div class="container award-safe-flex">
+    <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" id="wrapper1" target="_blank"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" id="wrapper2" target="_blank"><h5>Environmental Health & Safety</h5>
+  </a>
+  </div>
   <div class="container award-safe-flex-mobile"><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" target="_blank"><img src="../assets/CTDI-Quality/award.jpg"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" target="_blank"><img src="../assets/CTDI-Quality/grown-trees2.jpg"><h5>Environmental Health & Safety</h5></a></div>
   <div class="container"><h6 id="TBBRRF">CTDI plays an active role with Reliability Forums such as TBBRRF to identify and implement repair process improvements. For questions or concerns relating to quality you may contact us at <a href="mailto:quality@ctdi.com">quality@ctdi.com</a></h6>
   </div>
+   <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
   </div>
   </template>
 
@@ -34,7 +53,9 @@ CTDI President and COO</p>
         texture3: require('../assets/ctdi-att-award.png'),
         texture4: require('../assets/CTDI-Quality/small-trees.jpg'),
         texture5: require('../assets/CTDI-Quality/grown-trees2.jpg'),
-        texture6: require('../assets/Hover/displacement.png')
+        texture6: require('../assets/Hover/displacement.png'),
+        hoverDistort: '',
+        hoverDistort2: ''
     }
   }
 
@@ -45,7 +66,7 @@ CTDI President and COO</p>
 
   methods: {
     hover: function() {
-      const hoverDistort=new hoverEffect( {
+      this.hoverDistort=new hoverEffect( {
           parent: document.getElementById('wrapper1'),
           intensity: 0.3,
           image1: this.texture1,
@@ -55,7 +76,7 @@ CTDI President and COO</p>
 
       );
 
-      const hoverDistort2=new hoverEffect( {
+      this.hoverDistort2=new hoverEffect( {
           parent: document.getElementById('wrapper2'),
           intensity: 0.3,
           image1: this.texture4,
@@ -64,13 +85,20 @@ CTDI President and COO</p>
         }
 
       );
-    }
+    },
+    toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      }
 
   },
 
   mounted() {
     this.hover();
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    this.toTop();
   }
 }
 
@@ -138,6 +166,19 @@ h6 {
   margin: auto;
 }
 
+.content{
+  margin-top: 75px;
+  max-width: 75%;
+  height:  850px;
+}
+
+.content p{
+    font-size: 17px;
+    line-height: 26px;
+    color: #202124;
+    text-align: left; 
+}
+
 #TBBRRF {
   max-width: 70%;
   text-align: left;
@@ -154,6 +195,12 @@ h6 {
   background: #444;
   margin: auto;
   max-width: 75%;
+}
+
+#techImg{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  border-radius: 4px;
 }
 
 h5 {
@@ -181,6 +228,7 @@ a {
   justify-content: space-evenly;
   height: 475px;
   padding-top: 50px;
+  margin-top: 75px;
 }
 
 
@@ -194,28 +242,23 @@ a {
   display: none;
 }
 
-/*
-.overlay
-  position: absolute;
-  height: 320px;
-  width: 405px !important;
-  max-width: 100%;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  opacity: 0;
-  transition: .5s ease;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+#to-top a{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+ margin-top: 50px;
+}
 
+#to-top a{
+  text-decoration: none;
+}
 
-.award-safe-item:hover .overlay 
-  opacity: 1;
-
-*/
+#to-top a:hover{
+  cursor: pointer;
+}
 
 
 
