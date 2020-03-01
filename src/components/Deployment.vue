@@ -42,10 +42,10 @@
     </router-link>
 
      <router-link to=/services/deployment class="cards-item-wrapper">  <!-- left off -->
-        <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/stb/network-link.jpg" class="img-fluid"></div>
+        <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/deployment/network-services-link.jpg" class="img-fluid"></div>
             <div class="card-item-content-wrapper red" id="red-text">
               <div class="card-item-title"><h6>Network Services</h6></div>
-            <div class="card-item-body-text"><p>CTDI offers solutions for the expansion of broadband infrastructure and data center technology. Our strengths also include the pre-integration of system technology, including material management,the assembly of special cables and the final delivery and installation.</p>
+            <div class="card-item-body-text"><p>CTDI's Network Services Division offers a service portfolio that includes component level repair and refurbishment of legacy and wireless infrastructure equipment, warehousing, and distribution on behalf of our Carrier and OEM customers.  Additionally, we offer LTE Base Station testing, engineering, installation and maintenance and removal services.</p>
           </div>
         </div>
     </router-link>

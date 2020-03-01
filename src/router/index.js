@@ -33,11 +33,9 @@ import Ethics from '@/components/Ethics'
 import StbCpe from '@/components/StbCpe'
 import Mobile from '@/components/Mobile'
 import Deployment from '@/components/Deployment'
+import Product from '@/components/Product'
+import Network from '@/components/Network'
 
-
-
-// import Profile from '@/components/Profile'
-// import Login from '@/components/Login'
 
 
 vue.use(Router)
@@ -209,6 +207,16 @@ export default new Router({
             path:'/services/deployment',
             name: 'Deployment',
             component: Deployment,
+        },
+        {
+            path:'/services/product',
+            name: 'Product',
+            component: Product,
+        },
+        {
+            path:'/services/network',
+            name: 'Network',
+            component: Network,
         },
        
     ]

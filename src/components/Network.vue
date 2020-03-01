@@ -2,22 +2,42 @@
 <div>
   <div class="top-wrap">
     <div id="wrapper" @mouseover="mouseOver" @mouseleave="mouseLeave"></div>
-      <div class="hero-title" ><h1>STB-CPE</h1></div>
+      <div class="hero-title" ><h1>Network Services</h1></div>
   </div>
-   <div class="head"><h3>stb / cpe services division</h3></div>
+   <div class="head"><h3>network services</h3></div>
    <div class="container content">
      <p>
-      In just ten years, CTDI has totally revolutionized the STB / CPE service business and has become the global leader in both the cable and telecom service industries.  CTDI has in-depth experience with many in-region, high-volume STB / CPE test, repair and logistics programs. <br> <br> This allows us to provide our customers a comprehensive end-to-end, integrated solution that not only leverages CTDI’s extensive CPE management expertise, but also provides high-quality, web-based control and management for all test, repair and logistics activity via ETOS. <br> <br> Our ability to establish regional hubs provides our customers with better control of their assets, eliminates transportation and customs fees, and greatly enhances service levels and product availability.  Numerous OEMs have certified CTDI’s CPE operations and test systems to perform in-and-out-of-warranty test and repair services.
+      CTDI's Network Services (NS) Division offers a service portfolio that includes component level repair and refurbishment of legacy and wireless infrastructure equipment, warehousing, and distribution on behalf of our Carrier and OEM customers.  Additionally, we offer LTE Base Station testing, engineering, installation and maintenance and removal services.
+      </p>
+      <p>
+        The cumulative effect of over 45 years of engineering and test development efforts has provided CTDI with a strong technical foundation on which to expand our service offerings. As an important strategic partner in our customers' supply chain, we strive to stay ahead of the technology curve, ensuring no break in repair service as new products are developed and deployed by our customers.
       </p>
      <p>
-       Today, CTDI’s STB operations network now includes 35 world-class facilities supported by over 9,500 CPE service professionals who are authorized to test and repair a variety of Carrier, MSO and OEM STBs, Modems, Gateways and Tablet Devices. <br> <br> CTDI offers a fully integrated service model whereby we provide in-region screen & clean, testing, refurbishment, warehousing and order fulfillment services, including Direct to Home. Today, CTDI’s innovative multi-unit test systems, the Gen-5 AND Gen-7 STB tester, CMTX 5.0 Modem and Gateway tester, help us test and process over 78 million units annually.
+       CTDI's NS repair portfolio contains the most comprehensive capabilities list in the entire telecommunications service industry. With the ability to repair over 75,000 different unit types in-house, CTDI performs over 4.3 million in-house repairs for the following network equipment repair:
      </p>
-     <img src="../assets/CTDI-Services/stb/ctdi-stb.jpg" alt= "ctdi facility" id="stbImg">
-     <p id="bottom-p">CTDI also has over 30 of our STB / CPE operations OEM certified to perform in-warranty repair for STBs, Gateways and Tablet Devices.  OEM certifications include: ARRIS, Technicolor, Samsung, and Amazon. </p>
+     <li class ="fa fa-caret-right">Wireless Network Infrastructure (LTE Base Station)</li>
+     <li class ="fa fa-caret-right">Enterprise</li>
+     <li class ="fa fa-caret-right">Data Network</li>
+     <li class ="fa fa-caret-right">Legacy Network Infrastructure (Optical) (Switching & Transport)</li>
+     <img src="../assets/CTDI-Services/network/future.jpg" alt= "futuristic lights & people" id="ctdiImg">
+     <p>
+        CTDI is able to provide in-house multi-vendor repair services for more than 75,000 different types of advanced electronics.
+     </p>
+     <p id="bottom-p">
+         The basis for providing these services is that over 450 engineers develop and design all our test environments independently of the OEMs. CTDI tests are performed in a real network environment and provide full parametric testing to include all functionality respective to industry standards.
+     </p>
    </div>
    <div class="divider"></div>
    <!-- card wrapper -->
 <div class="cards-wrapper container">
+     <router-link to=/services/stb-cpe class="cards-item-wrapper"> 
+        <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Services/product/modem.jpg" class="img-fluid"></div>
+            <div class="card-item-content-wrapper blue" id="blue-text">
+              <div class="card-item-title"><h6>stb / cpe</h6></div>
+            <div class="card-item-body-text"><p>CTDI has in-depth experience with many in-region, high-volume STB / CPE test, repair and logistics programs.  This allows us to provide our customers a comprehensive end-to-end, integrated solution that not only leverages CTDI’s extensive CPE management expertise, but also provides high-quality, web-based control and management for all test, repair and logistics activity via ETOS.</p>
+          </div>
+        </div>
+    </router-link>
     <router-link to=/services/mobile class="cards-item-wrapper">
         <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Services/stb/mobile-link.jpg" class="img-fluid"></div>
             <div class="card-item-content-wrapper blue" id="blue-text">
@@ -26,19 +46,10 @@
           </div>
         </div>
     </router-link>
-     <router-link to=/services/deployment class="cards-item-wrapper">  
-        <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/stb/network-link.jpg" class="img-fluid"></div>
-            <div class="card-item-content-wrapper red" id="red-text">
-              <div class="card-item-title"><h6>Network Deployment</h6></div>
-            <div class="card-item-body-text"><p>CTDI offers solutions for the expansion of broadband infrastructure and data center technology. Our strengths also include the pre-integration of system technology, including material management,the assembly of special cables and the final delivery and installation.</p>
-          </div>
-        </div>
-    </router-link>
-  </div>
-  <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
-</div>
- 
-  </template>
+    </div>
+   <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
+ </div>
+</template>
 
   <script>
   
@@ -51,11 +62,11 @@
 
   export default {
 
-    name: 'StbCpe',
+    name: 'Network',
     data() {
       return {
-        texture1: require('../assets/CTDI-Services/stb/internal-hardware-2.jpg'),
-        texture2: require('../assets/CTDI-Services/stb/modem.jpg'),
+        texture1: require('../assets/CTDI-Services/network/cell-phone.jpg'),
+        texture2: require('../assets/CTDI-Services/network/tower.jpg'),
         texture3: require('../assets/Hover/displacement.png'),
         hoverDistort: ''
     }
@@ -68,7 +79,7 @@
 
   methods: {
     hover: function() {
-      this.hoverDistort=new hoverEffect( {
+      this.hoverDistort=new hoverEffect({
           parent: document.getElementById('wrapper'),
           intensity: 0.3,
           image1: this.texture1,
@@ -124,7 +135,6 @@
   mounted() {
     window.scrollTo(0, 0)
     this.hover();
-    this.hover2();
     this.toTop();
   }
 }
@@ -159,11 +169,12 @@
 .hero-title {
       position: absolute;
       top: 35%;
-      left: 22%;
+      left: 30%;
       transform: translate(-50%, -50%);
       color: #ffffff;
       font-family: 'Major Mono Display';
       font-size: 80px;
+      line-height: 75px;
 }
 
 .hero-title .letter {
@@ -171,18 +182,6 @@
       opacity: 0;
 }
 
-
-
-h1 {
-  color: #ffffff;
-  text-align: center;
-  margin: auto;
-  vertical-align: middle;
-  font-size: 40px;
-  padding-top: 220px;
-  padding-bottom: 10px;
-  font-family: "Cosi Azure" !important;
-}
 
     .head h3{
     font-size: 42px;
@@ -208,7 +207,7 @@ h1 {
   max-width: 65%;
 }
 
-#stbImg{
+#ctdiImg{
   height: 317px;
   width: 476px;
   border-radius: 4px;
@@ -219,10 +218,14 @@ h1 {
 }
 
 
-   #stbImg:hover{
+   #ctdiImg:hover{
     position: relative; 
     transform: scale(1.01);
     top: -1px;
+}
+
+#bottom-p{
+    margin-bottom: 15px;
 }
 
 
@@ -233,7 +236,9 @@ h1 {
   max-width: 75%;
 }
 
-
+li{
+    padding: 25px;
+}
 
 
 a{
@@ -394,7 +399,7 @@ a:hover{
     font-size: 16px;
 }
 
-  #stbImg {
+  #ctdiImg {
   height: 250px;
   width: 380px;
   border-radius: 4px;
@@ -407,7 +412,7 @@ a:hover{
     .cards-wrapper{
   display: grid;
   grid-template-columns: 390px;
-  grid-template-rows: 575px 575px;
+  grid-template-rows: 625px 625px;
   margin: auto;
   width: 100%;
   margin-top: 100px;
@@ -422,7 +427,7 @@ a:hover{
   }
 
 .card-item-content-wrapper{
-    height: 275px;
+    height: 335px;
     width: 380px;
     margin:auto;
     border-bottom-right-radius: 4px;
@@ -443,17 +448,17 @@ a:hover{
 
 @media (min-width: 1400px) {
    
-  #wrapper{
+   #wrapper{
      width: 1000px;
      height: 650px;
    }
 
   .content{
-    max-width: 55%;
+    max-width: 53%;
   }
 
   .hero-title {
-      left: 30%; 
+      left: 35%; 
 }
 
 
