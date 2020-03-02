@@ -1,13 +1,12 @@
 <template>
   <div>
-       <main id="main">
+      
   <!--==========================
-      Company Description
+      Top Title
     ============================-->
      <section>
        <div class="company-desc container">
          <h3>CTDI - Global Engineering <br> Repair & Logistics</h3>
-          <div class="statement">We support our customers in planning, modernizing, maintaining and dismantling their technical equipment, their networks, and in their project planning. In addition, we provide distribution or after-sales services for their products.</div>
        </div>
      </section>
 
@@ -16,11 +15,6 @@
       Services Section
     ============================-->
   <section>
-         <div class="divider-title ">
-         <div class="divider"></div>
-      <h3 id="services-title">Services</h3>  
-        <div class="divider"></div>   
-       </div>
       
       <div class=" service-wrap-top">
          <router-link to=/leadership/jerry-parsons  id="item-1">
@@ -42,21 +36,45 @@
          <router-link to=/leadership/jerry-parsons>
            <div class="blendParent item"><div class="blend-5" ></div></div><h5 id="network-deployment">Network <br> Deployment Solutions</h5></router-link>
             
-         
         </div>
-       
     </section>
 
-
+        <div class="divider-title ">
+          <div class="divider"></div>
+            <h3 id="services-title">Services</h3>  
+         <div class="divider"></div>   
+       </div>
     
-          
+     <!--==========================
+      vid links
+    ============================-->
+        <div class="flex-vid">
+          <router-link to=/leadership/jerry-parsons class="vid-item"> 
+             <video autoplay muted loop  data-aos="fade-up"
+                 data-aos-easing="linear"
+                 data-aos-duration="900">
+                <source src="../assets/CTDI-Home/environment-link.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+                </video>
+                <div class="overlay"><p>Environment</p></div>
+            </router-link>
            
+
+             <router-link to=/leadership/jerry-parsons class="vid-item"> 
+             <video autoplay muted loop data-aos="fade-up"
+                 data-aos-easing="linear"
+                 data-aos-duration="900">
+                <source src="../assets/Ethernet.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+                </video>
+            </router-link>
+        </div>
 
 
 
 
          
-  </main>
+  
        <div class="blendParent"><div class="blend" ></div></div>
          <div class="blendParent">  <div class="blend">
            <a href="#">
@@ -107,9 +125,6 @@ export default {
 
 
 
-
-
-
 div{
   color: #111111;
 }
@@ -121,8 +136,9 @@ body p{
 
 .company-desc{
   text-align: center;
-  padding-top: 100px;
+  margin-top: 90px;
   max-width: 70%;
+  margin-bottom: 30px;
 }
 
 .company-desc h3{
@@ -133,8 +149,8 @@ body p{
 
 .statement{
   font-size: 20px;
-  padding-top: 40px;
-  padding-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   line-height: 30px;
   text-align: left;
   
@@ -155,7 +171,7 @@ body p{
     justify-content: space-between;
     margin: auto;
     text-align: center;
-    width: 99%;
+    width: 65%;
     margin-bottom: 30px;
 }
 
@@ -189,7 +205,7 @@ body p{
 
 .service-wrap-top a{
   text-decoration: none;
-  padding-right: 2px;
+  padding-right: 3px;
 }
 
 a h5{
@@ -236,7 +252,7 @@ a h5{
 
 .service-wrap a{
   text-decoration: none;
-  padding-right: 2px;
+  padding-right: 3px;
 }
 
 
@@ -262,7 +278,7 @@ a h5{
 
 
 .blendParent {
-    width: 446px;
+    width: 445px;
     height: 250px;
     overflow: hidden;
     position: relative;
@@ -467,6 +483,30 @@ a h5{
 }
 
 
+/* vid links */
+
+.flex-vid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 275px;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.vid-item video{
+  width: 400px;
+  height: 250px;
+  
+}
+
+
+
+.vid-item video{
+  border-radius: 20px;
+}
 
 
 @media (max-width: 667px) {
@@ -538,7 +578,7 @@ a h5{
 }
 
   .blendParent {
-    width: 630px;
+    width: 629px;
 }
 
 .service-wrap h5{
