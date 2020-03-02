@@ -1,54 +1,6 @@
 <template>
-<div>
-  <!--==========================
-    Intro Section
-  ============================-->
- 
-  <section id="intro">
-    <div class="bd-example">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../assets/cellphone-1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../assets/ctdi-design.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../assets/ctdi-att-award.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
- </div>
-</section>
-  
-
-  <main id="main">
+  <div>
+       <main id="main">
   <!--==========================
       Company Description
     ============================-->
@@ -64,126 +16,82 @@
       Services Section
     ============================-->
   <section>
-         <div class="divider-title container">
+         <div class="divider-title ">
          <div class="divider"></div>
       <h3 id="services-title">Services</h3>  
         <div class="divider"></div>   
        </div>
       
-      <div class="container service-wrap">
-         <router-link to=/leadership/jerry-parsons data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="600"><div class="blendParent item"><div class="blend" ></div></div><h5>STB/CPE</h5></router-link>
+      <div class=" service-wrap-top">
+         <router-link to=/leadership/jerry-parsons  id="item-1">
+         <div class="blendParent-top "><div class="blend" ></div></div><h5 id="stb">STB/CPE</h5></router-link>
            
-         <router-link to=/leadership/jerry-parsons data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="800"><div class="blendParent item"><div class="blend2" ></div></div><h5>Mobile <br>& <br> Consumer Electronics</h5></router-link>
+         <router-link to=/leadership/jerry-parsons>
+         <div class="blendParent-top "><div class="blend-2" ></div></div><h5>Mobile <br>& <br> Consumer Electronics</h5></router-link>
             
-         <router-link to=/leadership/jerry-parsons data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000"><div class="blendParent item"><div class="blend" ></div></div><h5>Network Services</h5></router-link>
+         
       </div>
         
-        <div class="container service-wrap">
-        <router-link to=/leadership/jerry-parsons data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="600"><div class="blendParent item"><div class="blend" ></div></div><h5>Products</h5></router-link>
+        <div class=" service-wrap">
+          <router-link to=/leadership/jerry-parsons>
+           <div class="blendParent item"><div class="blend-3" ></div></div><h5 id="network-services">Network Services</h5></router-link>
+        
+        <router-link to=/leadership/jerry-parsons >
+          <div class="blendParent item"><div class="blend-4" ></div></div><h5 id="product">Products/Supply</h5></router-link>
            
-         <router-link to=/leadership/jerry-parsons data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="800"><div class="blendParent item"><div class="blend" ></div></div><h5>Network <br> Deployment Solutions</h5></router-link>
+         <router-link to=/leadership/jerry-parsons>
+           <div class="blendParent item"><div class="blend-5" ></div></div><h5 id="network-deployment">Network <br> Deployment Solutions</h5></router-link>
             
-         <router-link to=/leadership/jerry-parsons data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000"><div class="blendParent item"><div class="blend" ></div></div><h5>Supply</h5></router-link>
+         
         </div>
        
     </section>
 
 
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-         <header class="section-header">
-          <h3>CTDI - Global Engineering, Repair & Logistics</h3>
-          <p>We support our customers in planning, planning, modernizing, maintaining and reducing their technology and networks. We also take on distribution or after-sales service for their products.</p>
-        </header>
-        <div class="row about-cols">
-          <div class="col-md-4" >
-            <div class="about-col" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="600" >
-              <div class="img" >
-                <img src="../assets/ctdi-monika-ruth.jpg" alt="" class="img-fluid" >
-              </div>
-              <h2 class="title"><a href="#">Our Mission</a></h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4" >
-            <div class="about-col" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="800" >
-              <div class="img">
-                <img src="../assets/ctdi-monika-ruth.jpg" alt="" class="img-fluid">
-              </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-            </div>
-          </div>
+    
           
-          <div class="col-md-4" >
-            <div class="about-col" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000" >
-              <div class="img">
-                <img src="../assets/ctdi-monika-ruth.jpg" alt="" class="img-fluid">
-              </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-            </div>
-          </div>
+           
 
-        </div>
-
-      </div>
-    </section>
 
 
 
          
   </main>
-           <div class="blendParent"><div class="blend" ></div></div>
-          <div class="blendParent">  <div class="blend">
+       <div class="blendParent"><div class="blend" ></div></div>
+         <div class="blendParent">  <div class="blend">
            <a href="#">
            <video autoplay muted loop id="myVideo" data-aos="fade-up"
                  data-aos-easing="linear"
                  data-aos-duration="900">
   <source src="../assets/Ethernet.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
-</video></a></div></div>
+  </video></a>
+ </div>
+</div>
 
 
 
-    </div>
-
-    
-				
-    
+  </div>
+ 
+  
+  
+   
 
 </template>
 
 
 <script>
-import axios from 'axios';
+
 
 
 export default { 
   name: 'Home',
+  
  data() {
       return {
         
       }
+    
     },
    
     methods: {
@@ -196,83 +104,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	@-ms-viewport {
-		width: device-width;
-	}
 
 
-  /* Prelaoder */
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #00D177;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
 
-#main{
-  background-color: #ffffff;
-}
-
-/*-----------------------------
- intro / carousel 
------------------------------*/
-.carousel-item{
-  max-width: 100%;
-  height: 100vh;
-  opacity: 1.0;
-  background-position: center !important;
-  background-size: cover !important;
-}
-
-.carousel-caption h5{
-     color: #000;
-     font-weight: bolder;
-     padding-bottom: 15%;
-     font-size: 28px;
-     text-transform: uppercase;
-}
-
-.carousel-caption p{
-     color: #000;
-     font-weight: bolder;
-     padding-bottom: 25%;
-     font-size: 20px;
-}
-
-.carousel-caption{
- position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.d-block{
-  opacity: 1.0;    
-}
-
-#intro{
-  align-items: center !important;
-  margin-top: 40px;
-}
 
 div{
   color: #111111;
@@ -304,6 +140,7 @@ body p{
   
 }
 
+
 #services-title{
   padding-right: 20px;
   padding-left: 20px;
@@ -318,8 +155,8 @@ body p{
     justify-content: space-between;
     margin: auto;
     text-align: center;
-    width: 70%;
-    padding-bottom: 30px;
+    width: 99%;
+    margin-bottom: 30px;
 }
 
 .divider {
@@ -328,6 +165,53 @@ body p{
     background: #444;
 }
 
+.service-wrap-top{
+  display: flex;
+  flex-direction: row;
+  height: 340px;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 80%;
+  margin-bottom: 77px;
+}
+
+.service-wrap-top h5{
+  color: #ffffff;
+  font-weight:bold;
+  font-size: 18px;
+  background-color: #212428;
+  height: 75px;
+  margin: auto;
+  max-width: 800px;
+}
+
+
+
+.service-wrap-top a{
+  text-decoration: none;
+  padding-right: 2px;
+}
+
+a h5{
+  padding-top: 5px;
+}
+
+
+#stb{
+    padding-top: 25px;
+}
+
+#product{
+   padding-top: 25px;
+}
+
+#network-services{
+  padding-top: 25px;
+}
+
+#network-deployment{
+  padding-top: 15px;
+}
 
 
 .service-wrap{
@@ -337,26 +221,27 @@ body p{
   justify-content: space-evenly;
   margin: auto;
   max-width: 71%;
+  margin-bottom: 100px;
 }
 
 .service-wrap h5{
-  color: #111111;
+  color: #ffffff;
   font-weight:bold;
   font-size: 18px;
+  background-color: #212428;
+  height: 75px;
+  margin: auto;
+  max-width: 800px;
 }
 
 .service-wrap a{
   text-decoration: none;
+  padding-right: 2px;
 }
 
 
 
 
-.item{
-  
-  
-  
-}
 
   #myVideo {
   position: relative;
@@ -366,12 +251,23 @@ body p{
   height: 200px;
 }
 
-.blendParent {
-    width: 300px;
-    height: 190px;
+.blendParent-top {
+    width: 670px;
+    height: 340px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    padding-left: 0px;
+}
+
+
+.blendParent {
+    width: 446px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding-left: 0px;
 }
 
 .blend{
@@ -384,6 +280,78 @@ body p{
       background-repeat: no-repeat;
      transition: all 200ms ease-in-out;
 }
+
+.blend-2{
+      background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
+			height: 100%;
+      width: 100%;
+      display: block;
+      background-size: cover;
+      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
+      background-repeat: no-repeat;
+     transition: all 200ms ease-in-out;
+}
+
+.blend-3{
+      background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
+			height: 100%;
+      width: 100%;
+      display: block;
+      background-size: cover;
+      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
+      background-repeat: no-repeat;
+     transition: all 200ms ease-in-out;
+}
+
+.blend-4{
+      background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
+			height: 100%;
+      width: 100%;
+      display: block;
+      background-size: cover;
+      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
+      background-repeat: no-repeat;
+     transition: all 200ms ease-in-out;
+}
+
+.blend-5{
+      background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
+			height: 100%;
+      width: 100%;
+      display: block;
+      background-size: cover;
+      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
+      background-repeat: no-repeat;
+     transition: all 200ms ease-in-out;
+}
+
+/* top */
+.blendParent-top:hover .blend, .blendParent-top:focus .blend{
+  background-color: #00d177;
+  background-blend-mode:luminosity;
+  transition-delay: 0s;
+   -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.blendParent-top:hover .blend-2, .blendParent-top:focus .blend-2{
+  background-color: #00d177;
+  background-blend-mode:luminosity;
+  transition-delay: 0s;
+   -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/* ----------------------- */
+
+
 
 .blendParent:hover .blend, .blendParent:focus .blend{
   background-color: #00d177;
@@ -406,19 +374,49 @@ body p{
     left: 0;
 }
 
-/* 2nd img ect...*/
-.blend2{
-      background-image: url('../assets/ElectronicsImg/consumers.jpg');
-			height: 100%;
-      width: 100%;
-      display: block;
-      background-size: cover;
-      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
-      background-repeat: no-repeat;
-     transition: all 200ms ease-in-out;
+.blend-2:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.blendParent:hover .blend2, .blendParent:focus .blend2{
+.blend-3:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blend-4:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blend-5:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* blend-2 */
+
+.blendParent:hover .blend-2, .blendParent:focus .blend-2{
   background-color: #00d177;
   background-blend-mode:luminosity;
   transition-delay: 0s;
@@ -429,52 +427,122 @@ body p{
     transform: scale(1.2);
 }
 
-.blend2:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+/* blend-3 */
+
+.blendParent:hover .blend-3, .blendParent:focus .blend-3{
+  background-color: #00d177;
+  background-blend-mode:luminosity;
+  transition-delay: 0s;
+   -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* blend-4 */
+
+.blendParent:hover .blend-4, .blendParent:focus .blend-4{
+  background-color: #00d177;
+  background-blend-mode:luminosity;
+  transition-delay: 0s;
+   -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* blend-5 */
+
+.blendParent:hover .blend-5, .blendParent:focus .blend-5{
+  background-color: #00d177;
+  background-blend-mode:luminosity;
+  transition-delay: 0s;
+   -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 
-@media (max-width: 576px) { 
-  .carousel-control-prev{
-    margin-top: -250px;
-  }
-  .carousel-control-next{
-    margin-top: -250px;
-  }
-}
 
 
-@media (max-width: 576px) {
+@media (max-width: 667px) {
   .service-wrap{
    display: flex; 
   flex-direction: column;
-  height: 750px;
+  height: 850px;
   max-width: 100%;
   margin: auto;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+.service-wrap-top{
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 100%;
+}
+
+.blendParent-top {
+    width: 415px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.service-wrap-top h5{
+  width: 415px;
 }
 
  .divider-title {
-    width: 72%;
+    width: 99%;
     padding-bottom: 10px;
 }
 
 .blendParent {
-    width: 315px;
-    height: 195px;
+    width: 415px;
+    height: 207px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding-left: 0px;
 }
+  
+
+ 
+
 
 }
 
-@media(min-width: 1500px){
+@media(min-width: 1400px){
   .company-desc{
   max-width: 55%;
+}
+   
+   .blendParent-top {
+    width: 945px;
+}
+
+.service-wrap-top h5{
+  max-width: 945px;
+}
+
+  .blendParent {
+    width: 630px;
+}
+
+.service-wrap h5{
+  max-width: 630px;
 }
 }
 
