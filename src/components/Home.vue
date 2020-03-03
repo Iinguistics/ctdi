@@ -50,23 +50,35 @@
     ============================-->
         <div class="flex-vid">
           <router-link to=/leadership/jerry-parsons class="vid-item"> 
-             <video autoplay muted loop  data-aos="fade-up"
-                 data-aos-easing="linear"
-                 data-aos-duration="900">
+             <video autoplay muted loop id="envVid">
                 <source src="../assets/CTDI-Home/environment-link.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
                 </video>
-                <div class="overlay"><p>Environment</p></div>
+                <h5 id="envText">Environment</h5>
             </router-link>
-           
 
              <router-link to=/leadership/jerry-parsons class="vid-item"> 
-             <video autoplay muted loop data-aos="fade-up"
-                 data-aos-easing="linear"
-                 data-aos-duration="900">
+             <video autoplay muted loop>
                 <source src="../assets/Ethernet.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
                 </video>
+                 <h5>Environment</h5>
+            </router-link>
+
+             <router-link to=/leadership/jerry-parsons class="vid-item"> 
+             <video autoplay muted loop>
+                <source src="../assets/Ethernet.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+                </video>
+                 <h5>Environment</h5>
+            </router-link>
+
+             <router-link to=/leadership/jerry-parsons class="vid-item"> 
+             <video autoplay muted loop>
+                <source src="../assets/Ethernet.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+                </video>
+                 <h5>Environment</h5>
             </router-link>
         </div>
 
@@ -171,7 +183,7 @@ body p{
     justify-content: space-between;
     margin: auto;
     text-align: center;
-    width: 65%;
+    width: 68%;
     margin-bottom: 30px;
 }
 
@@ -489,23 +501,40 @@ a h5{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 700px;
   justify-content: space-evenly;
-  height: 275px;
-  max-width: 70%;
   margin: auto;
+  max-width: 72%;
   margin-bottom: 100px;
 }
 
-.vid-item video{
-  width: 400px;
-  height: 250px;
-  
+
+.flex-vid a{
+  text-decoration: none;
 }
 
-
+#envVid:hover ~ #envText{
+  color:#00d177;
+}
 
 .vid-item video{
+  width: 445px;
+  height: 250px;
+}
+
+/*
+.vid-item video
   border-radius: 20px;
+*/
+
+.vid-item h5{
+  color: #ffffff;
+  font-weight:bold;
+  font-size: 18px;
+  background-color: #212428;
+  height: 65px;
+  padding-top: 20px;
+  margin-top: -8px;
 }
 
 
@@ -565,6 +594,11 @@ a h5{
 }
 
 @media(min-width: 1400px){
+ 
+ .divider-title {
+    width: 60%;
+}
+
   .company-desc{
   max-width: 55%;
 }
@@ -583,6 +617,20 @@ a h5{
 
 .service-wrap h5{
   max-width: 630px;
+}
+
+.flex-vid{
+  max-width: 67%;
+  height: 825px;
+}
+
+.vid-item video{
+  width: 540px;
+  height: 305px;
+}
+
+  .vid-item h5{
+  margin-top: -10px;
 }
 }
 
