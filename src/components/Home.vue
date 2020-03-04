@@ -21,7 +21,7 @@
          <div class="blendParent-top "><div class="blend" ></div></div><h5 id="stb">STB/CPE</h5></router-link>
            
          <router-link to=/leadership/jerry-parsons>
-         <div class="blendParent-top "><div class="blend-2" ></div></div><h5>Mobile <br>& <br> Consumer Electronics</h5></router-link>
+         <div class="blendParent-top "><div class="blend-2" ></div></div><h5 id="mobile">Mobile <br>& <br> Consumer Electronics</h5></router-link>
             
          
       </div>
@@ -220,7 +220,7 @@ body p{
   padding-right: 3px;
 }
 
-a h5{
+#mobile{
   padding-top: 5px;
 }
 
@@ -504,7 +504,7 @@ a h5{
   height: 700px;
   justify-content: space-evenly;
   margin: auto;
-  max-width: 72%;
+  max-width: 83%;
   margin-bottom: 100px;
 }
 
@@ -518,24 +518,30 @@ a h5{
 }
 
 .vid-item video{
-  width: 445px;
-  height: 250px;
+  width: 505px;
+  height: 215px;
 }
+
+
 
 /*
 .vid-item video
   border-radius: 20px;
 */
-
 .vid-item h5{
+  width: 383px;
+  margin: auto;
+  margin-top: -8px;
   color: #ffffff;
   font-weight:bold;
   font-size: 18px;
   background-color: #212428;
-  height: 65px;
-  padding-top: 20px;
-  margin-top: -8px;
+  height: 60px;
+  padding-top: 18px;
 }
+
+
+
 
 
 @media (max-width: 667px) {
@@ -620,8 +626,8 @@ a h5{
 }
 
 .flex-vid{
-  max-width: 67%;
-  height: 825px;
+  max-width: 66%;
+  height: 850px;
 }
 
 .vid-item video{
@@ -631,9 +637,22 @@ a h5{
 
   .vid-item h5{
   margin-top: -10px;
+  max-width: 540px;
+ 
 }
+.vid-item{
+  max-width: 550px;
 }
 
+.vid-item h5{
+ width: 540px;
+  margin: auto;
+  margin-top: -10px;
+}
+
+
+
+}
 @media (max-width: 960px) {
   
   .blendParent {
