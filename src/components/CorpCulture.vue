@@ -35,6 +35,7 @@
       scene: null,
       renderer: null,
       mesh: null
+     
       }
     },
   
@@ -51,8 +52,11 @@
 
         const geometry = new Three.BoxGeometry(2, 2, 2);
         // const material = new Three.MeshBasicMaterial({ color: 0x00ff00 });
-        const texture = new Three.TextureLoader().load(require( "../assets/CTDI-Culture/ctdi-passion.jpg" ), t => this.onSuccess(t), e => this.onProgress(e), e => this.onError(e));
-        const material = new Three.MeshBasicMaterial({ map: texture });
+
+         
+
+        const texture = new Three.TextureLoader().load(require( "../assets/CTDI-Culture/ctdi-passion.jpg"), t => this.onSuccess(t), e => this.onProgress(e), e => this.onError(e));
+        const material = new Three.MeshBasicMaterial({ map: texture  });
 
         this.mesh = new Three.Mesh(geometry, material);
         this.scene.add(this.mesh);

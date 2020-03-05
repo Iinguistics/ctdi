@@ -84,6 +84,7 @@
       <img class="img-fluid top-img" src="../assets/CTDI-Sustainability/awards.jpg" alt="confetti"></figure>
     <h6>CTDI has been making great progress in its sustainability program, and is encouraged by continuing successes.</h6></a>
  </div>
+   <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
 </div>
 </template>
 
@@ -105,11 +106,16 @@
   },
 
    methods: {  
-     
+         toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      }
    },
   mounted(){
        window.scrollTo(0, 0)
-     
+       this.toTop();
   
   }
 }
@@ -177,9 +183,11 @@
   }
 
   .statement p {
-    font-size: 21px;
+    font-size: 17px;
     line-height: 29px;
     color: #333333;
+    text-align: left;
+    margin-bottom: 50px;
   }
 
    .divider {
@@ -383,6 +391,24 @@
     color: #FFFFFF;
     font-size: 26px;
   }
+
+  #to-top a{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+ margin-top: 50px;
+}
+
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
+}
 
 
 @media (min-width: 1380px) { 

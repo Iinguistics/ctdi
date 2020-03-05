@@ -4,12 +4,7 @@
   <!--==========================
       Top Title
     ============================-->
-     <section>
-       <div class="company-desc container">
-         <h3>CTDI - Global Engineering <br> Repair & Logistics</h3>
-       </div>
-     </section>
-
+     
 
      <!--==========================
       Services Section
@@ -41,7 +36,7 @@
 
         <div class="divider-title ">
           <div class="divider"></div>
-            <h3 id="services-title">Services</h3>  
+            <h3 id="services-title">About us</h3>  
          <div class="divider"></div>   
        </div>
     
@@ -58,28 +53,14 @@
             </router-link>
 
              <router-link to=/leadership/jerry-parsons class="vid-item"> 
-             <video autoplay muted loop>
-                <source src="../assets/Ethernet.mp4" type="video/mp4">
+             <video autoplay muted loop id="locVid">
+                <source src="../assets/CTDI-Home/locations-link.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
                 </video>
-                 <h5>Environment</h5>
+                 <h5 id="locText">Locations</h5>
             </router-link>
 
-             <router-link to=/leadership/jerry-parsons class="vid-item"> 
-             <video autoplay muted loop>
-                <source src="../assets/Ethernet.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-                </video>
-                 <h5>Environment</h5>
-            </router-link>
-
-             <router-link to=/leadership/jerry-parsons class="vid-item"> 
-             <video autoplay muted loop>
-                <source src="../assets/Ethernet.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-                </video>
-                 <h5>Environment</h5>
-            </router-link>
+             
         </div>
 
 
@@ -87,17 +68,7 @@
 
          
   
-       <div class="blendParent"><div class="blend" ></div></div>
-         <div class="blendParent">  <div class="blend">
-           <a href="#">
-           <video autoplay muted loop id="myVideo" data-aos="fade-up"
-                 data-aos-easing="linear"
-                 data-aos-duration="900">
-  <source src="../assets/Ethernet.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-  </video></a>
- </div>
-</div>
+       
 
 
 
@@ -201,6 +172,7 @@ body p{
   margin: auto;
   max-width: 80%;
   margin-bottom: 77px;
+  margin-top: 70px;
 }
 
 .service-wrap-top h5{
@@ -514,6 +486,10 @@ body p{
 }
 
 #envVid:hover ~ #envText{
+  color:#00d177;
+}
+
+#locVid:hover ~ #locText{
   color:#00d177;
 }
 
