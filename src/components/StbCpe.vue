@@ -12,9 +12,15 @@
      <p>
        Today, CTDI’s STB operations network now includes 35 world-class facilities supported by over 9,500 CPE service professionals who are authorized to test and repair a variety of Carrier, MSO and OEM STBs, Modems, Gateways and Tablet Devices. <br> <br> CTDI offers a fully integrated service model whereby we provide in-region screen & clean, testing, refurbishment, warehousing and order fulfillment services, including Direct to Home. Today, CTDI’s innovative multi-unit test systems, the Gen-5 AND Gen-7 STB tester, CMTX 5.0 Modem and Gateway tester, help us test and process over 78 million units annually.
      </p>
-     <img src="../assets/CTDI-Services/stb/ctdi-stb.jpg" alt= "ctdi facility" id="stbImg">
-     <p id="bottom-p">CTDI also has over 30 of our STB / CPE operations OEM certified to perform in-warranty repair for STBs, Gateways and Tablet Devices.  OEM certifications include: ARRIS, Technicolor, Samsung, and Amazon. </p>
+       
    </div>
+
+   <div class="flex-passion-2 container">
+       <div class="passion-item">
+        <p >CTDI also has over 30 of our STB / CPE operations OEM certified to perform in-warranty repair for STBs, Gateways and Tablet Devices. <br> OEM certifications include: ARRIS, Technicolor, Samsung, and Amazon. </p>
+       </div>
+       <img src="../assets/CTDI-Services/stb/ctdi-stb.jpg" alt= "ctdi facility" id="stbImg">
+     </div>
    <div class="divider"></div>
    <!-- card wrapper -->
 <div class="cards-wrapper container">
@@ -209,11 +215,9 @@ h1 {
 }
 
 #stbImg{
-  height: 317px;
-  width: 476px;
+  height: 270px;
+  width: 400px;
   border-radius: 4px;
-  margin-top: 50px;
-  margin-bottom: 50px;
   transition: transform 2s ease-in-out;
   max-width: 100%;
 }
@@ -221,7 +225,7 @@ h1 {
 
    #stbImg:hover{
     position: relative; 
-    transform: scale(1.01);
+    transform: scale(1.001);
     top: -1px;
 }
 
@@ -248,6 +252,33 @@ a:hover{
 #bottom-p{
   margin-bottom: 50px;
   
+}
+
+.flex-passion-2 img{
+    height: 270px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+
+.flex-passion-2{
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  justify-content: space-evenly;
+  height: 325px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.passion-item{
+  width: 450px; 
+  align-items: flex-start; 
+}
+
+.passion-item p{
+  text-align: left;
 }
 
 /* --------------------*/
@@ -394,15 +425,6 @@ a:hover{
     font-size: 16px;
 }
 
-  #stbImg {
-  height: 250px;
-  width: 380px;
-  border-radius: 4px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  transition: transform 2s ease-in-out;
-  max-width: 100%;
-}
 
     .cards-wrapper{
   display: grid;
@@ -436,6 +458,20 @@ a:hover{
 .blue p{
   font-size: 18px;
 }
+
+  .flex-passion-2{
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  padding-top: 5px;
+  align-content: center;
+  margin-bottom: 50px;
+  }
+
+  .passion-item{
+     margin: auto;
+   max-width: 95%;
+  }
   
 
 }
@@ -456,6 +492,9 @@ a:hover{
       left: 30%; 
 }
 
+.flex-passion-2{
+  max-width: 65%;
+}
 
 }
 

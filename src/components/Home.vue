@@ -12,10 +12,10 @@
   <section>
       
       <div class=" service-wrap-top">
-         <router-link to=/leadership/jerry-parsons  id="item-1">
+         <router-link to=/services/stb-cpe  id="item-1">
          <div class="blendParent-top "><div class="blend" ></div></div><h5 id="stb">STB/CPE</h5></router-link>
            
-         <router-link to=/leadership/jerry-parsons>
+         <router-link to=/services/mobile>
          <div class="blendParent-top "><div class="blend-2" ></div></div><h5 id="mobile">Mobile <br>& <br> Consumer Electronics</h5></router-link>
             
          
@@ -39,7 +39,25 @@
             <h3 id="services-title">About us</h3>  
          <div class="divider"></div>   
        </div>
-    
+      <div class="company-desc container"><h3>CTDI - Global Engineering, Repair & Logistics</h3></div>
+      <div class="statement container">
+        <p>Founded in 1975, CTDI is a full-service, global engineering, repair and logistics company providing best-cost solutions to the communications industry. CTDI's one-stop service commitment to customers has fueled the growth from a core business of network and CPE equipment repair.</p><br>
+        <p>We support our customers in planning, modernizing, maintaining and dismantling their technical equipment and their networks, and in their project planning. In addition, we provide distribution or after-sales services for their products.</p>
+        </div>
+         <div class="divider2"></div>
+         <div class="flex-passion container">
+       <div class="passion-item">
+       <h5>Engineering</h5>
+       <p>We develop our own test systems for troubleshooting electronic devices and systems. That is our core competence. Our portfolio includes over 75,000 different assembly types. Over 450 engineers worldwide work for the CTDI and are constantly developing new test systems or improving existing ones. This enables us to offer our customers maximum service, flexibility and security.</p>
+       </div>
+        <img class="img-fluid passion-item" src="../assets/CTDI-Home/engineering.jpg" alt="blueprints sitting on table with ruler">
+         <img class="img-fluid passion-item" src="../assets/CTDI-Home/end-service.jpg" alt="two people working together on computer">
+        <div class="passion-item">
+       <h5 id="end">End to end service</h5>
+       <p>Our customers are looking for a partner who can provide comprehensive services. CTDI offers repair and logistics at the highest level and takes over a sub-process for your customers and "end-to-end" the complete process chain.</p>
+       </div>
+     </div>
+     <div class="divider2"></div>
      <!--==========================
       vid links
     ============================-->
@@ -59,25 +77,23 @@
                 </video>
                  <h5 id="locText">Locations</h5>
             </router-link>
-
-             
         </div>
-
-
-
-
-         
-  
        
-
-
-
+        <div class="divider-title ">
+          <div class="divider"></div>
+            <h3 id="services-title">Working at CTDI</h3>  
+         <div class="divider"></div>   
+       </div>
+         <div class="flex-passion-2 container">
+       <div class="passion-item">
+       <h5>Let's Connect</h5>
+       <p>We invite you to search our career opportunities and apply online today to come explore our dynamic culture.  Experience the CTDI difference and put the power of our successful 40-year history behind your career!</p>
+       <p>With more than 4,800 employees in Europe and over 16,500 worldwide, we are a strong partner for our customers and an attractive employer.</p>
+       </div>
+        <img class="img-fluid passion-item" src="../assets/CTDI-Home/working-at-ctdi.jpg" alt="two employees standing side by side">
+     </div>
+     <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>  
   </div>
- 
-  
-  
-   
-
 </template>
 
 
@@ -96,8 +112,16 @@ export default {
     },
    
     methods: {
-      
+        toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      }
 },
+   mounted(){
+      this.toTop();
+   }
 
 }
 
@@ -121,7 +145,7 @@ body p{
   text-align: center;
   margin-top: 90px;
   max-width: 70%;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 
 .company-desc h3{
@@ -131,12 +155,15 @@ body p{
 }
 
 .statement{
-  font-size: 20px;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  line-height: 30px;
+  height: 300px;
+  max-width: 65%;
+}
+
+.statement p{
+  font-size: 17px;
+  line-height: 28px;
   text-align: left;
-  
+  margin: auto;
 }
 
 
@@ -163,6 +190,13 @@ body p{
     height: 3px;
     background: #444;
 }
+
+.divider2 {
+    height: 1px;
+    background: #444;
+    margin: auto;
+    max-width: 80%;
+  }
 
 .service-wrap-top{
   display: flex;
@@ -238,8 +272,6 @@ body p{
   text-decoration: none;
   padding-right: 3px;
 }
-
-
 
 
 
@@ -473,10 +505,11 @@ body p{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 700px;
+  height: 350px;
   justify-content: space-evenly;
   margin: auto;
   max-width: 83%;
+  margin-top: 75px;
   margin-bottom: 100px;
 }
 
@@ -500,10 +533,6 @@ body p{
 
 
 
-/*
-.vid-item video
-  border-radius: 20px;
-*/
 .vid-item h5{
   width: 383px;
   margin: auto;
@@ -517,6 +546,73 @@ body p{
 }
 
 
+ .flex-passion img{
+    height: 270px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+   .flex-passion-2 img{
+    height: 270px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+
+ 
+.flex-passion{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 75%;
+  justify-content: space-evenly;
+  height: 800px;
+  margin-top: 100px;
+}
+
+.flex-passion-2{
+  display: flex;
+  flex-direction: row;
+  max-width: 75%;
+  justify-content: space-evenly;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.passion-item{
+  width: 450px; 
+  align-items: flex-start; 
+}
+
+.passion-item p{
+  text-align: left;
+}
+
+#end{
+  margin-top: 40px;
+}
+
+#to-top a{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+ margin-top: 50px;
+}
+
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
+}
 
 
 
@@ -568,9 +664,38 @@ body p{
     cursor: pointer;
     padding-left: 0px;
 }
-  
 
+.statement{
+  height: 625px;
+  max-width: 65%;
+}
+  
+   .flex-passion{
+  display: flex;
+  flex-direction: column;
+  height: 1700px;
+  padding-top: 5px;
+  align-content: center;
+  margin-bottom: 50px;
+  }
+
+    .flex-passion-2{
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  padding-top: 5px;
+  align-content: center;
+  margin-bottom: 50px;
+  }
+
+  .passion-item{
+     margin: auto;
+   max-width: 95%;
+  }
  
+ .flex-vid{
+   height: 625px;
+ }
 
 
 }
@@ -603,7 +728,7 @@ body p{
 
 .flex-vid{
   max-width: 66%;
-  height: 850px;
+  height: 400px;
 }
 
 .vid-item video{
@@ -626,7 +751,13 @@ body p{
   margin-top: -10px;
 }
 
+.flex-passion{
+  max-width: 65%;
+}
 
+.flex-passion-2{
+  max-width: 65%;
+}
 
 }
 @media (max-width: 960px) {

@@ -102,7 +102,7 @@
 
 
 
-@media (max-width: 576px) { 
+@media (max-width: 667px) { 
     #logoText{
     padding-right: 20%;
 }
@@ -141,6 +141,7 @@
 @media (min-width: 1200px){
    .dropdown:hover .dropdown-menu {
   display: block;
+  
 }
 }
 
