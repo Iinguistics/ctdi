@@ -62,7 +62,7 @@
       vid links
     ============================-->
         <div class="flex-vid">
-          <router-link to=/leadership/jerry-parsons class="vid-item"> 
+          <router-link to=/sustainability/environment class="vid-item"> 
              <video autoplay muted loop id="envVid">
                 <source src="../assets/CTDI-Home/environment-link.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
@@ -70,7 +70,7 @@
                 <h5 id="envText">Environment</h5>
             </router-link>
 
-             <router-link to=/leadership/jerry-parsons class="vid-item"> 
+             <router-link to=/locations class="vid-item"> 
              <video autoplay muted loop id="locVid">
                 <source src="../assets/CTDI-Home/locations-link.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
@@ -78,6 +78,20 @@
                  <h5 id="locText">Locations</h5>
             </router-link>
         </div>
+
+        <div class="divider-title ">
+          <div class="divider"></div>
+            <h3 id="services-title">Our QA Standards</h3>  
+         <div class="divider"></div>   
+       </div>
+         <div class="flex-passion-2 container">
+         <img class="img-fluid passion-item" src="../assets/CTDI-Quality/ctdi-quality-tech.jpg" alt="qa technician inspecting a part"> 
+       <div class="passion-item">
+       <h5>Quality Assured</h5>
+       <p>The satisfaction of our customers is the starting point and goal of our quality policy. We measure all our decisions and activities against this guiding principle.</p>
+       <p>The quality of each individual's work and, overall, the quality of our services is one of the decisive factors for the success of our customers.</p>
+       </div>
+     </div>
        
         <div class="divider-title ">
           <div class="divider"></div>
@@ -577,7 +591,7 @@ body p{
   flex-direction: row;
   max-width: 75%;
   justify-content: space-evenly;
-  height: 400px;
+  height: 350px;
   margin-top: 100px;
   margin-bottom: 100px;
 }

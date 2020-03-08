@@ -4,7 +4,7 @@
 CTDI President and COO</p>
 </header>
 </div>
-<div class="container"><h6>CTDI's one-stop service commitment to customers has fueled the growth from a core business of equipment repair to include:</h6>
+<div class="container"><h6>CTDI is committed to establishing the benchmark for quality in the telecommunications industry, and has achieved the following Management System certifications at various locations around the world:</h6>
 <div class="committee-flex container">
   <li class="committee-item fa fa-angle-right">ISO 9001 Quality Management System (Various locations, per Certificate)</li>
   <li class="committee-item fa fa-angle-right">TL 9000 Quality Management System (Various locations, per Certificate)</li>
@@ -22,6 +22,8 @@ CTDI President and COO</p>
     <p>
       Our ISO certification stands for consistently high quality through defined processes. These standards offer customers a uniform standard by which they can measure all suppliers. We also meet the strict quality requirements of the automotive industry and successfully passed audits by leading automobile manufacturers.
     </p><br>
+  
+  </div>
     <div class="flex-passion container">
        <div class="passion-item">
        <h5>Our quality standards</h5>
@@ -29,9 +31,10 @@ CTDI President and COO</p>
          To measure our quality, we have implemented key performance indicators for our programs and hold operational status meetings with our customers with the aim of continuously improving our processes.
       </p>
        </div>
-        <img class="img-fluid passion-item" src="../assets/CTDI-Quality/ctdi-quality-tech.jpg" alt="quality technician inspecting a part" id="techImg">
+        <img class="img-fluid passion-item" src="../assets/CTDI-Quality/qa-tech-2.jpg" alt="quality technician inspecting a part" id="techImg">
      </div>
-  </div>
+       <div class="divider"></div>
+    
   <div class="divider"></div>
   <div class="container award-safe-flex">
     <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" id="wrapper1" target="_blank"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" id="wrapper2" target="_blank"><h5>Environmental Health & Safety</h5>
@@ -171,6 +174,16 @@ h6 {
   margin: auto;
 }
 
+.flex-passion h5{
+  font-size: 20px;
+}
+
+
+.flex-passion p{
+    color: #202124;
+    font-size: 17px;
+}
+
 
   .flex-passion{
   display: flex;
@@ -178,7 +191,7 @@ h6 {
   flex-wrap: wrap;
   max-width: 90%;
   justify-content: space-evenly;
-  height: 475px;
+  height: 415px;
   padding-top: 50px;
 }
 
@@ -196,13 +209,13 @@ h6 {
 }
 
 .passion-item h5, p{
-  margin-top: 25px;
+  margin-top: 45px;
 }
 
 .content{
   margin-top: 75px;
   max-width: 75%;
-  height:  850px;
+  height:  300px;
 }
 
 .content p{
@@ -336,6 +349,29 @@ a {
     background-attachment: scroll;
   }
 
+  .content{
+  height:  575px;
+}
+
+.flex-passion{
+  display: flex;
+  flex-direction: column;
+  height: 825px;
+  padding-top: 5px;
+  align-content: center;
+  }
+
+  .passion-item{
+   margin: auto;
+   max-width: 95%;
+ }
+
+   .flex-passion img{
+    height: 250px;
+    width: 385px;
+    max-width: 100%;
+  }
+
   .award-safe-flex {
     display: none;
   }
@@ -378,6 +414,22 @@ a {
     height: 750px;
     padding-top: 50px;
   }
+}
+
+
+@media (min-width: 1400px) {
+   
+  .content{
+    max-width: 54%;
+  }
+
+
+
+.flex-passion{
+   max-width: 67%;
+  }
+
+
 }
 
 </style>

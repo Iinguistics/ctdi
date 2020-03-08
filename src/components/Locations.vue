@@ -119,6 +119,7 @@
                  data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>       
        </div>
      </div>
+      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>  
 </div>
 
 </template>
@@ -155,12 +156,18 @@ export default {
   
  
     methods: {
-    
+           toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      }
     },
 
      created () {
         window.scrollTo(0, 0);
         this.loadView();
+        this.toTop();
        },
 }
 </script>
@@ -276,7 +283,7 @@ svg rect {
   flex-wrap: wrap;
   max-width: 80%;
   justify-content: space-evenly;
-  height: 2800px;
+  height: 2000px;
   padding-top: 50px;
 }
 
@@ -296,7 +303,23 @@ svg rect {
   width: 800px;
 }
 
+#to-top a{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+ margin-top: 50px;
+}
 
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
+}
 
 
 @media screen and (max-width: 1200px){

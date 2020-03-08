@@ -78,6 +78,7 @@
       <div id="table_div_2"></div>
       <div id="white-space-2"></div>
       <div id="white-space-2"></div>
+     <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>  
 </div>
 </template>
 
@@ -187,7 +188,13 @@
         table.draw(data, {showRowNumber: false, width: '100%', height: '100%'});
 
       },
-     
+       
+        toTop: function () {
+         window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+});
+      }
 
     },
    
@@ -197,6 +204,7 @@
        this.drawChart2();
        this.drawChart3();
        this.drawChart4();
+       this.toTop();
   }
 }
  
@@ -490,6 +498,24 @@ p{
    width: 1200px;
    height: 400px;
   }
+
+  #to-top a{
+ text-align: right;
+ color: #202124;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 500;
+ margin-bottom: 40px;
+ margin-top: 50px;
+}
+
+#to-top a{
+  text-decoration: none;
+}
+
+#to-top a:hover{
+  cursor: pointer;
+}
 
 @media (min-width: 1380px) { 
   

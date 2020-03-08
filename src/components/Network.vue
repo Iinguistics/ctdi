@@ -474,6 +474,25 @@ a:hover{
 .blue p{
   font-size: 18px;
 }
+
+.flex-passion{
+  display: flex;
+  flex-direction: column;
+  height: 825px;
+  padding-top: 5px;
+  align-content: center;
+  }
+
+  .passion-item{
+   margin: auto;
+   max-width: 95%;
+ }
+
+   .flex-passion img{
+    height: 250px;
+    width: 385px;
+    max-width: 100%;
+  }
   
 
 }
