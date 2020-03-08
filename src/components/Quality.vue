@@ -22,10 +22,15 @@ CTDI President and COO</p>
     <p>
       Our ISO certification stands for consistently high quality through defined processes. These standards offer customers a uniform standard by which they can measure all suppliers. We also meet the strict quality requirements of the automotive industry and successfully passed audits by leading automobile manufacturers.
     </p><br>
-    <img src="../assets/CTDI-Quality/ctdi-quality-tech.jpg" alt="quality technician inspecting a part" id="techImg"> 
-    <p>
-      To measure our quality, we have implemented key performance indicators for our programs and hold operational status meetings with our customers with the aim of continuously improving our processes.
-    </p>
+    <div class="flex-passion container">
+       <div class="passion-item">
+       <h5>Our quality standards</h5>
+        <p id="desc-mce">
+         To measure our quality, we have implemented key performance indicators for our programs and hold operational status meetings with our customers with the aim of continuously improving our processes.
+      </p>
+       </div>
+        <img class="img-fluid passion-item" src="../assets/CTDI-Quality/ctdi-quality-tech.jpg" alt="quality technician inspecting a part" id="techImg">
+     </div>
   </div>
   <div class="divider"></div>
   <div class="container award-safe-flex">
@@ -164,6 +169,34 @@ h6 {
   padding-top: 150px;
   padding-bottom: 45px;
   margin: auto;
+}
+
+
+  .flex-passion{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: space-evenly;
+  height: 475px;
+  padding-top: 50px;
+}
+
+.flex-passion img{
+    height: 270px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+
+.passion-item{
+  width: 450px; 
+  align-items: flex-start; 
+}
+
+.passion-item h5, p{
+  margin-top: 25px;
 }
 
 .content{

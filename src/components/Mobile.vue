@@ -5,13 +5,19 @@
       <div class="hero-title" ><h1>Mobile & Consumer Electronics</h1></div>
   </div>
    <div class="head"><h3>mobile & consumer electronics</h3></div>
+   <div class="flex-passion container">
+       <div class="passion-item">
+       <h5>MCE360 - Complete solutions for mobile and consumer electronics</h5>
+       <p id="desc-mce">In order to be able to offer a more comprehensive and complete service solution, CTDI has developed and launched a technical supply chain solution for the mobile and consumer electronics industry under the name MCE-360.</p>
+       </div>
+        <img class="img-fluid passion-item" src="../assets/CTDI-Services/mobile/mce360.jpg" alt="mce 360 machine">
+     </div>
+     <div class="divider"></div>
    <div class="container content">
-     <p>
-      CTDI’s comprehensive, technical supply chain solution, developed specifically for the Mobile & Consumer Device industries, is called MCE-360.
-      </p>
      <p>
        MCE-360 is a fully integrated model designed to provide a total and technically focused service model that includes four primary service categories:
      </p>
+      
      <li class ="fa fa-angle-right">Global Logistics: In-Region Forward and Reverse Logistics, Inventory Management, Kitting, Direct Fulfillment, & Vendor Managed Inventory Models.</li>
      <li class ="fa fa-angle-right">Test & Repair: Screen & Clean/Triage, OEM Certified Repair (L1-L3), Cosmetic Refurb, Parts Management, Data Erasure services and Walk-In Centers.</li>
      <li class ="fa fa-angle-right">Engineering & IT: Multi-Unit Test Systems, Robotics & Automation, LCD Reman, New Product Introduction, CTDI App Development and IT: OLP+, CDS, ETOS.</li>
@@ -199,6 +205,7 @@
 
 .content{
   max-width: 65%;
+  margin-top: 75px;
 }
 
 #ctdiImg{
@@ -216,6 +223,34 @@
     position: relative; 
     transform: scale(1.01);
     top: -1px;
+}
+
+  .flex-passion img{
+    height: 270px;
+    width: 400px;
+    max-width: 100%;
+  }
+
+
+ 
+.flex-passion{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: space-evenly;
+  height: 475px;
+  padding-top: 50px;
+}
+
+
+.passion-item{
+  width: 450px; 
+  align-items: flex-start; 
+}
+
+.passion-item h5, p{
+  margin-top: 40px;
 }
 
 
@@ -389,15 +424,32 @@ a:hover{
     font-size: 16px;
 }
 
+
+
   #ctdiImg {
-  height: 250px;
-  width: 380px;
-  border-radius: 4px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  transition: transform 2s ease-in-out;
-  max-width: 100%;
+    height: 250px;
+    width: 395px;
+    max-width: 100%;
 }
+
+  .flex-passion{
+  display: flex;
+  flex-direction: column;
+  height: 825px;
+  padding-top: 5px;
+  align-content: center;
+  }
+
+  .passion-item{
+   margin: auto;
+   max-width: 95%;
+ }
+
+   .flex-passion img{
+    height: 250px;
+    width: 385px;
+    max-width: 100%;
+  }
 
     .cards-wrapper{
   display: grid;
@@ -451,6 +503,16 @@ a:hover{
       left: 35%; 
 }
 
+  #ctdiImg{
+  height: 407px;
+  width: 611px;
+ }
+
+ .flex-passion{
+   max-width: 67%;
+  }
+
+ 
 
 }
 

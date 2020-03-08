@@ -5,10 +5,16 @@
       <div class="hero-title" ><h1>Network Services</h1></div>
   </div>
    <div class="head"><h3>network services</h3></div>
-   <div class="container content">
-     <p>
-      CTDI's Network Services (NS) Division offers a service portfolio that includes component level repair and refurbishment of legacy and wireless infrastructure equipment, warehousing, and distribution on behalf of our Carrier and OEM customers.  Additionally, we offer LTE Base Station testing, engineering, installation and maintenance and removal services.
+      <div class="flex-passion container">
+       <div class="passion-item">
+       <h5>Repair of network infrastructure</h5>
+        <p id="desc-mce">
+         CTDI's Network Services (NS) Division offers a service portfolio that includes component level repair and refurbishment of legacy and wireless infrastructure equipment, warehousing, and distribution on behalf of our Carrier and OEM customers.  Additionally, we offer LTE Base Station testing, engineering, installation and maintenance and removal services.
       </p>
+       </div>
+        <img class="img-fluid passion-item" src="../assets/CTDI-Services/network/network-repair.jpg" alt="mce 360 machine">
+     </div>
+      <div class="container content">
       <p>
         The cumulative effect of over 45 years of engineering and test development efforts has provided CTDI with a strong technical foundation on which to expand our service offerings. As an important strategic partner in our customers' supply chain, we strive to stay ahead of the technology curve, ensuring no break in repair service as new products are developed and deployed by our customers.
       </p>
@@ -39,8 +45,8 @@
         </div>
     </router-link>
     <router-link to=/services/mobile class="cards-item-wrapper">
-        <div class="card-item-image" id="blue-img"><img src="../assets/CTDI-Services/stb/mobile-link.jpg" class="img-fluid"></div>
-            <div class="card-item-content-wrapper blue" id="blue-text">
+        <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/stb/mobile-link.jpg" class="img-fluid"></div>
+            <div class="card-item-content-wrapper red" id="red-text">
               <div class="card-item-title"><h6>Mobile</h6></div>
             <div class="card-item-body-text"><p>To provide a more comprehensive and total service solution, CTDI recently developed and launched a technical supply chain solution specifically for the Mobile & Consumer Device Industries, called MCE-360.</p>
           </div>
@@ -194,6 +200,33 @@
     text-transform: uppercase;
   }
 
+  .flex-passion{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: space-evenly;
+  height: 475px;
+  padding-top: 50px;
+}
+
+.flex-passion img{
+    height: 270px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+
+.passion-item{
+  width: 450px; 
+  align-items: flex-start; 
+}
+
+.passion-item h5, p{
+  margin-top: 25px;
+}
+
  
 
 .content p{
@@ -205,7 +238,9 @@
 
 .content{
   max-width: 65%;
+  margin-bottom: 100px;
 }
+
 
 #ctdiImg{
   height: 317px;
@@ -224,9 +259,7 @@
     top: -1px;
 }
 
-#bottom-p{
-    margin-bottom: 15px;
-}
+
 
 
 .divider {
@@ -460,6 +493,10 @@ a:hover{
   .hero-title {
       left: 35%; 
 }
+
+.flex-passion{
+   max-width: 67%;
+  }
 
 
 }

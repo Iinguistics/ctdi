@@ -22,13 +22,13 @@
       </div>
         
         <div class=" service-wrap">
-          <router-link to=/leadership/jerry-parsons>
+          <router-link to=/services/network>
            <div class="blendParent item"><div class="blend-3" ></div></div><h5 id="network-services">Network Services</h5></router-link>
         
-        <router-link to=/leadership/jerry-parsons >
+        <router-link to=/services/product>
           <div class="blendParent item"><div class="blend-4" ></div></div><h5 id="product">Products/Supply</h5></router-link>
            
-         <router-link to=/leadership/jerry-parsons>
+         <router-link to=/services/deployment>
            <div class="blendParent item"><div class="blend-5" ></div></div><h5 id="network-deployment">Network <br> Deployment Solutions</h5></router-link>
             
         </div>

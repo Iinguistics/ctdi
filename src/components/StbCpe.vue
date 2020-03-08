@@ -17,7 +17,7 @@
 
    <div class="flex-passion-2 container">
        <div class="passion-item">
-        <p >CTDI also has over 30 of our STB / CPE operations OEM certified to perform in-warranty repair for STBs, Gateways and Tablet Devices. <br> OEM certifications include: ARRIS, Technicolor, Samsung, and Amazon. </p>
+        <p id="content-bottom">CTDI also has over 30 of our STB / CPE operations OEM certified to perform in-warranty repair for STBs, Gateways and Tablet Devices. <br> OEM certifications include: ARRIS, Technicolor, Samsung, and Amazon. </p>
        </div>
        <img src="../assets/CTDI-Services/stb/ctdi-stb.jpg" alt= "ctdi facility" id="stbImg">
      </div>
@@ -249,8 +249,8 @@ a:hover{
   color: #202124;
 }
 
-#bottom-p{
-  margin-bottom: 50px;
+#content-bottom{
+  margin-top: 45px;
   
 }
 
