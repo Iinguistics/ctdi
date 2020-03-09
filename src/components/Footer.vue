@@ -89,6 +89,7 @@
 .item1 a{
     text-decoration: none;
     display: inline-block;
+    color: #007BFF;
 }
 
  li h3{
