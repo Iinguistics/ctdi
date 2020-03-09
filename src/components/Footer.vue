@@ -1,11 +1,5 @@
 <template>
-<div class="wrapper">
 
-      content
-
-    <div class="push"></div>
-  </div>
-  
   <div class="flex-container container-fluid"> 
   <li class="item1"><h3>Contact Us</h3><h5>CTDI Global Headquaters</h5><p>Communications Test Design,Inc</p>
   <p>1373 Enterprise Drive
@@ -76,18 +70,9 @@
     justify-content: space-evenly;
     max-width: 100%;
     margin-bottom: -50px;
+    margin-top: 100px;
 }
 
-.wrapper {
-  min-height: 100%;
-
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
-}
-.push {
-  height: 50px;
-}
 
 
 .fa {
