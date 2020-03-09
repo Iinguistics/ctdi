@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 450px;
+    height: 475px;
     background: #191C22;
     padding-top: 60px;
     color: #fff;
