@@ -45,7 +45,7 @@
         </div>
     </router-link>
 
-     <router-link to=/services/deployment class="cards-item-wrapper">  <!-- left off -->
+     <router-link to=/services/network class="cards-item-wrapper">  
         <div class="card-item-image" id="red-img"><img src="../assets/CTDI-Services/deployment/network-services-link.jpg" class="img-fluid"></div>
             <div class="card-item-content-wrapper red" id="red-text">
               <div class="card-item-title"><h6>Network Services</h6></div>

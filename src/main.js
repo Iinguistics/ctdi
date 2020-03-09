@@ -8,9 +8,6 @@ import 'aos/dist/aos.css'
 // import * as Three from 'three' 
 // import Three from 'three'
 
-//import moment from 'moment'
-//Vue.prototype.moment = moment
-
 
 
 Vue.config.productionTip = false

@@ -7,23 +7,23 @@
       
       <div class=" service-wrap-top">
          <router-link to=/services/stb-cpe  id="item-1">
-         <div class="blendParent-top "><div class="blend" ></div></div><h5 id="stb">STB/CPE</h5></router-link>
+         <div class="blendParent-top "><div class="blend all" ></div></div><h5 id="stb">STB/CPE</h5></router-link>
            
          <router-link to=/services/mobile>
-         <div class="blendParent-top "><div class="blend-2" ></div></div><h5 id="mobile">Mobile <br>& <br> Consumer Electronics</h5></router-link>
+         <div class="blendParent-top "><div class="blend-2 all" ></div></div><h5 id="mobile">Mobile <br>& <br> Consumer Electronics</h5></router-link>
             
          
       </div>
         
         <div class=" service-wrap">
           <router-link to=/services/network>
-           <div class="blendParent item"><div class="blend-3" ></div></div><h5 id="network-services">Network Services</h5></router-link>
+           <div class="blendParent item"><div class="blend-3 all" ></div></div><h5 id="network-services">Network Services</h5></router-link>
         
         <router-link to=/services/product>
-          <div class="blendParent item"><div class="blend-4" ></div></div><h5 id="product">Products/Supply</h5></router-link>
+          <div class="blendParent item"><div class="blend-4 all" ></div></div><h5 id="product">Products/Supply</h5></router-link>
            
          <router-link to=/services/deployment>
-           <div class="blendParent item"><div class="blend-5" ></div></div><h5 id="network-deployment">Network <br> Deployment Solutions</h5></router-link>
+           <div class="blendParent item"><div class="blend-5 all" ></div></div><h5 id="network-deployment">Network <br> Deployment Solutions</h5></router-link>
             
         </div>
     </section>
@@ -323,46 +323,30 @@ body p{
 
 .blend-2{
       background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
-			height: 100%;
-      width: 100%;
-      display: block;
-      background-size: cover;
-      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
-      background-repeat: no-repeat;
-     transition: all 200ms ease-in-out;
 }
+
+.all{
+  	height: 100%;
+    width: 100%;
+    display: block;
+     background-size: cover;
+     box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
+     background-repeat: no-repeat;
+    transition: all 200ms ease-in-out;
+}
+
+
 
 .blend-3{
       background-image: url('../assets/CTDI-Home/sat-shot.jpg');
-			height: 100%;
-      width: 100%;
-      display: block;
-      background-size: cover;
-      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
-      background-repeat: no-repeat;
-     transition: all 200ms ease-in-out;
 }
 
 .blend-4{
       background-image: url('../assets/ElectronicsImg/consumer-2.jpg');
-			height: 100%;
-      width: 100%;
-      display: block;
-      background-size: cover; 
-      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
-      background-repeat: no-repeat;
-     transition: all 200ms ease-in-out;
 }
 
 .blend-5{
       background-image: url('../assets/CTDI-Home/deployment-solution.jpg');
-			height: 100%;
-      width: 100%;
-      display: block;
-      background-size: cover;
-      box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
-      background-repeat: no-repeat;
-     transition: all 200ms ease-in-out;
 }
 
 /* top */
@@ -404,8 +388,10 @@ body p{
     transform: scale(1.2);
 }
 
-.blend:before {
-    content: "";
+
+
+.all:before{
+   content: "";
     display: none;
     height: 100%;
     width: 100%;
@@ -414,88 +400,7 @@ body p{
     left: 0;
 }
 
-.blend-2:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.blend-3:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.blend-4:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.blend-5:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-/* blend-2 */
-
-.blendParent:hover .blend-2, .blendParent:focus .blend-2{
-  background-color: #00d177;
-  background-blend-mode:luminosity;
-  transition-delay: 0s;
-   -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-/* blend-3 */
-
-.blendParent:hover .blend-3, .blendParent:focus .blend-3{
-  background-color: #00d177;
-  background-blend-mode:luminosity;
-  transition-delay: 0s;
-   -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-/* blend-4 */
-
-.blendParent:hover .blend-4, .blendParent:focus .blend-4{
-  background-color: #00d177;
-  background-blend-mode:luminosity;
-  transition-delay: 0s;
-   -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-/* blend-5 */
-
-.blendParent:hover .blend-5, .blendParent:focus .blend-5{
+.blendParent:hover .all, .blendParent:focus .all{
   background-color: #00d177;
   background-blend-mode:luminosity;
   transition-delay: 0s;
@@ -782,7 +687,6 @@ body p{
 #services-title-wrap{
   margin-top: 225px;
 }
-
 
 
 }

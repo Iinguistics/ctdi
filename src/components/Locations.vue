@@ -84,40 +84,48 @@
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
                  data-aos-delay="1000">Portland, OR<br>22638 NE Townsend Way <br>Fairview, OR, 97024 <br> 503-405-3516</li> <!-- left off -->
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>      
+                 data-aos-delay="1000">Baton Rouge, LA <br>1850-1870 Grand Terre, Suite 200<br>Port Allen, LA 70767 <br> 225-388-5981</li>      
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>what <br> <br> 508-691-6350</li>
+                 data-aos-delay="1000">501 Lakeside, TX <br>501 Lakeside Parkway, Suite 175 <br>Flower Mound, TX 75028 <br> 972-874-7250</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Pottstown, PA <br>1000 Armand Hammer Blvd.<br>Pottstown, PA 19464 <br> 484-624-0037</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Bessemer, AL<br>2500 Exchange Place <br>Bessemer, AL 35022 <br> 205-481-1760</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">1543 Rialto, CA <br>1543 N. Alder Ave<br>Rialto, CA 92376 <br> 909-443-6451</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Buford (Mill), GA <br>2000 Buford Mill Road, <br>Building 100, Suite 100 Buford, <br> 470-655-3101</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Joliet, IL <br>3900 Brandon Road <br>Joliet, IL 60436 <br> 779-707-3311</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Kennewick, WA <br>6416 W Hood Place, B110, <br>Kennewick, WA 99336 <br> 509-820-4245</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>  
+                 data-aos-delay="1000">Swedesboro, NJ<br>400 Arlington Blvd <br>Logan Township, NJ 08085 <br> 609-458-1115</li>  
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+                 data-aos-delay="1000">Charlotte, NC <br>2405 Sam Wilson Road<br>Charlotte, NC 28214 <br> 704-916-0409</li> 
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+                 data-aos-delay="1000">Lincoln, CA <br>1401 Aviation Blvd, <br>Lincoln, CA 95648 <br> 916-408-4900</li> 
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>   
+                 data-aos-delay="1000">Tracy, CA <br>25201 South Schulte Road <br>Tracy, CA 95377 <br> 209-832-6367</li>   
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+                 data-aos-delay="1000">Chesapeake, VA <br>2601 Indian River #150 <br>Chesapeake, VA 23325 <br> 757-689-5070</li> 
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+                 data-aos-delay="1000">Livermore, CA <br>7150 Patterson Pass Road, Suite A<br>Livermore, CA 94550<br> 925-453-4385</li> 
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+                 data-aos-delay="1000">Vancouver, CN<br>#118 – 16111 Blundell Road<br>Richmond, BC V6W 0A3 <br> 604-520-2280</li> 
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li> 
+                 data-aos-delay="1000">Coatesville, PA <br>200 W. Stewart Huston Drive <br>Coatesville, PA 19320 <br> 610-857-8100</li> 
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>       
-       </div>
+                 data-aos-delay="1000">Meadowvale, CN <br>2480 Meadowvale Blvd, Unit #3 <br>Mississauga, Ontario L5N 8M6<br> 289-998-0490</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Columbus, OH <br>5900 North Meadows Rd <br>Grove City, OH 43123<br> 614-305-4710</li> 
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Mississauga, CN<br>6060 White Hart Lane <br>Mississauga, Ontario L5R 3Y4<br> 289-998-0490</li>  
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Nashville, TN <br>7800 Eastgate Blvd<br>Mt. Juliet, TN 37122<br> 615-965-3480</li>  
+      <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
+                 data-aos-delay="1000">Wichita, KS<br>3434 Comotara Street<br>Wichita, KS 67226<br>316-927-2080</li>              
+         </div>
      </div>
       <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>  
 </div>
