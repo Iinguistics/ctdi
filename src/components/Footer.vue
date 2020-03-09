@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 475px;
+    height: 450px;
     background: #191C22;
     padding-top: 60px;
     color: #fff;
@@ -67,13 +67,14 @@
     justify-content: space-evenly;
     max-width: 100%;
     margin-bottom: -50px;
+    margin-top: 25px;
 }
 
 
 
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
