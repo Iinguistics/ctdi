@@ -1,6 +1,6 @@
 <template>
 
-  <div class="flex-container container-fluid"> 
+  <div class="flex-container "> 
   <li class="item1"><h3>Contact Us</h3><h5>CTDI Global Headquaters</h5><p>Communications Test Design,Inc</p>
   <p>1373 Enterprise Drive
      West Chester, PA 19380</p>
