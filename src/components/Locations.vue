@@ -72,17 +72,17 @@
        <div v-else  class="show-loc"><button type="button" class="btn btn-secondary btn-lg btn-block" v-on:click="seen = !seen">View More Locations</button></div>
        <div v-if="seen">
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>what <br> <br> 508-691-6350</li>
+                 data-aos-delay="1000">Albany, NY <br>2160 Amsterdam Road <br>Glenville, NY 12302 <br> 518-930-0101</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Grand Junction, CO <br>830 South 12th Street, <br>Grand Junction, CO 81501 <br> 970-275-7010</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Portland, OR (Annex) <br>22667 NE Townsend Way <br>Fairview, OR, 97024 <br> 503-766-0971</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Ashland, VA <br>11890 Lakeridge Parkway <br>Ashland, VA 23005 <br> 804-519-0081</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Houston, TX <br>6215 West by Northwest Blvd- Suite A<br>Houston, TX 77040 <br> 713-425-1224</li>
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
-                 data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>
+                 data-aos-delay="1000">Portland, OR<br>22638 NE Townsend Way <br>Fairview, OR, 97024 <br> 503-405-3516</li> <!-- left off -->
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"
                  data-aos-delay="1000">Northborough, MA <br>30 Forbes Road Suite A <br>Northborough, MA 01532 <br> 508-691-6350</li>      
       <li class="location-item fa fa-angle-right" data-aos="fade-up" data-aos-easing="linear"

@@ -14,12 +14,11 @@
           <span data-hover="Divisions">Divisions</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <router-link class="dropdown-item" to=/locations>stb/cpe</router-link>
-          <router-link class="dropdown-item" to=/locations>Mobile</router-link>
-          <router-link class="dropdown-item" to=/locations>Network Deployment</router-link>
-          <router-link class="dropdown-item" to=/locations>Products</router-link>
-          <router-link class="dropdown-item" to=/locations>Supply</router-link>
-          <router-link class="dropdown-item" to=/locations>Network Services</router-link>
+          <router-link class="dropdown-item" to=/services/stb-cpe>stb/cpe</router-link>
+          <router-link class="dropdown-item" to=/services/mobile>Mobile</router-link>
+          <router-link class="dropdown-item" to=/services/network>Network Services</router-link>
+          <router-link class="dropdown-item" to=/services/product>Product / Supply</router-link>
+          <router-link class="dropdown-item" to=/services/deployment>Network Deployment</router-link>
         </div>
       </li>
       <li class="nav-item">

@@ -28,6 +28,10 @@
          As a highly qualified TL9000-certified workforce that relies on proven processes to deliver consistent results, we listen carefully to our customers to ensure our practices exceed all expectations and standards. With carefully developed processes, we will provide vital information about your network's health, capacity, and growth needs.
      </p>
    </div>
+   <div class="services-scope">
+     <h5>We make your roll-out flow</h5>
+     <img src="../assets/CTDI-Services/deployment/scope-of-services.png" alt="scope of services">
+   </div>
    <div class="divider"></div>
    <!-- card wrapper -->
 <div class="cards-wrapper container">
@@ -229,7 +233,7 @@
 }
 
 #bottom-p{
-    margin-bottom: 15px;
+    margin-bottom: 90px;
 }
 
 
@@ -254,10 +258,19 @@ a:hover{
   color: #202124;
 }
 
-#bottom-p{
-  margin-bottom: 50px;
-  
+.services-scope h5{
+  font-size: 38px;
+   color: #202124;
+   margin-bottom: 25px;
 }
+
+
+.services-scope img{
+      height: 400px;
+      margin-bottom: 75px;
+}
+
+
 
 /* --------------------*/
   .cards-wrapper{
@@ -445,7 +458,9 @@ a:hover{
 .blue p{
   font-size: 18px;
 }
-  
+  .services-scope{
+      display: none;
+}
 
 }
 

@@ -1,11 +1,5 @@
 <template>
   <div>
-      
-  <!--==========================
-      Top Title
-    ============================-->
-     
-
      <!--==========================
       Services Section
     ============================-->
@@ -34,7 +28,7 @@
         </div>
     </section>
 
-        <div class="divider-title ">
+        <div class="divider-title " id="services-title-wrap">
           <div class="divider"></div>
             <h3 id="services-title">About us</h3>  
          <div class="divider"></div>   
@@ -85,9 +79,9 @@
          <div class="divider"></div>   
        </div>
          <div class="flex-passion-2 container">
-         <img class="img-fluid passion-item" src="../assets/CTDI-Quality/ctdi-quality-tech.jpg" alt="qa technician inspecting a part"> 
+        <router-link to="/quality"><img class="img-fluid passion-item" src="../assets/CTDI-Quality/ctdi-quality-tech.jpg" alt="qa technician inspecting a part"> </router-link>
        <div class="passion-item">
-       <h5>Quality Assured</h5>
+       <router-link to="/quality"><h5>Quality Assured</h5></router-link>
        <p>The satisfaction of our customers is the starting point and goal of our quality policy. We measure all our decisions and activities against this guiding principle.</p>
        <p>The quality of each individual's work and, overall, the quality of our services is one of the decisive factors for the success of our customers.</p>
        </div>
@@ -100,11 +94,11 @@
        </div>
          <div class="flex-passion-2 container">
        <div class="passion-item">
-       <h5>Let's Connect</h5>
+       <a href="#"><h5>Let's Connect</h5></a>
        <p>We invite you to search our career opportunities and apply online today to come explore our dynamic culture.  Experience the CTDI difference and put the power of our successful 40-year history behind your career!</p>
        <p>With more than 4,800 employees in Europe and over 16,500 worldwide, we are a strong partner for our customers and an attractive employer.</p>
        </div>
-        <img class="img-fluid passion-item" src="../assets/CTDI-Home/working-at-ctdi.jpg" alt="two employees standing side by side">
+       <a href="https://ctdicareers.silkroad.com/"><img class="img-fluid passion-item" src="../assets/CTDI-Home/working-at-ctdi.jpg" alt="two employees standing side by side"></a> 
      </div>
      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>  
   </div>
@@ -317,7 +311,7 @@ body p{
 }
 
 .blend{
-      background-image: url('../assets/ElectronicsImg/laptop-consumer.jpg');
+      background-image: url('../assets/CTDI-Home/stb.jpg');
 			height: 100%;
       width: 100%;
       display: block;
@@ -339,7 +333,7 @@ body p{
 }
 
 .blend-3{
-      background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
+      background-image: url('../assets/CTDI-Home/sat-shot.jpg');
 			height: 100%;
       width: 100%;
       display: block;
@@ -350,18 +344,18 @@ body p{
 }
 
 .blend-4{
-      background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
+      background-image: url('../assets/ElectronicsImg/consumer-2.jpg');
 			height: 100%;
       width: 100%;
       display: block;
-      background-size: cover;
+      background-size: cover; 
       box-shadow: 0 0 10px rgba(0,0,0 ,0.1 );
       background-repeat: no-repeat;
      transition: all 200ms ease-in-out;
 }
 
 .blend-5{
-      background-image: url('../assets/ElectronicsImg/pink-cellphone.jpg');
+      background-image: url('../assets/CTDI-Home/deployment-solution.jpg');
 			height: 100%;
       width: 100%;
       display: block;
@@ -596,6 +590,10 @@ body p{
   margin-bottom: 100px;
 }
 
+.flex-passion-2 a{
+  color: #111111;
+}
+
 
 .passion-item{
   width: 450px; 
@@ -723,9 +721,16 @@ body p{
   .company-desc{
   max-width: 55%;
 }
-   
+   /* added height to both blend parents */
    .blendParent-top {
     width: 945px;
+    height: 480px;
+}
+
+.service-wrap-top{
+  height: 480px;
+  margin-bottom: 77px;
+  margin-top: 70px;
 }
 
 .service-wrap-top h5{
@@ -734,6 +739,7 @@ body p{
 
   .blendParent {
     width: 629px;
+    height: 400px;
 }
 
 .service-wrap h5{
@@ -772,6 +778,12 @@ body p{
 .flex-passion-2{
   max-width: 65%;
 }
+
+#services-title-wrap{
+  margin-top: 225px;
+}
+
+
 
 }
 @media (max-width: 960px) {
