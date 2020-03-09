@@ -66,7 +66,7 @@
     list-style: none;
     justify-content: space-evenly;
     max-width: 100%;
-    margin-bottom: -50px;
+      
     margin-top: 25px;
 }
 
