@@ -1,7 +1,7 @@
 <template>
   <div>
      <!--==========================
-      Services Section
+      Services Section                       fix sustainability page
     ============================-->
   <section>
       
@@ -346,7 +346,7 @@ body p{
 }
 
 .blend-5{
-      background-image: url('../assets/CTDI-Home/deployment-solution.jpg');
+      background-image: url('../assets/CTDI-Home/deployment-solution-sm.jpg');
 }
 
 /* top */
