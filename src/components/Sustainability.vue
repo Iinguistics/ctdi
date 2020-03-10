@@ -246,7 +246,7 @@
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 88%;
+  height: 225px;
   width: 100%;
   left: 0;
   top: 0;
