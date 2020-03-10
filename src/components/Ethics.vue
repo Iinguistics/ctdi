@@ -4,7 +4,7 @@
       <h5 id="statement"></h5>
       <p>Communications Test Design, Inc. (CTDI) and its subsidiaries conduct business consistent with our long established corporate values. These values include providing exceptional service to our customers and operating with the highest standards of quality while valuing our employees and making a positive contribution to the communities in which we conduct business. Our commitment to fulfilling our social responsibilities is an extension of the way we do business and adds value to our corporation. </p>
 </div>
-  <div class="flex-passion container">
+  <div class="flex-passion container" id="employees-1>
        <div class="passion-item">
        <h5>Our Employees</h5>
        <p>CTDI is committed to maintaining the highest standards of business and personal integrity and ethics in accordance with the company's Ethics Policy. All employees are trained on the company ethics policy which covers areas such as conflict of interest, confidential information, dishonest conduct, and bribery.</p>
@@ -230,6 +230,16 @@
     top: -1px;
 }
 
+#employees-1{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: space-evenly;
+  height: 400px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
 
  
 .flex-passion{
