@@ -593,7 +593,7 @@ p{
 }
 
 #text-3{
-    height: 1300px;
+    height: 1320px;
     width: 80%;
 }
 
