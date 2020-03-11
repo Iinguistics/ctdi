@@ -538,7 +538,7 @@
   .flex-passion-3{
   display: flex;
   flex-direction: column;
-  height: 1200px;
+  height: 1275px;
   padding-top: 5px;
   align-content: center;
   }
