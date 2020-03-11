@@ -342,7 +342,7 @@ body p{
 }
 
 .blend-4{
-      background-image: url('../assets/ElectronicsImg/consumer-2.jpg');
+      background-image: url('../assets/CTDI-Home/product-supply.jpg');
 }
 
 .blend-5{
