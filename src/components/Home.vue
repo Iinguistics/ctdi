@@ -33,7 +33,7 @@
             <h3 id="services-title">About us</h3>  
          <div class="divider"></div>   
        </div>
-      <div class="company-desc container"><h3>CTDI - Global Engineering, Repair & Logistics</h3></div>
+      <div class="company-desc container"><h3>CTDI - Global Engineering <br> Repair & Logistics</h3></div>
       <div class="statement container">
         <p>Founded in 1975, CTDI is a full-service, global engineering, repair and logistics company providing best-cost solutions to the communications industry. CTDI's one-stop service commitment to customers has fueled the growth from a core business of network and CPE equipment repair.</p><br>
         <p>We support our customers in planning, modernizing, maintaining and dismantling their technical equipment and their networks, and in their project planning. In addition, we provide distribution or after-sales services for their products.</p>
@@ -342,7 +342,7 @@ body p{
 }
 
 .blend-4{
-      background-image: url('../assets/ElectronicsImg/consumer-2.jpg');
+      background-image: url('../assets/CTDI-Home/product-supply.jpg');
 }
 
 .blend-5{
