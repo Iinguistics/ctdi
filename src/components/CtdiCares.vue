@@ -13,7 +13,7 @@
       <br>
       <br>
       <a id="form"
-        href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI-CARES-Request-for-Assistance-Form_Updated-9-26-18.pdf"><img
+        href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI-CARES-Request-for-Assistance-Form_Updated-9-26-18.pdf" target="_blank"><img
           src="../assets/CTDI-Cares/download-form.png">Request for assistance form</a>
       <p>Areas of support include costs of care that may not be covered by healthcare such as transportation to
         treatments and in-home services. Please fill out the CARES Request for Assistance Form and email it to: <a id="ctdi-email"
