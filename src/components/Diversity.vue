@@ -34,7 +34,9 @@
       <li class="committee-item fa fa-angle-right">WBE Canada</li>
         </div>
 </div>
-
+<div id="event">
+  <img class="img-fluid" src="../assets/diversity-event.jpg">
+</div>
 <div class="bottom-title"><h4>For more information on Supplier Diversity:</h4>
     <div class="committee-flex container">
       <li class="committee-item fa fa-angle-right">National Minority Supplier Development Council <a href="https://nmsdc.org/" target="_blank">NMSDC</a></li>
@@ -42,7 +44,7 @@
       <li class="committee-item fa fa-angle-right">WBE Canada <a href="https://wbecanada.org/" target="_blank">WBE Canada</a></li>
       <li class="committee-item fa fa-angle-right">Canadian Aboriginal & Minority Supplier Council <a href="https://camsc.ca/" target="_blank">CAMSC</a></li>
       <li class="committee-item fa fa-angle-right">Service Disabled Veteran Owned Small Business Council <a href="https://sdvosb-council.org/" target="_blank">SDVOSB-COUNCIL</a></li>
-      <li class="committee-item fa fa-angle-right">Department of Veterans Affairs <a href="https://vetbiz.gov/" target="_blank">VETBIZ</a></li>
+      <li class="committee-item fa fa-angle-right">Department of Veterans Affairs <a href="https://www.vetbiz.va.gov/" target="_blank">VETBIZ</a></li>
         </div>
   </div>
   <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
@@ -224,15 +226,10 @@
 }
 
 
-
-a{
-  color: #202124;
-  text-decoration: none !important;
+#event img{
+  border-radius: 4px;
 }
 
-a:hover{
-  color: #202124;
-}
 
   h6{
       font-size: 20px;
