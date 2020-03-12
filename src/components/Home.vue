@@ -496,7 +496,7 @@ body p{
 }
 
 .flex-passion-2 a{
-  color: #111111;
+  color: #174ea6;
 }
 
 
