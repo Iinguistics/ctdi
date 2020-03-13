@@ -37,10 +37,14 @@ CTDI President and COO</p>
     
   <div class="divider"></div>
   <div class="container award-safe-flex">
-    <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" id="wrapper1" target="_blank"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Rev-4-Environmental-Health-Safety-Policy.pdf" id="wrapper2" target="_blank"><h5>Environmental Health & Safety</h5>
+    <router-link to=/quality/awards id="wrapper1"><h5>Awards Won</h5></router-link>
+    <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" id="wrapper2" target="_blank"><h5>Environmental Health & Safety</h5>
   </a>
   </div>
-  <div class="container award-safe-flex-mobile"><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" target="_blank"><img src="../assets/CTDI-Quality/award.jpg"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" target="_blank"><img src="../assets/CTDI-Quality/grown-trees2.jpg"><h5>Environmental Health & Safety</h5></a></div>
+  <div class="container award-safe-flex-mobile">
+    <router-link to=/quality/awards id="wrapper1"><img src="../assets/CTDI-Quality/award.jpg"><h5>Awards Won</h5></router-link>
+    <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" target="_blank"><img src="../assets/CTDI-Quality/grown-trees2.jpg"><h5>Environmental Health & Safety</h5></a>
+   </div>
   <div class="container"><h6 id="TBBRRF">CTDI plays an active role with Reliability Forums such as TBBRRF to identify and implement repair process improvements. For questions or concerns relating to quality you may contact us at <a href="mailto:quality@ctdi.com">quality@ctdi.com</a></h6>
   </div>
    <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
