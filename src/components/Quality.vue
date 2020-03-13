@@ -37,7 +37,7 @@ CTDI President and COO</p>
     
   <div class="divider"></div>
   <div class="container award-safe-flex">
-    <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" id="wrapper1" target="_blank"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" id="wrapper2" target="_blank"><h5>Environmental Health & Safety</h5>
+    <a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" id="wrapper1" target="_blank"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Rev-4-Environmental-Health-Safety-Policy.pdf" id="wrapper2" target="_blank"><h5>Environmental Health & Safety</h5>
   </a>
   </div>
   <div class="container award-safe-flex-mobile"><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/CTDI_AWARDS.pdf" target="_blank"><img src="../assets/CTDI-Quality/award.jpg"><h5>Awards Won</h5></a><a href="http://file02.ctdi.com/Corp.Internal.CTDIWebsite/assets/pdf/REF-00004-Environmental-Health-Safety-Policy-2.pdf" target="_blank"><img src="../assets/CTDI-Quality/grown-trees2.jpg"><h5>Environmental Health & Safety</h5></a></div>
