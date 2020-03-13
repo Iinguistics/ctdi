@@ -35,7 +35,7 @@ import Mobile from '@/components/Mobile'
 import Deployment from '@/components/Deployment'
 import Product from '@/components/Product'
 import Network from '@/components/Network'
-
+import Awards from '@/components/Awards'
 
 
 vue.use(Router)
@@ -217,6 +217,11 @@ export default new Router({
             path:'/services/network',
             name: 'Network',
             component: Network,
+        },
+        {
+            path:'/quality/awards',
+            name: 'Awards',
+            component: Awards,
         },
        
     ]
