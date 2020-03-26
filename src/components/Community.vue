@@ -264,25 +264,17 @@
   }
 
     .flex-passion img{
-    height: 270px;
-    width: 400px;
+    height: 250px;
+    width: 375px;
     max-width: 100%;
-    transition: transform 2s ease-in-out;
   }
 
-   .flex-passion img:hover{
-    position: relative; 
-    transform: scale(1.01);
-    top: -1px;
-}
 
-
- 
 .flex-passion{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 90%;
+  max-width: 100%;
   justify-content: space-evenly;
   height: 400px;
   margin-top: 75px;
@@ -390,7 +382,7 @@
   flex-direction: row;
   margin: auto;
   justify-content: space-between;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 #to-top{
