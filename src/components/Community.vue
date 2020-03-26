@@ -293,6 +293,17 @@
 
 
 /* hover overlay */
+
+.overlay-container{
+  max-width: 85%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
 .content {
    position: relative;
   width: 100%;
@@ -375,15 +386,7 @@
   left: 80%;
 }
 
-.overlay-container{
-  max-width: 85%;
-  height: 600px;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
+
 
 #to-top{
  text-align: right;
