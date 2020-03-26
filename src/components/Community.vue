@@ -273,17 +273,16 @@
 .flex-passion{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   max-width: 100%;
   justify-content: space-evenly;
-  height: 500px;
+  height: 575px;
   margin-top: 75px;
   margin-bottom: 50px;
 }
 
 
 .passion-item{
-  width: 450px; 
+  width: 400px; 
   align-items: flex-start;
 }
 
