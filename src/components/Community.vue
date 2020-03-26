@@ -275,7 +275,7 @@
   flex-direction: row;
   max-width: 100%;
   justify-content: space-evenly;
-  height: 350px;
+  height: 325px;
   margin-top: 75px;
   margin-bottom: 50px;
 }
