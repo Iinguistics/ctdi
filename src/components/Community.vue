@@ -22,10 +22,12 @@
         </div>
    </div>
    <div class="divider"></div>
- <div class="flex-passion container">
+  <div class="flex-passion container">
        <div class="passion-item">
        <p>CTDI also sources employees from work rehabilitation programs such as <a href="https://handi-crafters.org/" target="_blank">Handi-Crafters</a> & <a href="https://www.bakerindustries.org/" target="_blank">Baker Industries</a> for staffing as needed.</p>
        </div>
+        <img class="img-fluid passion-item" src="../assets/CTDI-Community/person-working.jpg" alt="person working">
+     </div>
          <div class="divider"></div>
       <!-- hover overlay -->
    <div class="overlay-container">
@@ -53,8 +55,6 @@
     </router-link>
   </div>
 </div>
-        <img class="img-fluid passion-item" src="../assets/CTDI-Community/person-working.jpg" alt="person working">
-     </div>
      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>
 </div>
 
@@ -275,7 +275,7 @@
   flex-direction: row;
   max-width: 100%;
   justify-content: space-evenly;
-  height: 825px;
+  height: 400px;
   margin-top: 75px;
   margin-bottom: 50px;
 }
