@@ -276,7 +276,7 @@
   flex-wrap: wrap;
   max-width: 100%;
   justify-content: space-evenly;
-  height: 400px;
+  height: 500px;
   margin-top: 75px;
   margin-bottom: 50px;
 }
