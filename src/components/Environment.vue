@@ -562,6 +562,7 @@ p{
 .content-image{
   width: 405px;
   height: 225px;
+  border-radius: 5px;
 }
 
 .content-details {
