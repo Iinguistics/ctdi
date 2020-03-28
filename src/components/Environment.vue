@@ -399,7 +399,7 @@ p{
   margin: auto;
 }
 /* overlay */
-.content {
+.content-1 {
    position: relative;
   width: 100%;
   max-width: 375px;
