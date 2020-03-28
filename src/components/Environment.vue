@@ -785,6 +785,17 @@ p{
   display: none;
 }
 
+  .overlay-container{
+  max-width: 85%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 
 
 }
