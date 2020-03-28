@@ -29,11 +29,11 @@
     <br><p>CTDI is currently pursuing zero waste-to-landfill certifications at five of its facilities. Our Phoenix, AZ facility achieved this goal in June of 2017.</p>
     <br>
      <!-- overlay link -->
-        <div class="content">
+        <div class="content-1">
     <router-link to=/sustainability/environment/zero>
-      <div class="content-overlay"></div>
-      <img class="content-image" src="../assets/CTDI-Environment/waterfall-stairs.jpg" alt="waterfall with stairs"> 
-      <div class="content-details fadeIn-top">
+      <div class="content-overlay-1"></div>
+      <img class="content-image-1" src="../assets/CTDI-Environment/waterfall-stairs.jpg" alt="waterfall with stairs"> 
+      <div class="content-details-1 fadeIn-top">
         <h5>Project Page</h5>
         <p>Click here for more information</p>
       </div>
@@ -60,11 +60,11 @@
     <div class="title"><h4>Management Systems Certifications</h4>
     <p>Ten of CTDI's facilities are ISO 14001 certified, in addition one more CTDI facility will pursue ISO 14001 certification in 2017. CTDI has also achieved OHSAS 18001 certification of its Occupational Health and Safety Management System in Buford, GA in 2015, and in Bessemer, AL in 2016.</p>
       <!-- overlay link -->
-        <div class="content">
+        <div class="content-1">
     <router-link to=/sustainability/environment/zero>
-      <div class="content-overlay"></div>
-      <img class="content-image" src="../assets/CTDI-Environment/safety.jpg" alt="waterfall with stairs"> 
-      <div class="content-details fadeIn-top">
+      <div class="content-overlay-1"></div>
+      <img class="content-image-1" src="../assets/CTDI-Environment/safety.jpg" alt="waterfall with stairs"> 
+      <div class="content-details-1 fadeIn-top">
         <h5>OHSAS 18001 Certification</h5>
         <p>Click here for more information</p>
       </div>
@@ -405,7 +405,7 @@ p{
 }
 
 
-.content .content-overlay {
+.content-1 .content-overlay-1 {
   background: rgba(0,0,0,0.7);
   position: absolute;
   height: 225px;
@@ -420,18 +420,18 @@ p{
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content-1:hover .content-overlay-1{
   opacity: 1;
 }
 
 
-.content-image{
+.content-image-1{
   width: 405px;
   height: 225px;
   border-radius: 5px;
 }
 
-.content-details {
+.content-details-1 {
   position: absolute;
   text-align: center;
   padding-left: 1em;
@@ -448,13 +448,13 @@ p{
   transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
+.content-1:hover .content-details-1{
   top: 35%;
   left: 50%;
   opacity: 1;
 }
 
-.content-details h5{
+.content-details-1 h5{
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -463,7 +463,7 @@ p{
   font-size: 28px;
 }
 
-.content-details p{
+.content-details-1 p{
   color: #fff !important;
   font-size: 17px  !important;
 }
@@ -472,7 +472,7 @@ p{
   top: 20%;
 }
 
-.content h6{
+.content-1 h6{
   padding-bottom: 100px;
 }
 
