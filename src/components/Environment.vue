@@ -79,6 +79,9 @@
       <div id="white-space-2"></div>
       <div id="white-space-2"></div>
       
+      <div class="container">
+<div class="divider"></div>
+</div>
           <!-- hover overlay -->
  <div class="overlay-container">
     <div class="content">
