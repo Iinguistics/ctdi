@@ -17,7 +17,7 @@
    <router-link to=/services/mobile>Mobile</router-link><br>
    <router-link to=/services/network-deployment>Network Deployment</router-link><br>
    <router-link to=/services/product>Products</router-link><br>
-   <router-link to=/services/network-services>Network Services</router-link><br>
+   <router-link to=/services/network>Network Services</router-link><br>
   </li>
  
   <li class="item3"><h3 id="footerAbout">About Us</h3>
