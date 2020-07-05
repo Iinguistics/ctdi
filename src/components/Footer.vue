@@ -115,7 +115,7 @@
 }
 
 .item2 h3{
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 
