@@ -16,8 +16,7 @@
    <router-link to=/services/stb-cpe>Stb/Cpe</router-link><br>
    <router-link to=/services/mobile>Mobile</router-link><br>
    <router-link to=/services/network-deployment>Network Deployment</router-link><br>
-   <router-link to=/services/products>Products</router-link><br>
-   <router-link to=/services/supply>Supply</router-link><br>
+   <router-link to=/services/product>Products</router-link><br>
    <router-link to=/services/network-services>Network Services</router-link><br>
   </li>
  
