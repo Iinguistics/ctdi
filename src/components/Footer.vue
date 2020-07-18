@@ -18,6 +18,8 @@
    <router-link to=/services/network-deployment>Network Deployment</router-link><br>
    <router-link to=/services/product>Products</router-link><br>
    <router-link to=/services/network>Network Services</router-link><br>
+   <router-link to=/sustainability/environment> Environment </router-link><br>
+   <router-link to=/locations>Locations</router-link>
   </li>
  
   <li class="item3"><h3 id="footerAbout">About Us</h3>
