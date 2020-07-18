@@ -116,9 +116,7 @@
     color: #FFFFFF;
 }
 
-.item2 h3{
-    padding-bottom: 40px;
-}
+
 
 
 li a:hover{
