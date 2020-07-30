@@ -79,10 +79,17 @@
       <div id="white-space-2"></div>
       <div id="white-space-2"></div>
       
+<<<<<<< HEAD
 <div class="container">
 <div class="divider"></div>
 </div>
        <!-- hover overlay -->
+=======
+      <div class="container">
+<div class="divider"></div>
+</div>
+          <!-- hover overlay -->
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
  <div class="overlay-container">
     <div class="content">
     <router-link to=/sustainability/community>
@@ -107,8 +114,12 @@
     </router-link>
   </div>
 </div>
+<<<<<<< HEAD
   
 
+=======
+      
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>  
 </div>
 </template>
@@ -405,7 +416,11 @@ p{
   max-width: 80%;
   margin: auto;
 }
+<<<<<<< HEAD
 /* overlay -1 */
+=======
+/* overlay */
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 .content-1 {
    position: relative;
   width: 100%;
@@ -535,6 +550,100 @@ p{
    width: 1200px;
    height: 400px;
   }
+  
+  /* hover overlay */
+.content {
+   position: relative;
+  width: 100%;
+  max-width: 375px;
+  margin: auto;
+  overflow: hidden; 
+}
+
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+
+.content-image{
+  width: 405px;
+  height: 225px;
+  border-radius: 5px;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+.overlay-container{
+  max-width: 85%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
 
   
 /* hover overlay */

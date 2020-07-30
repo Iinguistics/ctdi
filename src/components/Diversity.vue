@@ -35,9 +35,14 @@
         </div>
 </div>
 <div id="event">
+<<<<<<< HEAD
   <img class="img-fluid" src="../assets/CTDI-Diversity/diversity-event.jpg">
 </div>
 
+=======
+  <img class="img-fluid" src="../assets/diversity-event.jpg">
+</div>
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 <div class="bottom-title"><h4>For more information on Supplier Diversity:</h4>
     <div class="committee-flex container">
       <li class="committee-item fa fa-angle-right">National Minority Supplier Development Council <a href="https://nmsdc.org/" target="_blank">NMSDC</a></li>
@@ -226,11 +231,18 @@
   color: #333333;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 #event img{
   border-radius: 4px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 
   h6{
       font-size: 20px;

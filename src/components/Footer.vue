@@ -20,9 +20,14 @@
    <router-link to=/services/stb-cpe>Stb/Cpe</router-link><br>
    <router-link to=/services/mobile>Mobile</router-link><br>
    <router-link to=/services/network-deployment>Network Deployment</router-link><br>
+<<<<<<< HEAD
    <router-link to=/services/products>Products</router-link><br>
    <router-link to=/services/supply>Supply</router-link><br>
    <router-link to=/services/network-services>Network Services</router-link><br>
+=======
+   <router-link to=/services/product>Products</router-link><br>
+   <router-link to=/services/network>Network Services</router-link><br>
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
    <router-link to=/sustainability/environment> Environment </router-link><br>
    <router-link to=/locations>Locations</router-link>
   </li>
@@ -125,9 +130,7 @@
     color: #FFFFFF;
 }
 
-.item2 h3{
-    padding-bottom: 20px;
-}
+
 
 
 li a:hover{

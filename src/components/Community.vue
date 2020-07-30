@@ -22,13 +22,17 @@
         </div>
    </div>
    <div class="divider"></div>
- <div class="flex-passion container">
+  <div class="flex-passion container">
        <div class="passion-item">
        <p>CTDI also sources employees from work rehabilitation programs such as <a href="https://handi-crafters.org/" target="_blank">Handi-Crafters</a> & <a href="https://www.bakerindustries.org/" target="_blank">Baker Industries</a> for staffing as needed.</p>
        </div>
         <img class="img-fluid passion-item" src="../assets/CTDI-Community/person-working.jpg" alt="person working">
      </div>
+<<<<<<< HEAD
       <div class="divider"></div>
+=======
+         <div class="divider"></div>
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
       <!-- hover overlay -->
    <div class="overlay-container">
   <div class="content">
@@ -269,11 +273,18 @@
     max-width: 100%;
   }
 
+<<<<<<< HEAD
  
 .flex-passion{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+=======
+
+.flex-passion{
+  display: flex;
+  flex-direction: row;
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
   max-width: 100%;
   justify-content: space-evenly;
   height: 300px;
@@ -291,7 +302,23 @@
     margin-top: 60px;
 }
 
+<<<<<<< HEAD
 /* hover overlay */
+=======
+
+/* hover overlay */
+
+.overlay-container{
+  max-width: 85%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 .content {
    position: relative;
   width: 100%;
@@ -374,6 +401,7 @@
   left: 80%;
 }
 
+<<<<<<< HEAD
 .overlay-container{
   max-width: 85%;
   height: 600px;
@@ -383,6 +411,9 @@
   justify-content: space-between;
   margin-bottom: 40px;
 }
+=======
+
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 
 #to-top{
  text-align: right;
@@ -447,7 +478,11 @@
    display: none;
  }
 
+<<<<<<< HEAD
   .overlay-container{
+=======
+ .overlay-container{
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
   max-width: 85%;
   height: 650px;
   display: flex;

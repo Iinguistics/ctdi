@@ -51,8 +51,12 @@
        <p>Our customers are looking for a partner who can provide comprehensive services. CTDI offers repair and logistics at the highest level and takes over a sub-process for your customers and "end-to-end" the complete process chain.</p>
        </div>
      </div>
+<<<<<<< HEAD
     
 
+=======
+   
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
         <div class="divider-title ">
           <div class="divider"></div>
             <h3 id="services-title">Our QA Standards</h3>  
@@ -397,7 +401,10 @@ body p{
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 
  .flex-passion img{
     height: 270px;
@@ -436,7 +443,7 @@ body p{
 }
 
 .flex-passion-2 a{
-  color: #111111;
+  color: #174ea6;
 }
 
 
@@ -591,11 +598,14 @@ body p{
   max-width: 630px;
 }
 
+<<<<<<< HEAD
 .flex-vid{
   max-width: 66%;
   height: 400px;
 }
 
+=======
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 
 .flex-passion{
   max-width: 65%;

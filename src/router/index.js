@@ -36,7 +36,10 @@ import Deployment from '@/components/Deployment'
 import Product from '@/components/Product'
 import Network from '@/components/Network'
 import Awards from '@/components/Awards'
+<<<<<<< HEAD
 
+=======
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
 
 
 vue.use(Router)

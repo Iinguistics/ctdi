@@ -45,7 +45,11 @@
       <p>CTDI will conduct training for all US senior managers and supervisors on the Human Rights & Workforce Management Policy rights, requirements, and responsibilities. We will roll out training on the policy in the US in the first half of 2016 and for the international facilities in the second half of 2016. All training will be completed by the end of 2016. </p>
 </div>
      <div class="divider"></div>
+<<<<<<< HEAD
       <!-- hover overlay -->
+=======
+        <!-- hover overlay -->
+>>>>>>> c2d25f7b08804bed6d6512379d565ae66e4cfb13
    <div class="overlay-container">
   <div class="content">
     <router-link to=/sustainability/environment>
@@ -478,6 +482,17 @@
  h6{
    font-size: 24px;
  }
+ 
+   .overlay-container{
+  max-width: 85%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
    .overlay-container{
   max-width: 85%;
