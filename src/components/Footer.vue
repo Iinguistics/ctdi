@@ -1,5 +1,10 @@
 <template>
+<<<<<<< HEAD
+
+  <div class="flex-container"> 
+=======
   <div class="flex-container container-fluid">  <!-- remove container-fluid in production it works -->
+>>>>>>> master
   <li class="item1"><h3>Contact Us</h3><h5>CTDI Global Headquaters</h5><p>Communications Test Design,Inc</p>
   <p>1373 Enterprise Drive
      West Chester, PA 19380</p>
@@ -57,11 +62,17 @@
 
 <style scoped>
 
+
+
 .flex-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+<<<<<<< HEAD
+    height: 475px;
+=======
     height: 445px;
+>>>>>>> master
     background: #191C22;
     padding-top: 60px;
     color: #fff;
@@ -69,13 +80,13 @@
     justify-content: space-evenly;
     max-width: 100%;
     margin-bottom: -50px;
+    margin-top: 100px;
 }
 
 
 
-
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;

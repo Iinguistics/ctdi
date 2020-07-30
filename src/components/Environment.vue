@@ -418,7 +418,7 @@ p{
 .content-1 .content-overlay-1 {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 63%;
+  height: 225px;
   width: 100%;
   left: 0;
   top: 0;
@@ -730,7 +730,7 @@ p{
 }
 
 #text-3{
-    height: 1300px;
+    height: 1320px;
     width: 80%;
 }
 

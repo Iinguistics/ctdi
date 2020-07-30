@@ -265,7 +265,10 @@
   margin-top: 75px;
   margin-bottom: 50px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 
  
 .flex-passion{

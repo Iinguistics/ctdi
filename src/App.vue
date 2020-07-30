@@ -39,7 +39,7 @@ export default {
 }
 
 a {
-  color: #2D2D2D;
+  
   transition: 0.5s;
 }
 
