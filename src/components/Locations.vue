@@ -146,7 +146,7 @@ export default {
       
     }
   },
-   mounted: function () {
+   mounted: function() {
     const myLatlng = new google.maps.LatLng(39.989900, -75.560950);
     const element = document.getElementById(this.mapName)
     const options = {

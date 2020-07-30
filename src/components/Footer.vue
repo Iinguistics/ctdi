@@ -18,6 +18,8 @@
    <router-link to=/services/products>Products</router-link><br>
    <router-link to=/services/supply>Supply</router-link><br>
    <router-link to=/services/network-services>Network Services</router-link><br>
+   <router-link to=/sustainability/environment> Environment </router-link><br>
+   <router-link to=/locations>Locations</router-link>
   </li>
  
   <li class="item3"><h3 id="footerAbout">About Us</h3>
@@ -59,7 +61,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 435px;
+    height: 445px;
     background: #191C22;
     padding-top: 60px;
     color: #fff;
@@ -98,7 +100,7 @@
 
 .item2 a{
     text-decoration: none;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 18px;
     display: inline-block;
     color: #FFFFFF;

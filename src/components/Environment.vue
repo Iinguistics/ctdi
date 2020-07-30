@@ -29,11 +29,11 @@
     <br><p>CTDI is currently pursuing zero waste-to-landfill certifications at five of its facilities. Our Phoenix, AZ facility achieved this goal in June of 2017.</p>
     <br>
      <!-- overlay link -->
-        <div class="content">
+        <div class="content-1">
     <router-link to=/sustainability/environment/zero>
-      <div class="content-overlay"></div>
-      <img class="content-image" src="../assets/CTDI-Environment/waterfall-stairs.jpg" alt="waterfall with stairs"> 
-      <div class="content-details fadeIn-top">
+      <div class="content-overlay-1"></div>
+      <img class="content-image-1" src="../assets/CTDI-Environment/waterfall-stairs.jpg" alt="waterfall with stairs"> 
+      <div class="content-details-1 fadeIn-top">
         <h5>Project Page</h5>
         <p>Click here for more information</p>
       </div>
@@ -60,11 +60,11 @@
     <div class="title"><h4>Management Systems Certifications</h4>
     <p>Ten of CTDI's facilities are ISO 14001 certified, in addition one more CTDI facility will pursue ISO 14001 certification in 2017. CTDI has also achieved OHSAS 18001 certification of its Occupational Health and Safety Management System in Buford, GA in 2015, and in Bessemer, AL in 2016.</p>
       <!-- overlay link -->
-        <div class="content">
+        <div class="content-1">
     <router-link to=/sustainability/environment/zero>
-      <div class="content-overlay"></div>
-      <img class="content-image" src="../assets/CTDI-Environment/safety.jpg" alt="waterfall with stairs"> 
-      <div class="content-details fadeIn-top">
+      <div class="content-overlay-1"></div>
+      <img class="content-image-1" src="../assets/CTDI-Environment/safety.jpg" alt="waterfall with stairs"> 
+      <div class="content-details-1 fadeIn-top">
         <h5>OHSAS 18001 Certification</h5>
         <p>Click here for more information</p>
       </div>
@@ -78,6 +78,37 @@
       <div id="table_div_2"></div>
       <div id="white-space-2"></div>
       <div id="white-space-2"></div>
+      
+<div class="container">
+<div class="divider"></div>
+</div>
+       <!-- hover overlay -->
+ <div class="overlay-container">
+    <div class="content">
+    <router-link to=/sustainability/community>
+      <div class="content-overlay"></div>
+        <img class="content-image" src="../assets/CTDI-Sustainability/community.jpg" alt="community of people">     
+        <div class="content-details fadeIn-top">
+        <h3>Community</h3>
+        <p>For over 40 years, CTDI has promoted a corporate culture of community leadership.</p>
+      </div>
+      <h6>Community</h6>
+    </router-link>
+  </div>
+  <div class="content">
+    <router-link to=/sustainability/ethics>
+      <div class="content-overlay"></div>
+      <img class="content-image" src="../assets/CTDI-Sustainability/ethics-1.jpg" alt="cabinet full of books"> 
+      <div class="content-details fadeIn-right">
+        <h3>Ethics</h3>
+        <p>CTDI and its subsidiaries conduct business consistent with our long established corporate values.</p>
+      </div>
+       <h6>Ethics</h6>
+    </router-link>
+  </div>
+</div>
+  
+
      <div id="to-top"><a class="fa fa-arrow-circle-o-up"  v-on:click="toTop">Back to top</a></div>  
 </div>
 </template>
@@ -216,6 +247,12 @@
 
 <style scoped>
 
+  .divider {
+    height: 1px;
+    background: #444;
+    margin: auto;
+    max-width: 100%;
+  }
 
 
 p{
@@ -368,8 +405,8 @@ p{
   max-width: 80%;
   margin: auto;
 }
-/* overlay */
-.content {
+/* overlay -1 */
+.content-1 {
    position: relative;
   width: 100%;
   max-width: 375px;
@@ -378,7 +415,7 @@ p{
 }
 
 
-.content .content-overlay {
+.content-1 .content-overlay-1 {
   background: rgba(0,0,0,0.7);
   position: absolute;
   height: 63%;
@@ -393,18 +430,18 @@ p{
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content-1:hover .content-overlay-1{
   opacity: 1;
 }
 
 
-.content-image{
+.content-image-1{
   width: 405px;
   height: 225px;
   border-radius: 5px;
 }
 
-.content-details {
+.content-details-1 {
   position: absolute;
   text-align: center;
   padding-left: 1em;
@@ -421,13 +458,13 @@ p{
   transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
+.content-1:hover .content-details-1{
   top: 35%;
   left: 50%;
   opacity: 1;
 }
 
-.content-details h5{
+.content-details-1 h5{
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -436,7 +473,7 @@ p{
   font-size: 28px;
 }
 
-.content-details p{
+.content-details-1 p{
   color: #fff !important;
   font-size: 17px  !important;
 }
@@ -445,7 +482,7 @@ p{
   top: 20%;
 }
 
-.content h6{
+.content-1 h6{
   padding-bottom: 100px;
 }
 
@@ -499,6 +536,105 @@ p{
    height: 400px;
   }
 
+  
+/* hover overlay */
+.content {
+   position: relative;
+  width: 100%;
+  max-width: 375px;
+  margin: auto;
+  overflow: hidden; 
+}
+
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+
+.content-image{
+  width: 405px;
+  height: 225px;
+  border-radius: 5px;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+.overlay-container{
+  max-width: 85%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+
+
+
   #to-top a{
  text-align: right;
  color: #202124;
@@ -516,6 +652,7 @@ p{
 #to-top a:hover{
   cursor: pointer;
 }
+
 
 @media (min-width: 1380px) { 
   
@@ -659,6 +796,17 @@ p{
   
 #btn-group{
   display: none;
+}
+
+  .overlay-container{
+  max-width: 85%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
