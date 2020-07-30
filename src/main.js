@@ -5,8 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-// import * as Three from 'three' 
-// import Three from 'three'
+
 
 
 

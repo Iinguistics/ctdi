@@ -1,7 +1,7 @@
 <template>
   <div>
      <!--==========================
-      Services Section
+      Services Section                       fix sustainability page
     ============================-->
   <section>
       
@@ -51,27 +51,7 @@
        <p>Our customers are looking for a partner who can provide comprehensive services. CTDI offers repair and logistics at the highest level and takes over a sub-process for your customers and "end-to-end" the complete process chain.</p>
        </div>
      </div>
-     <div class="divider2"></div>
-     <!--==========================
-      vid links
-    ============================-->
-        <div class="flex-vid">
-          <router-link to=/sustainability/environment class="vid-item"> 
-             <video autoplay muted loop id="envVid">
-                <source src="../assets/CTDI-Home/environment-link.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-                </video>
-                <h5 id="envText">Environment</h5>
-            </router-link>
-
-             <router-link to=/locations class="vid-item"> 
-             <video autoplay muted loop id="locVid">
-                <source src="../assets/CTDI-Home/locations-link.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-                </video>
-                 <h5 id="locText">Locations</h5>
-            </router-link>
-        </div>
+    
 
         <div class="divider-title ">
           <div class="divider"></div>
@@ -346,7 +326,11 @@ body p{
 }
 
 .blend-5{
+<<<<<<< HEAD
       background-image: url('../assets/CTDI-Home/bit-cloud-J5-Kqu_fxyo-unsplash (1).jpg');
+=======
+      background-image: url('../assets/CTDI-Home/deployment-solution-sm.jpg');
+>>>>>>> master
 }
 
 /* top */
@@ -412,51 +396,7 @@ body p{
 }
 
 
-/* vid links */
 
-.flex-vid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 350px;
-  justify-content: space-evenly;
-  margin: auto;
-  max-width: 83%;
-  margin-top: 75px;
-  margin-bottom: 100px;
-}
-
-
-.flex-vid a{
-  text-decoration: none;
-}
-
-#envVid:hover ~ #envText{
-  color:#00d177;
-}
-
-#locVid:hover ~ #locText{
-  color:#00d177;
-}
-
-.vid-item video{
-  width: 505px;
-  height: 215px;
-}
-
-
-
-.vid-item h5{
-  width: 383px;
-  margin: auto;
-  margin-top: -8px;
-  color: #ffffff;
-  font-weight:bold;
-  font-size: 18px;
-  background-color: #212428;
-  height: 60px;
-  padding-top: 18px;
-}
 
 
  .flex-passion img{
@@ -656,25 +596,6 @@ body p{
   height: 400px;
 }
 
-.vid-item video{
-  width: 540px;
-  height: 305px;
-}
-
-  .vid-item h5{
-  margin-top: -10px;
-  max-width: 540px;
- 
-}
-.vid-item{
-  max-width: 550px;
-}
-
-.vid-item h5{
- width: 540px;
-  margin: auto;
-  margin-top: -10px;
-}
 
 .flex-passion{
   max-width: 65%;

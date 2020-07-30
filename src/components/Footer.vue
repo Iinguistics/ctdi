@@ -1,6 +1,10 @@
 <template>
+<<<<<<< HEAD
 
   <div class="flex-container"> 
+=======
+  <div class="flex-container container-fluid">  <!-- remove container-fluid in production it works -->
+>>>>>>> master
   <li class="item1"><h3>Contact Us</h3><h5>CTDI Global Headquaters</h5><p>Communications Test Design,Inc</p>
   <p>1373 Enterprise Drive
      West Chester, PA 19380</p>
@@ -19,6 +23,8 @@
    <router-link to=/services/products>Products</router-link><br>
    <router-link to=/services/supply>Supply</router-link><br>
    <router-link to=/services/network-services>Network Services</router-link><br>
+   <router-link to=/sustainability/environment> Environment </router-link><br>
+   <router-link to=/locations>Locations</router-link>
   </li>
  
   <li class="item3"><h3 id="footerAbout">About Us</h3>
@@ -62,7 +68,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+<<<<<<< HEAD
     height: 475px;
+=======
+    height: 445px;
+>>>>>>> master
     background: #191C22;
     padding-top: 60px;
     color: #fff;
@@ -101,7 +111,7 @@
 
 .item2 a{
     text-decoration: none;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 18px;
     display: inline-block;
     color: #FFFFFF;

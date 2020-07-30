@@ -10,7 +10,6 @@
 // import Home from './components/Home.vue' dont need with router-view
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-import bootstrap from 'bootstrap'
 
 
    
