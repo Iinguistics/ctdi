@@ -325,7 +325,7 @@ body p{
 }
 
 .blend-5{
-      background-image: url('../assets/CTDI-Home/bit-cloud-J5-Kqu_fxyo-unsplash (1).jpg');
+      background-image: url('../assets/CTDI-Home/deployment-solutions.jpg');
 }
 
 /* top */
