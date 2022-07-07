@@ -17,7 +17,7 @@
     "gsap": "^3.0.4",
     "hover-effect": "^1.1.0",
     "jquery": "^3.4.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "pixi.js": "^5.2.0",
     "popper.js": "^1.15.0",
     "three": "^0.111.0",
